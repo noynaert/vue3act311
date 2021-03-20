@@ -1,4 +1,4 @@
-# 0010 Getting Started with Vue ![The Vue Logo](/images/120x120VueLogo.png)
+#  ![The Vue Logo](/images/120x120VueLogo.png) 0010 Getting Started with Vue 
 
 ## Frameworks
 
