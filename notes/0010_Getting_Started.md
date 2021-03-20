@@ -1,4 +1,4 @@
-#  ![The Vue Logo](/images/120x120VueLogo.png) 0010 Getting Started with Vue 
+#  ![The Vue Logo](/images/120x120VueLogo.png) 0010 Getting Started with Vue ![The Vue Logo](/images/120x120VueLogo.png)
 
 ## Frameworks
 
@@ -62,8 +62,14 @@ Vue is a good starting point.  It has the fundamentals across all frameworks.
 
 ## Installing Vue
 
-Generally, there are three ways to install [https://vuejs.org/v2/guide/installation.html](https://vuejs.org/v2/guide/installation.html)
+Generally, there are at least four ways to install [https://vuejs.org/v2/guide/installation.html](https://vuejs.org/v2/guide/installation.html)
 
-1. Bring it in from the CDN
-2. Install locally with NPM
-3. Initialize the project with the NPM CLI.
+* Bring it in from the CDN
+   * Avoid for anything except simple/demo projects
+* Direct script insertion
+   * Development Version
+     * Includes warnings and development help
+   * Minified for production version
+     * Loads quickly and doesn't show warnings to the user
+* Install locally with NPM
+* Initialize the project with the NPM CLI.
