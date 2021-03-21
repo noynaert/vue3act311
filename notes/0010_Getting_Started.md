@@ -20,6 +20,8 @@ Be sure you are using Version 3 for documentation and when using search!
 
 [https://v3.vuejs.org/](https://v3.vuejs.org/)  -- This links to the documentation and API.
 
+[Free Vue Mastery Course](https://www.vuemastery.com/courses/intro-to-vue-3/intro-to-vue3/) with github branching thrown in.
+
 ## MVC Model View Controller
 
 * Model  -- The data source.  It is usually a database, but can be a flat file or even just an in-memory array
