@@ -4,7 +4,7 @@
 
 ## What is Vue?
 
-View is a JavaScript Framework.  
+Vue is a JavaScript Framework.  
 
 * Client-side framework.  Relies on API for back-end
 * Third-party libraries
@@ -14,6 +14,11 @@ View is a JavaScript Framework.
 
 You can use Vue to control just part of a page.  Or it can be all of the screen.  For example, could just do a chat app or a sidebar.
 
+## Vue Documentation
+
+Be sure you are using Version 3 for documentation and when using search!
+
+[https://v3.vuejs.org/](https://v3.vuejs.org/)  -- This links to the documentation and API.
 
 ## MVC Model View Controller
 
