@@ -62,7 +62,7 @@ Vue is a good starting point.  It has the fundamentals across all frameworks.
 
 ## Installing Vue
 
-Generally, there are at least four ways to install [https://vuejs.org/v2/guide/installation.html](https://vuejs.org/v2/guide/installation.html)
+Generally, there are at least four ways to install [https://v3.vuejs.org/guide/installation.html#release-notes](https://v3.vuejs.org/guide/installation.html#release-notes)
 
 * Bring it in from the CDN
    * Avoid for anything except simple/demo projects
@@ -73,3 +73,5 @@ Generally, there are at least four ways to install [https://vuejs.org/v2/guide/i
      * Loads quickly and doesn't show warnings to the user
 * Install locally with NPM
 * Initialize the project with the NPM CLI.
+
+***Make sure you use version 3 of Vue***
