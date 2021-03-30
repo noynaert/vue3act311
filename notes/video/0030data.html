@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brutally Demo of Interpolation</title>
+    <style>
+        #appArea {background-color: lightblue;}
+    </style>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+    <h1>Simple Interpolation</h1>
+    <div id="appArea">
+        <p>A number: {{ 2 + 2 }} </p>
+        <p>The square root of 2:  {{ Math.sqrt(2.) }} </p>
+    </div>
+    <footer>
+        <p>This is a footer</p>
+        <p>A number: {{ 2 + 2 }} </p>
+
+    </footer>
+    <script>
+        const app = Vue.createApp(
+            {
+
+            }
+        );
+        app.mount("#appArea");
+    </script>
+</body>
+</html>
