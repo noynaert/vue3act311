@@ -2,6 +2,23 @@
 
 ## Frameworks
 
+### What is a framework?
+
+[From Wikipedia](https://en.wikipedia.org/wiki/Software_framework)
+
+A framework is a way to organize a project.  It is more than a library.
+
+#### Inversion of Control
+
+Frameworks are different from normal programming because the framework handles the flow of control.  The programmer must follow a certain pattern.
+
+#### Advantages
+
+* Handles a lot of steps and mechanical details
+* Fast development if you know the system
+* Avoids a lot of known security problems
+* Standardizes the way things are done among the team members.
+
 ## What is Vue?
 
 Vue is a JavaScript Framework.  
