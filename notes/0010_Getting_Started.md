@@ -12,7 +12,7 @@ A framework is a way to organize a project.  It is more than a library.
 
 Frameworks are different from normal programming because the framework handles the flow of control.  The programmer must follow a certain pattern.
 
-#### Advantages
+#### Advantages of Frameworks
 
 * Handles a lot of steps and mechanical details
 * Fast development if you know the system
@@ -27,7 +27,7 @@ Vue is a JavaScript Framework.
 * Third-party libraries
 * Approach to structuring the application
 * Gives modern look and feel.  (Behaves more like a mobile app)  Moves quickly.  Data is loaded behind the scene as much as possible.
-* Allows focus on buisiness models, rather than mechanics of rendering
+* Allows focus on business models, rather than mechanics of rendering
 
 You can use Vue to control just part of a page.  Or it can be all of the screen.  For example, could just do a chat app or a sidebar.
 
@@ -69,7 +69,7 @@ We need the insights in Vue.
 
 * We won't write all that much JavaScript
 * We will be creating and manipulating objects in JavaScript
-* Even if we are not using a lot of JS, what we will do pushes the syntaxjhyojny 2
+* Even if we are not using a lot of JS, what we will do pushes the limits a bit.
 
 ## Vue vs React vs Angular
 
@@ -83,6 +83,16 @@ Vue is weaker than React on mobile devices.  There are some ways to get around t
 * Avoid using DOM-centric actions because phones don't have a DOM.  
 
 Vue is a good starting point.  It has the fundamentals across all frameworks.
+
+## TypeScript Option
+
+* Typescript is a form of JavaScript, but it uses strong data typing.
+* Typescript compiles into JavaScript (Like SASS compiles to CSS)
+* Frameworks and typescript
+  * Angular uses TypeScript
+  * TypeScript may be used with Vue
+  * You should be able to do React in TypeScript, but I am not sure how it works.
+
 
 ## Installing Vue
 
