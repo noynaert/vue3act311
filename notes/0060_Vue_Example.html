@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeCycle Demo</title>
+     <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+    <h1>Lifecycle Demo</h1>
+    <div id="demo">
+        <p>Question: <input v-model="question"></p>
+        <p>Your question was: {{question}}</p>
+    </div>
+    <script>
+        const app = Vue.createApp({
+            data: function(){
+                return {
+                    question: "Why am I here?"
+                }
+            },
+            methods:{
+
+            },
+            created:function(){
+                console.log("Created, with the question: " + this.question);
+            },
+            mounted:function(){
+                console.log("Mounted, with the question: " + this.question);
+            },
+            updated:function(){
+                console.log("updated, with the question: " + this.question);
+            },
+            unmounted:function(){
+                console.log("unmounted, with the question: " + this.question);
+            },
+        });
+        app.mount("#demo")
+    </script>
+</body>
+</html>
