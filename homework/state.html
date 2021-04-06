@@ -34,7 +34,6 @@
           <th>State</th>
           <th>Captial</th>
           <th>Flag</th>
-          <th>Map</th>
         </tr>
         <tr v-for="state of states">
           <td v-if="state.facebook_url"><a href="state.facebook_url">{{state.state}}</a></td>
@@ -47,7 +46,6 @@
               v-bind:alt="'Flag of '+state.state"
             />
           </td>
-          <td><img :src="state.map_image_url"alt=""class="flag"></a></td>
         </tr>
       </table>
     </div>
