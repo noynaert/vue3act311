@@ -4,8 +4,8 @@ Lifecycle hooks allow you to to trigger events at certain critical points.  The 
 
 * created
 * mounted
-* update
-* unmount
+* updated
+* unmounted
 
 ## Reference  
 
