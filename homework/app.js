@@ -6,14 +6,20 @@ const app = Vue.createApp({
       states: [],
     };
   },
-  methods: {},
+  methods: {
+    makeAlt: function (state) {
+      let result = "Flag of " + state;
+      console.log(result);
+      return result;
+     },
+  },
   mounted() {
     fetch("./states.json")
       .then((response) => {
         return response.json();
       })
       .then((data) => {
-        console.log(data);
+        //console.log(data);
         this.states = data;
         return data;
       })

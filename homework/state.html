@@ -35,16 +35,15 @@
           <th>Captial</th>
           <th>Flag</th>
         </tr>
-        <tr v-for="state of states">
-          <td v-if="state.facebook_url"><a href="state.facebook_url">{{state.state}}</a></td>
-          <td v-else>{{state.state}}</td>
-          <td class="center">{{state.capital_city}}</td>
+        <tr v-for="st of states">
+          <td  v-if="st.facebook_url"><a v-bind:href="st.facebook_url">{{ st.state }}</a></td>
+          <td  v-else="st.facebook.url">{{st.state}}</td>
+          <td class="center"> {{ st.capital_city }}  </td>
           <td>
-            <img
-              class="flag"
-              v-bind:src="state.state_flag_url"
-              v-bind:alt="'Flag of '+state.state"
-            />
+            <img 
+               class="flag" 
+               :src="st.state_flag_url" 
+               :alt="makeAlt(st.state)">
           </td>
         </tr>
       </table>
