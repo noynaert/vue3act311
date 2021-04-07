@@ -30,13 +30,18 @@
     <h1>States</h1>
     <hr />
     <div id="appArea">
+      <div>
+        <label>Type a state: </label>
+        <input type="text" v-model="picked" v-on:input="lower">
+         "{{ picked }}"
+      </div>
      <table>
        <tr>
          <th>State Name</th>
          <th>Capital</th>
          <th>Seal</th>
        </tr>
-       <tr v-for="st of states">
+       <tr v-for="st of byName">
          <td v-if="st.facebook_url"><a v-bind:href="st.facebook_url">  {{ st.state }}</a></td>
          <td v-else="st.facebook_url">{{st.state}} (no Facebook Link)</td>
          <td class="center">{{ st.capital_city }}</td>

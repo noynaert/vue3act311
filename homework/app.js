@@ -4,13 +4,21 @@ const app = Vue.createApp({
   data: function () {
     return {
       states: [],
-      
+      picked: "Mi",
     };
   },
   methods: {
     makeAlt: function (st) {
-      console.log("stName is ",st.state)
+      //console.log("stName is ", st.state);
       return "Seal of " + st.state;
+    },
+    lower: function () {
+      this.picked = this.picked.toLowerCase();
+    },
+  },
+  computed: {
+    byName: function () {
+      return this.states.filter( name => name.slug.includes(this.picked));
     }
   },
   mounted() {
