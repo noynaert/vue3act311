@@ -4,21 +4,13 @@ const app = Vue.createApp({
   data: function () {
     return {
       states: [],
-      picked: "Iowa",
-      displayTable: true,
+      
     };
   },
   methods: {
-    makeAlt: function (state) {
-      let result = "Flag of " + state;
-      //console.log(result);
-      return result;
-     },
-  },
-  computed: {
-    selected: function () {
-      let p = this.picked.toLowerCase();
-      return this.states.filter(st => st.slug.includes(p));
+    makeAlt: function (st) {
+      console.log("stName is ",st.state)
+      return "Seal of " + st.state;
     }
   },
   mounted() {

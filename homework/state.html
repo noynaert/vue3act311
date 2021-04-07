@@ -10,8 +10,9 @@
       #appArea {
         background-color: lightyellow;
       }
-      .flag {
+      .flag,.seal {
         width: 125px;
+        padding: 10px;
       }
       .center {
         text-align: center;
@@ -29,38 +30,25 @@
     <h1>States</h1>
     <hr />
     <div id="appArea">
-      <div id="picker" >
-        <p>
-          <label>Type a state: </label>
-          <input type="text" v-model="picked">
-          --{{ picked }}--
-          <ul v-for="st of selected" v-if="!displayTable" >
-            <li>{{st.state}}</li>
-          </ul>
-        </p>
+     <table>
+       <tr>
+         <th>State Name</th>
+         <th>Capital</th>
+         <th>Seal</th>
+       </tr>
+       <tr v-for="st of states">
+         <td v-if="st.facebook_url"><a v-bind:href="st.facebook_url">  {{ st.state }}</a></td>
+         <td v-else="st.facebook_url">{{st.state}} (no Facebook Link)</td>
+         <td class="center">{{ st.capital_city }}</td>
+         <td><img 
+               :src="st.state_seal_url" 
+               :alt="makeAlt(st)" 
+               class="seal"></td>
+       </tr>
+     </table>
 
-      </div>
-
-
-      <table v-if="displayTable">
-        <tr>
-          <th>State</th>
-          <th>Captial</th>
-          <th>Flag</th>
-        </tr>
-        <tr v-for="st of selected">
-          <td  v-if="st.facebook_url"><a v-bind:href="st.facebook_url">{{ st.state }}</a></td>
-          <td  v-else="st.facebook.url">{{st.state}}</td>
-          <td class="center"> {{ st.capital_city }}  </td>
-          <td>
-            <img 
-               class="flag" 
-               :src="st.state_flag_url" 
-               :alt="makeAlt(st.state)">
-          </td>
-        </tr>
-      </table>
     </div>
+
     <footer>
       <hr />
       <p>This is the footer</p>
