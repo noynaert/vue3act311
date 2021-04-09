@@ -10,10 +10,6 @@
       #appArea {
         background-color: lightyellow;
       }
-      .flag,.seal {
-        width: 125px;
-        padding: 10px;
-      }
       .center {
         text-align: center;
       }
@@ -27,31 +23,12 @@
     </style>
   </head>
   <body>
-    <h1>States</h1>
+    <h1>Courses By Title</h1>
     <hr />
     <div id="appArea">
-      <div>
-        <label>Type a state: </label>
-        <input type="text" v-model="picked" v-on:input="lower">
-         "{{ picked }}"
-      </div>
-     <table>
-       <tr>
-         <th>State Name</th>
-         <th>Capital</th>
-         <th>Seal</th>
-       </tr>
-       <tr v-for="st of byName">
-         <td v-if="st.facebook_url"><a v-bind:href="st.facebook_url">  {{ st.state }}</a></td>
-         <td v-else="st.facebook_url">{{st.state}} (no Facebook Link)</td>
-         <td class="center">{{ st.capital_city }}</td>
-         <td><img 
-               :src="st.state_seal_url" 
-               :alt="makeAlt(st)" 
-               class="seal"></td>
-       </tr>
-     </table>
-
+      <ul>
+        <li v-for="sec of sections">fasdfasd</li>
+      </ul>
     </div>
 
     <footer>
