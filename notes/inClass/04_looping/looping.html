@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somewhat Simple App</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <style>
+        #appArea {background-color:lightyellow;}
+    </style>
+</head>
+<body>
+    <h1>Somewhat Simple App</h1>
+    <hr>
+    <div id="appArea">
+        <h1>Fruits</h1>
+       <p>{{fruits}}</p>
+       <p  v-for="fruit in fruits">The fruit is {{fruit}}</p>
+       <ul v-for="fruit in fruits"><li>{{fruit}}</li></ul>
+       <p>&nbsp;</p>
+       <h1>Science Fiction Books</h1>
+       <p>{{books}}</p>
+       <ul v-for="book in books"><li><i>{{book.title}}</i> by {{book.author}}</li></ul>
+
+    </div>
+    <footer>
+        <hr>
+        <p>This is the footer</p>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>

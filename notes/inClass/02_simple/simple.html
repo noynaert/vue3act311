@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somewhat Simple App</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <style>
+        #appArea {background-color:lightyellow;}
+    </style>
+</head>
+<body>
+    <h1>Somewhat Simple App</h1>
+    <hr>
+    <div id="appArea">
+       <p>&nbsp; </p>
+       <p>Thing is {{ thing }}</p>
+       <p>Animal is {{ animal }}</p>
+       <!-- <p>Once again, the animal is {{ pickAnimal() }}</p> -->
+       <p>&nbsp;</p>
+       <h2>{{ animal }}
+       </h2>
+       <p>Type an animal: <input type="input" placehold="type something" v-model="animal"></p>
+      <p>Pick one of these; <select v-model="animal">
+          <option>bee</option>
+          <option>fly</option>
+          <option>ant</option>
+          <option>{{ animal }}</option>
+      </select></p>
+    </div>
+    <footer>
+        <hr>
+        <p>This is the footer</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

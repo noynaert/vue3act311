@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brutally Simple App</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <style>
+        #appArea {background-color:lightyellow;}
+    </style>
+</head>
+<body>
+    <h1>Brutally Simple App</h1>
+    <hr>
+    <div id="appArea">
+        <p>&nbsp;</p>
+        <p>Here is a number:    {{ 2+2 }} </p>
+        <p>A random number: {{ Math.random() }}</p>
+        <p>Coin toss:  {{ (Math.random() < 0.5)?"Heads":"Tails"}}</p>
+    </div>
+    <footer>
+        <hr>
+        <p>This is the footer</p>
+    </footer>
+    <script>
+        const app = Vue.createApp({
+
+        });
+        app.mount("#appArea");
+    </script>
+</body>
+</html>

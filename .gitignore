@@ -1,2 +1,7 @@
 .vscode/*
 images/logo.png
+node_modules
+node_modules/*
+model_bind
+package-lock.json
+state_copy.html
