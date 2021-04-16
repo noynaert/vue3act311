@@ -1,0 +1,70 @@
+[
+  {
+    "department": "Academic Affairs",
+    "dept": "AF"
+  },
+  {
+    "department": "Biology",
+    "dept": "BIO"
+  },
+  {
+    "department": "Business",
+    "dept": "BUS"
+  },
+  {
+    "department": "Chemistry",
+    "dept": "CHE"
+  },
+  {
+    "dept": "COM",
+    "department": "Communication"
+  },
+  {
+    "department": "Computer Science, Mathematics, & Physics",
+    "dept": "CSMP"
+  },
+  {
+    "department": "Criminal Justice & Legal Studies",
+    "dept": "CJLG"
+  },
+  {
+    "department": "Education",
+    "dept": "EDU"
+  },
+  {
+    "department": "Engineering Technology",
+    "dept": "ET"
+  },
+  {
+    "department": "Fine Arts",
+    "dept": "FIN"
+  },
+  {
+    "department": "Health Professionals",
+    "dept": "HP"
+  },
+  {
+    "department": "Honors Program",
+    "dept": "HON"
+  },
+  {
+    "department": "Military Science",
+    "dept": "MIL"
+  },
+  {
+    "department": "Nursing",
+    "dept": "NURS"
+  },
+  {
+    "department": "Psychology",
+    "dept": "PSY"
+  },
+  {
+    "department": "Social Sciences & Humanities",
+    "dept": "SSH"
+  },
+  {
+    "department": "Western Institute",
+    "dept": "CON"
+  }
+]

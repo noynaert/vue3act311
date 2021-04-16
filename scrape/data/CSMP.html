@@ -1,0 +1,6805 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+<title>MWSU :: Missouri Western State University</title>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.16.custom.css"/>
+<link rel="stylesheet" type="text/css" href="trans_banner/style.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.slider.css" rel="stylesheet" />
+<!--<link rel="stylesheet" type="text/css" href="/css/custom.css" rel="stylesheet" />-->
+<link rel="stylesheet" type="text/css" href="schedule.css" rel="stylesheet" />
+
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie/megamenu_ie.css" />
+<![endif]-->
+<!--[if lt IE 7]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+<![endif]-->
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/css/ie/mwsu-ie.css" /><![endif]-->
+
+<!--<script type="text/javascript" src="/js/clearfield.js"></script>-->
+<script type="text/javascript" src="js/jquery.js"></script><!-- jQuery -->
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.easing.compatibility.js"></script>
+<script type="text/javascript" src="js/jquery.slider.min.js"></script>
+<script type="text/javascript" src="js/megamenu_plugins.js"></script><!-- Mega Menu Plugins (scroller, form, hoverIntent) -->
+<script type="text/javascript" src="js/megamenu.js"></script><!-- Mega Menu Script -->
+<script type="text/javascript" src="js/jquery.ui.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="trans_banner/trans-banner.min.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/flowplayer/flowplayer-3.2.9.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$( "#accordion" ).accordion({
+			"event": "mouseover"
+		});
+
+		$("#accordion").accordion("option", "icons", { 'header': 'ui-icon-triangle-1-w', 'headerSelected': 'ui-icon-triangle-1-s'});
+	});
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function($){
+		$('.megamenu').megaMenuReloaded({
+			menu_speed_show : 500, // Time (in milliseconds) to show a drop down
+			menu_speed_hide : 500, // Time (in milliseconds) to hide a drop down
+			menu_speed_delay : 500, // Time (in milliseconds) before showing a drop down
+			menu_effect : 'hover_slide', // Drop down effect, choose between 'hover_fade', 'hover_slide', 'click_fade', 'click_slide', 'open_close_fade', 'open_close_slide'
+			menu_click_outside : 0, // Clicks outside the drop down close it (1 = true, 0 = false)
+			menu_show_onload : 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
+			menubar_trigger : 0 // Show the menu trigger (button to show / hide the menu bar), only for the fixed version of the menu (1 = show, 0 = hide)
+		});
+	});
+</script>
+
+<link type="text/css" href="css/scrollable-horizontal.css" rel="stylesheet" />
+<link type="text/css" href="css/scrollable-buttons.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+
+<script type="text/javascript">
+    $(function() {
+          $(".scrollable").scrollable({circular: true});
+    });
+</script>
+<style type="text/css">
+/*<!--*/
+.ui-dialog-titlebar-close {
+	visibility: hidden;
+}
+#maincontent { margin-top: 2em; }
+/*-->*/
+</style>
+</head>
+<body>
+	
+<!--
+NOTES:
+	* "autocomplete" attribute is invalid; set in javascript to avoid validation errors
+	* always use relative paths when possible - CHANGE THIS LATER(JAKE)-
+	* <form id="searchform" method="get" action="http://www.missouriwestern.edu/google_search.asp" autocomplete="off">	
+-->
+
+<table border="0" width="100%" cellspacing="0" cellpadding="6" style="background-color:black;">
+	<tr>
+		<td>
+			<table align="center" border="0" width="970" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="509" style="width: 970px" class="style1">
+				<a href="http://www.missouriwestern.edu">
+				<img border="0" src="images/header/logo.png" width="404" height="76" alt="Missouri Western State University" /></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+	<div id="maincontent">
+		
+<h1>Search Results</h1>
+<button type="button" onclick="location.href='Default.asp?tck=202210';">Search Again</button>
+<table class="results">
+	<tr>
+		<th>CRN</th>
+		<th>Course</th>
+		<th>Sec</th>
+		<th>Type</th>
+		<th>Title</th>
+		<th>Hrs</th>
+		<th>Days</th>
+		<th style="width: 150px;">Times</th>
+		<th>Room</th>
+		<th>Instructor</th>
+	</tr>
+	
+		<tr class="list_row">
+			<td>10251</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACT&crse_number=102&seq_number_key=01">ACT102</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACT&crse_number=102&seq_number_key=01">Intro to Web Page Development</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Remington Hall 105</td>
+			<td>Noynaert, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 25<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10253</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACT&crse_number=102&seq_number_key=02">ACT102</a>
+			</td>
+			<td>02</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACT&crse_number=102&seq_number_key=02">Intro to Web Page Development</a></td>
+			<td>3</td>
+			<td>W</td>
+			<td>6:30PM-9:10PM</td>
+			<td>Remington Hall 105</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15748</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACT&crse_number=201&seq_number_key=40">ACT201</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACT&crse_number=201&seq_number_key=40">Microcomputer Applications</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Noynaert, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 23<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12113</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACT&crse_number=301&seq_number_key=40">ACT301</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACT&crse_number=301&seq_number_key=40">Applied Database Systems</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Noynaert, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 15<br />
+						
+					</span>
+					
+				</span>
+				Students must have a computer that runs Windows 10 and&nbsp;
+					equipped with webcam.  Access to scanner is recommended.&nbsp;
+					Book charges are added to this section as part of the Barnes&nbsp;
+					& Noble First Day Program. Further information can be&nbsp;
+					found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11961</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACT&crse_number=405&seq_number_key=40">ACT405</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACT&crse_number=405&seq_number_key=40">Business Intelligence</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Kwok, Y</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 22<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15357</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACT&crse_number=490&seq_number_key=01">ACT490</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACT&crse_number=490&seq_number_key=01">IT Career Preparation</a></td>
+			<td>1</td>
+			<td>W</td>
+			<td>5:00PM-5:55PM</td>
+			<td>Agenstein Hall 119</td>
+			<td>Kwok, Y</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 19<br />
+						
+							Crosslist Seats Available: 12
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							CSC490 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10257</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=184&seq_number_key=01">CSC184</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=184&seq_number_key=01">Intro to Computer Programming</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Remington Hall 108</td>
+			<td>Kendall-Morwick, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				Laptops are required for this course.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15195</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=184&seq_number_key=40">CSC184</a>
+			</td>
+			<td>40</td>
+			<td>100% Online w/Meeting Times</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=184&seq_number_key=40">Intro to Computer Programming</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>5:00PM-6:20PM</td>
+			<td>Online Course </td>
+			<td>Yan, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 25<br />
+						
+					</span>
+					
+				</span>
+				This course is 100% online with scheduled meeting times that&nbsp;
+					will take place virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15749</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=246&seq_number_key=01">CSC246</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=246&seq_number_key=01">Programming Languages</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Agenstein Hall 124</td>
+			<td>Kendall-Morwick, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 3<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10267</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=254&seq_number_key=01">CSC254</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=254&seq_number_key=01">Object Oriented Programming</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Agenstein Hall 124</td>
+			<td>Kendall-Morwick, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15202</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=264&seq_number_key=01">CSC264</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=264&seq_number_key=01">Comp Architect & Assembly Lang</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Agenstein Hall 124</td>
+			<td>Yan, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 19<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15200</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=274&seq_number_key=01">CSC274</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=274&seq_number_key=01">Introduction to Unix/Linux</a></td>
+			<td>2</td>
+			<td>MW</td>
+			<td>2:00PM-2:55PM</td>
+			<td>Agenstein Hall 124</td>
+			<td>Noynaert, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 22<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15502</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=285&seq_number_key=40">CSC285</a>
+			</td>
+			<td>40</td>
+			<td>100% Online w/Meeting Times</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=285&seq_number_key=40">Data Structures</a></td>
+			<td>3</td>
+			<td>R</td>
+			<td>2:00PM-4:40PM</td>
+			<td>Online Course </td>
+			<td>Pickett, H</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 5<br />
+						
+					</span>
+					
+				</span>
+				This course is 100% online with scheduled meeting times that&nbsp;
+					will take place virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15503</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=289&seq_number_key=40">CSC289</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=289&seq_number_key=40">Computational Methods for CS</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Yan, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 22-->
+						Maximum Enrollment: 22<br />
+						Section Seats Available: 9<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12317</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=294&seq_number_key=01">CSC294</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=294&seq_number_key=01">Networking and Telecommunicati</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Agenstein Hall 119</td>
+			<td>Kwok, Y</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11962</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=328&seq_number_key=01">CSC328</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=328&seq_number_key=01">Computer Graphics</a></td>
+			<td>3</td>
+			<td>R</td>
+			<td>6:30PM-9:10PM</td>
+			<td>Agenstein Hall 119</td>
+			<td>Pickett, H</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 21<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10271</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=400&seq_number_key=01">CSC400</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=400&seq_number_key=01">Systems Analysis and Design</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Agenstein Hall 123</td>
+			<td>Kwok, Y</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 16<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15571</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=450&seq_number_key=01">CSC450</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=450&seq_number_key=01">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Kendall-Morwick, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15644</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=450&seq_number_key=02">CSC450</a>
+			</td>
+			<td>02</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=450&seq_number_key=02">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Noynaert, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15750</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=450&seq_number_key=03">CSC450</a>
+			</td>
+			<td>03</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=450&seq_number_key=03">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Kwok, Y</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15751</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=450&seq_number_key=04">CSC450</a>
+			</td>
+			<td>04</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=450&seq_number_key=04">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Pickett, H</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15752</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=450&seq_number_key=05">CSC450</a>
+			</td>
+			<td>05</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=450&seq_number_key=05">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Yan, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10279</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=451&seq_number_key=01">CSC451</a>
+			</td>
+			<td>01</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=451&seq_number_key=01">Internship in Computer Science</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15203</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=490&seq_number_key=01">CSC490</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CSC&crse_number=490&seq_number_key=01">CS Career Preparation</a></td>
+			<td>1</td>
+			<td>W</td>
+			<td>5:00PM-5:55PM</td>
+			<td>Agenstein Hall 119</td>
+			<td>Kwok, Y</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 13<br />
+						
+							Crosslist Seats Available: 12
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							ACT490 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>16123</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SEC&crse_number=335&seq_number_key=01">SEC335</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SEC&crse_number=335&seq_number_key=01">Network and Endpoint Sec I</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Agenstein Hall 124</td>
+			<td>Kwok, Y</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>16132</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SEC&crse_number=545&seq_number_key=40">SEC545</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SEC&crse_number=545&seq_number_key=40">Security Program Governance</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Yan, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -1<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>16133</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SEC&crse_number=640&seq_number_key=40">SEC640</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SEC&crse_number=640&seq_number_key=40">Advanced Network Security</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Kwok, Y</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -1<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10633</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=083&seq_number_key=02">MAT083</a>
+			</td>
+			<td>02</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=083&seq_number_key=02">Foundations for Univ Math</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Spratt Hall 203</td>
+			<td>McWilliams, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14773</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=083&seq_number_key=03">MAT083</a>
+			</td>
+			<td>03</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=083&seq_number_key=03">Foundations for Univ Math</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Spratt Hall 203</td>
+			<td>McWilliams, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10283</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110&seq_number_key=01">MAT110</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110&seq_number_key=01">Contemporary Problem Solving</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Spratt Hall 201</td>
+			<td>Poet, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 30<br />
+						
+							Crosslist Seats Available: 28
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT110E 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14958</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110&seq_number_key=02">MAT110</a>
+			</td>
+			<td>02</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110&seq_number_key=02">Contemporary Problem Solving</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Spratt Hall 201</td>
+			<td>Poet, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 30<br />
+						
+							Crosslist Seats Available: 29
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT110E 02
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10282</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110&seq_number_key=03">MAT110</a>
+			</td>
+			<td>03</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110&seq_number_key=03">Contemporary Problem Solving</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Agenstein Hall 330</td>
+			<td>McCune, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 30<br />
+						
+							Crosslist Seats Available: 27
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT110E 03
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13617</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110&seq_number_key=04">MAT110</a>
+			</td>
+			<td>04</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110&seq_number_key=04">Contemporary Problem Solving</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Spratt Hall 201</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 30<br />
+						
+							Crosslist Seats Available: 29
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT110E 04
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14776</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110&seq_number_key=05">MAT110</a>
+			</td>
+			<td>05</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110&seq_number_key=05">Contemporary Problem Solving</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Spratt Hall 203</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 30<br />
+						
+							Crosslist Seats Available: 25
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT110E 05
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14962</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110&seq_number_key=06">MAT110</a>
+			</td>
+			<td>06</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110&seq_number_key=06">Contemporary Problem Solving</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Spratt Hall 201</td>
+			<td>McWilliams, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 29<br />
+						
+							Crosslist Seats Available: 27
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT110E 06
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10284</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110&seq_number_key=08">MAT110</a>
+			</td>
+			<td>08</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110&seq_number_key=08">Contemporary Problem Solving</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Waters, G</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 30<br />
+						
+							Crosslist Seats Available: 28
+					</span>
+					
+				</span>
+				This course is online. Final exam will be on campus or at an&nbsp;
+					instructor approved site.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT110E 08
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14348</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=01">MAT110E</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=01">Contemporary Problem Solving</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Spratt Hall 201</td>
+			<td>Poet, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 28<br />
+						
+							Crosslist Seats Available: 28
+					</span>
+					
+				</span>
+				Must take with MAT110E 40 Lab CRN 14355.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT110 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14775</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=02">MAT110E</a>
+			</td>
+			<td>02</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=02">Contemporary Problem Solving</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Spratt Hall 201</td>
+			<td>Poet, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 29<br />
+						
+							Crosslist Seats Available: 29
+					</span>
+					
+				</span>
+				Must take with MAT110E 41 Lab CRN 14356.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT110 02
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14347</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=03">MAT110E</a>
+			</td>
+			<td>03</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=03">Contemporary Problem Solving</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Agenstein Hall 330</td>
+			<td>McCune, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 27<br />
+						
+							Crosslist Seats Available: 27
+					</span>
+					
+				</span>
+				Must take with MAT110E 42 Lab CRN 14354.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT110 03
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14352</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=04">MAT110E</a>
+			</td>
+			<td>04</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=04">Contemporary Problem Solving</a></td>
+			<td>4</td>
+			<td>TR</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Spratt Hall 201</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 29<br />
+						
+							Crosslist Seats Available: 29
+					</span>
+					
+				</span>
+				Must take with MAT110E 43 Lab CRN 14357.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT110 04
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14777</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=05">MAT110E</a>
+			</td>
+			<td>05</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=05">Contemporary Problem Solving</a></td>
+			<td>4</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Spratt Hall 203</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 25<br />
+						
+							Crosslist Seats Available: 25
+					</span>
+					
+				</span>
+				Must take with MAT110E 44 Lab CRN 14358.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT110 05
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14963</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=06">MAT110E</a>
+			</td>
+			<td>06</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=06">Contemporary Problem Solving</a></td>
+			<td>4</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Spratt Hall 201</td>
+			<td>McWilliams, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 28<br />
+						
+							Crosslist Seats Available: 27
+					</span>
+					
+				</span>
+				Must take with MAT110E 45 Lab CRN 14779.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT110 06
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14349</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=08">MAT110E</a>
+			</td>
+			<td>08</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=08">Contemporary Problem Solving</a></td>
+			<td>4</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Waters, G</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 28<br />
+						
+							Crosslist Seats Available: 28
+					</span>
+					
+				</span>
+				Must take with MAT110E 47 Lab CRN 14368. This course is&nbsp;
+					online. Final exam will be on campus or at an instructor&nbsp;
+					approved site.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT110 08
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14355</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=40">MAT110E</a>
+			</td>
+			<td>40</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=40">Contemporary Problem Solving</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Poet, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 28<br />
+						
+					</span>
+					
+				</span>
+				Must take with MAT110E 01 Lecture CRN 14348.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14356</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=41">MAT110E</a>
+			</td>
+			<td>41</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=41">Contemporary Problem Solving</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Poet, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 29<br />
+						
+					</span>
+					
+				</span>
+				Must take with MAT110E 02 Lecture CRN 14775.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14354</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=42">MAT110E</a>
+			</td>
+			<td>42</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=42">Contemporary Problem Solving</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>McCune, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 27<br />
+						
+					</span>
+					
+				</span>
+				Must take with MAT110E 03 Lecture CRN 14347.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14357</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=43">MAT110E</a>
+			</td>
+			<td>43</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=43">Contemporary Problem Solving</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 29<br />
+						
+					</span>
+					
+				</span>
+				Must take with MAT110E 04 Lecture CRN 14352.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14358</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=44">MAT110E</a>
+			</td>
+			<td>44</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=44">Contemporary Problem Solving</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 25<br />
+						
+					</span>
+					
+				</span>
+				Must take with MAT110E 05 Lecture CRN 14777.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14779</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=45">MAT110E</a>
+			</td>
+			<td>45</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=45">Contemporary Problem Solving</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>McWilliams, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 28<br />
+						
+					</span>
+					
+				</span>
+				Must take with MAT110E 06 Lecture CRN 14963.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14368</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=47">MAT110E</a>
+			</td>
+			<td>47</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=110E&seq_number_key=47">Contemporary Problem Solving</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Waters, G</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 28<br />
+						
+					</span>
+					
+				</span>
+				Must take with MAT110E 08 Lecture CRN 14349.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14790</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111&seq_number_key=01">MAT111</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111&seq_number_key=01">Introductory Statistics</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Remington Hall 105</td>
+			<td>Klassen, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 28<br />
+						
+							Crosslist Seats Available: 28
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT111E 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14788</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111&seq_number_key=02">MAT111</a>
+			</td>
+			<td>02</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111&seq_number_key=02">Introductory Statistics</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Remington Hall 105</td>
+			<td>Anderson, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 25<br />
+						
+							Crosslist Seats Available: 19
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT111E 02
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14789</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111&seq_number_key=03">MAT111</a>
+			</td>
+			<td>03</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111&seq_number_key=03">Introductory Statistics</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Remington Hall 105</td>
+			<td>Anderson, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 29<br />
+						
+							Crosslist Seats Available: 28
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT111E 03
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14791</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111&seq_number_key=05">MAT111</a>
+			</td>
+			<td>05</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111&seq_number_key=05">Introductory Statistics</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Remington Hall 105</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 29<br />
+						
+							Crosslist Seats Available: 29
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students amy be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT111E 05
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15220</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111&seq_number_key=06">MAT111</a>
+			</td>
+			<td>06</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111&seq_number_key=06">Introductory Statistics</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 307</td>
+			<td>Mutua, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 27<br />
+						
+							Crosslist Seats Available: 27
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT111E 06
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15428</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111&seq_number_key=07">MAT111</a>
+			</td>
+			<td>07</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111&seq_number_key=07">Introductory Statistics</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Remington Hall 105</td>
+			<td>Mutua, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 30<br />
+						
+							Crosslist Seats Available: 28
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT111E 07
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15822</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111&seq_number_key=08">MAT111</a>
+			</td>
+			<td>08</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111&seq_number_key=08">Introductory Statistics</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Remington Hall 105</td>
+			<td>Mutua, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 30<br />
+						
+							Crosslist Seats Available: 29
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					Of Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT111E 08
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14792</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111&seq_number_key=09">MAT111</a>
+			</td>
+			<td>09</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111&seq_number_key=09">Introductory Statistics</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Klassen, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 29<br />
+						
+							Crosslist Seats Available: 27
+					</span>
+					
+				</span>
+				This course is online. Final will be on campus or at an&nbsp;
+					instructor approved site. Book charges are added to this&nbsp;
+					section as part of the Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT111E 09
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14795</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=01">MAT111E</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=01">Introductory Statistics</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Remington Hall 105</td>
+			<td>Klassen, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 30<br />
+						
+							Crosslist Seats Available: 28
+					</span>
+					
+				</span>
+				Must take with MAT111E 40 Lab CRN 15243.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT111 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14793</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=02">MAT111E</a>
+			</td>
+			<td>02</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=02">Introductory Statistics</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Remington Hall 105</td>
+			<td>Anderson, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 24<br />
+						
+							Crosslist Seats Available: 19
+					</span>
+					
+				</span>
+				Must take with MAT111E 41 Lab CRN 15431.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT111 02
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14794</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=03">MAT111E</a>
+			</td>
+			<td>03</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=03">Introductory Statistics</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Remington Hall 105</td>
+			<td>Anderson, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 29<br />
+						
+							Crosslist Seats Available: 28
+					</span>
+					
+				</span>
+				Must take with MAT111E 42 Lab CRN 15433.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT111 03
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14796</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=05">MAT111E</a>
+			</td>
+			<td>05</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=05">Introductory Statistics</a></td>
+			<td>4</td>
+			<td>TR</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Remington Hall 105</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 30<br />
+						
+							Crosslist Seats Available: 29
+					</span>
+					
+				</span>
+				Must take with MAT111E 44 Lab CRN 15432.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending fact-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT111 05
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14797</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=06">MAT111E</a>
+			</td>
+			<td>06</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=06">Introductory Statistics</a></td>
+			<td>4</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 307</td>
+			<td>Mutua, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 30<br />
+						
+							Crosslist Seats Available: 27
+					</span>
+					
+				</span>
+				Must take with MAT111E 45 Lab CRN 15501.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT111 06
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14798</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=07">MAT111E</a>
+			</td>
+			<td>07</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=07">Introductory Statistics</a></td>
+			<td>4</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Remington Hall 105</td>
+			<td>Mutua, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 28<br />
+						
+							Crosslist Seats Available: 28
+					</span>
+					
+				</span>
+				Must take with MAT111E 46 Lab CRN 15765.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT111 07
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15823</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=08">MAT111E</a>
+			</td>
+			<td>08</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=08">Introductory Statistics</a></td>
+			<td>4</td>
+			<td>TR</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Remington Hall 105</td>
+			<td>Mutua, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 29<br />
+						
+							Crosslist Seats Available: 29
+					</span>
+					
+				</span>
+				Must take with MAT111E 47 Lab CRN 15824.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT111 08
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15772</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=09">MAT111E</a>
+			</td>
+			<td>09</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=09">Introductory Statistics</a></td>
+			<td>4</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Klassen, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 28<br />
+						
+							Crosslist Seats Available: 27
+					</span>
+					
+				</span>
+				Must take with MAT111E 48 Lab CRN 15774.&nbsp;
+					This course is online. Final exam will be on campus or at an&nbsp;
+					instructor approved site. Book charges are added to this&nbsp;
+					section as part of the Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MAT111 09
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15243</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=40">MAT111E</a>
+			</td>
+			<td>40</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=40">Introductory Statistics</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Klassen, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 30<br />
+						
+					</span>
+					
+				</span>
+				Must take with MAT111E 01 Lecture CRN 14795.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15431</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=41">MAT111E</a>
+			</td>
+			<td>41</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=41">Introductory Statistics</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Anderson, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				Must take with MAT111E 02 Lecture CRN 14793.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15433</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=42">MAT111E</a>
+			</td>
+			<td>42</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=42">Introductory Statistics</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Anderson, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 29<br />
+						
+					</span>
+					
+				</span>
+				Must take with MAT111E 03 Lecture CRN 14794.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15432</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=44">MAT111E</a>
+			</td>
+			<td>44</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=44">Introductory Statistics</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 30<br />
+						
+					</span>
+					
+				</span>
+				Must take with MAT111E 05 Lecture CRN 14796.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15501</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=45">MAT111E</a>
+			</td>
+			<td>45</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=45">Introductory Statistics</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Mutua, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 30<br />
+						
+					</span>
+					
+				</span>
+				Must take with MAT111E 06 Lecture CRN 14797.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15765</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=46">MAT111E</a>
+			</td>
+			<td>46</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=46">Introductory Statistics</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Mutua, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 28<br />
+						
+					</span>
+					
+				</span>
+				Must take with MAT111E 07 Lecture CRN 14798.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15824</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=47">MAT111E</a>
+			</td>
+			<td>47</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=47">Introductory Statistics</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Mutua, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 29<br />
+						
+					</span>
+					
+				</span>
+				Must take with MAT111E 08 Lecture CRN 15823.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15774</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=48">MAT111E</a>
+			</td>
+			<td>48</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=111E&seq_number_key=48">Introductory Statistics</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Klassen, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 28<br />
+						
+					</span>
+					
+				</span>
+				Must take with MAT111E 09 Lecture CRN 15772.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14333</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=112&seq_number_key=01">MAT112</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=112&seq_number_key=01">Finite Mathematics</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Spratt Hall 201</td>
+			<td>Rice, G</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 26<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13963</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=112&seq_number_key=02">MAT112</a>
+			</td>
+			<td>02</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=112&seq_number_key=02">Finite Mathematics</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Rice, G</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 25<br />
+						
+					</span>
+					
+				</span>
+				This course is online. Final will be on campus or at an&nbsp;
+					instructor approved site.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10294</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=116&seq_number_key=01">MAT116</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=116&seq_number_key=01">College Algebra</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Agenstein Hall 328</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 29<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13967</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=116&seq_number_key=02">MAT116</a>
+			</td>
+			<td>02</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=116&seq_number_key=02">College Algebra</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Agenstein Hall 328</td>
+			<td>Poet, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 23<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11978</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=116&seq_number_key=03">MAT116</a>
+			</td>
+			<td>03</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=116&seq_number_key=03">College Algebra</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Agenstein Hall 328</td>
+			<td>Poet, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 23<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10301</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=116&seq_number_key=04">MAT116</a>
+			</td>
+			<td>04</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=116&seq_number_key=04">College Algebra</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Rice, G</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				This course is online.&nbsp;
+					Final exam and midterm will be on campus or at&nbsp;
+					instructor approved site.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14781</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=119&seq_number_key=02">MAT119</a>
+			</td>
+			<td>02</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=119&seq_number_key=02">Trigonometry</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>McCune, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				This course is online. Final exam will be on campus or at an&nbsp;
+					instructor approved site. Book charges are added to this&nbsp;
+					section as part of the Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10479</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=147&seq_number_key=01">MAT147</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=147&seq_number_key=01">Applied Calculus</a></td>
+			<td>5</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Agenstein Hall 126</td>
+			<td>Waters, G</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 19<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10480</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=167&seq_number_key=01">MAT167</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=167&seq_number_key=01">Calculus/Analytic Geometry I</a></td>
+			<td>5</td>
+			<td>MW</td>
+			<td>8:00AM-8:55AM</td>
+			<td>Agenstein Hall 224</td>
+			<td>Anderson, K</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>TR</td>
+				<td>8:00AM-9:20AM</td>
+				<td>Agenstein Hall 224</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15497</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=211&seq_number_key=01">MAT211</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=211&seq_number_key=01">Applied Statistical Reasoning</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Remington Hall 105</td>
+			<td>McCune, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 13<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15435</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=217&seq_number_key=01">MAT217</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=217&seq_number_key=01">Modeling and Simulation</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Remington Hall 117</td>
+			<td>Waters, G</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 13<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15754</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=332&seq_number_key=01">MAT332</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=332&seq_number_key=01">Probability Theory</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Agenstein Hall 224</td>
+			<td>Klassen, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10488</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=352&seq_number_key=01">MAT352</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=352&seq_number_key=01">Math Elem/Middle Teachers I</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Agenstein Hall 224</td>
+			<td>McCune, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13238</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=450&seq_number_key=01">MAT450</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=450&seq_number_key=01">Independent Research/Project</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15596</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=450&seq_number_key=02">MAT450</a>
+			</td>
+			<td>02</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=450&seq_number_key=02">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14107</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=451&seq_number_key=01">MAT451</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=451&seq_number_key=01">Internship in Mathematics</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15755</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=462&seq_number_key=01">MAT462</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=462&seq_number_key=01">Number Theory</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Agenstein Hall 224</td>
+			<td>Rice, G</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12802</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=609&seq_number_key=40">MAT609</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MAT&crse_number=609&seq_number_key=40">Tech, Analysis/Decision Making</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Klassen, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15205</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=101&seq_number_key=02">PHY101</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=101&seq_number_key=02">How Things Work</a></td>
+			<td>0</td>
+			<td>M</td>
+			<td>12:00PM-1:50PM</td>
+			<td>Remington Hall 111</td>
+			<td>Bucklein, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 19<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15204</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=101&seq_number_key=40">PHY101</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=101&seq_number_key=40">How Things Work</a></td>
+			<td>4</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Bucklein, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 19<br />
+						
+					</span>
+					
+				</span>
+				You must register for both lecture and lab for this course.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11211</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=104&seq_number_key=02">PHY104</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=104&seq_number_key=02">Introduction to Astronomy</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>12:00PM-1:50PM</td>
+			<td>Remington Hall 111</td>
+			<td>Bucklein, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 12<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11212</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=104&seq_number_key=03">PHY104</a>
+			</td>
+			<td>03</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=104&seq_number_key=03">Introduction to Astronomy</a></td>
+			<td>0</td>
+			<td>W</td>
+			<td>12:00PM-1:50PM</td>
+			<td>Remington Hall 111</td>
+			<td>Bucklein, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 16<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11213</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=104&seq_number_key=04">PHY104</a>
+			</td>
+			<td>04</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=104&seq_number_key=04">Introduction to Astronomy</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>12:00PM-1:50PM</td>
+			<td>Remington Hall 111</td>
+			<td>Bucklein, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 16<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11210</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=104&seq_number_key=40">PHY104</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=104&seq_number_key=40">Introduction to Astronomy</a></td>
+			<td>4</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Bucklein, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 72-->
+						Maximum Enrollment: 72<br />
+						Section Seats Available: 46<br />
+						
+							Crosslist Seats Available: 44
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							PHY104 80
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14666</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=104&seq_number_key=80">PHY104</a>
+			</td>
+			<td>80</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=104&seq_number_key=80">Intro to Astronomy (Honors)</a></td>
+			<td>4</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Bucklein, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 72-->
+						Maximum Enrollment: 72<br />
+						Section Seats Available: 70<br />
+						
+							Crosslist Seats Available: 44
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							PHY104 40
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11216</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=110&seq_number_key=01">PHY110</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=110&seq_number_key=01">College Physics I</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Potter Hall THEATRE</td>
+			<td>Sithole, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 72-->
+						Maximum Enrollment: 72<br />
+						Section Seats Available: 30<br />
+						
+					</span>
+					
+				</span>
+				You must register for both a lecture and lab for this course&nbsp;
+					Book charges are added to this section as part of the Barnes&nbsp;
+					and Noble First Day Program. Further information can be&nbsp;
+					in your Canvas. If Covid protocols continue, students may be&nbsp;
+					required to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11219</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=110&seq_number_key=04">PHY110</a>
+			</td>
+			<td>04</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=110&seq_number_key=04">College Physics I</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>9:30AM-12:20PM</td>
+			<td>Remington Hall 109</td>
+			<td>Sithole, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15334</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=110&seq_number_key=05">PHY110</a>
+			</td>
+			<td>05</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=110&seq_number_key=05">College Physics I</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>2:00PM-4:50PM</td>
+			<td>Remington Hall 109</td>
+			<td>Sithole, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 5<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15335</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=110&seq_number_key=06">PHY110</a>
+			</td>
+			<td>06</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=110&seq_number_key=06">College Physics I</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>9:30AM-12:20PM</td>
+			<td>Remington Hall 109</td>
+			<td>Sithole, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 8<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15744</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=211&seq_number_key=01">PHY211</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=211&seq_number_key=01">University Physics II</a></td>
+			<td>5</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Remington Hall 109</td>
+			<td>Sithole, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15745</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=211&seq_number_key=02">PHY211</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=211&seq_number_key=02">University Physics II</a></td>
+			<td>0</td>
+			<td>MR</td>
+			<td>2:00PM-3:50PM</td>
+			<td>Remington Hall 109</td>
+			<td>Sithole, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15208</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=450&seq_number_key=03">PHY450</a>
+			</td>
+			<td>03</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHY&crse_number=450&seq_number_key=03">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Sithole, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 5-->
+						Maximum Enrollment: 5<br />
+						Section Seats Available: 5<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+</table>
+	
+	</div>
+	
+	<div id="loading" title="Loading...">Loading, please wait...</div>
+	<script type="text/javascript">
+	//<!--
+	$(function() {
+		$("#loading").dialog({'modal': true, 'closeOnEscape': false, 'draggable': false, 'resizable': false, 'autoOpen': false });
+	});
+	//-->
+	</script>
+</body>

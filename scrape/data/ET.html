@@ -1,0 +1,3352 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+<title>MWSU :: Missouri Western State University</title>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.16.custom.css"/>
+<link rel="stylesheet" type="text/css" href="trans_banner/style.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.slider.css" rel="stylesheet" />
+<!--<link rel="stylesheet" type="text/css" href="/css/custom.css" rel="stylesheet" />-->
+<link rel="stylesheet" type="text/css" href="schedule.css" rel="stylesheet" />
+
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie/megamenu_ie.css" />
+<![endif]-->
+<!--[if lt IE 7]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+<![endif]-->
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/css/ie/mwsu-ie.css" /><![endif]-->
+
+<!--<script type="text/javascript" src="/js/clearfield.js"></script>-->
+<script type="text/javascript" src="js/jquery.js"></script><!-- jQuery -->
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.easing.compatibility.js"></script>
+<script type="text/javascript" src="js/jquery.slider.min.js"></script>
+<script type="text/javascript" src="js/megamenu_plugins.js"></script><!-- Mega Menu Plugins (scroller, form, hoverIntent) -->
+<script type="text/javascript" src="js/megamenu.js"></script><!-- Mega Menu Script -->
+<script type="text/javascript" src="js/jquery.ui.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="trans_banner/trans-banner.min.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/flowplayer/flowplayer-3.2.9.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$( "#accordion" ).accordion({
+			"event": "mouseover"
+		});
+
+		$("#accordion").accordion("option", "icons", { 'header': 'ui-icon-triangle-1-w', 'headerSelected': 'ui-icon-triangle-1-s'});
+	});
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function($){
+		$('.megamenu').megaMenuReloaded({
+			menu_speed_show : 500, // Time (in milliseconds) to show a drop down
+			menu_speed_hide : 500, // Time (in milliseconds) to hide a drop down
+			menu_speed_delay : 500, // Time (in milliseconds) before showing a drop down
+			menu_effect : 'hover_slide', // Drop down effect, choose between 'hover_fade', 'hover_slide', 'click_fade', 'click_slide', 'open_close_fade', 'open_close_slide'
+			menu_click_outside : 0, // Clicks outside the drop down close it (1 = true, 0 = false)
+			menu_show_onload : 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
+			menubar_trigger : 0 // Show the menu trigger (button to show / hide the menu bar), only for the fixed version of the menu (1 = show, 0 = hide)
+		});
+	});
+</script>
+
+<link type="text/css" href="css/scrollable-horizontal.css" rel="stylesheet" />
+<link type="text/css" href="css/scrollable-buttons.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+
+<script type="text/javascript">
+    $(function() {
+          $(".scrollable").scrollable({circular: true});
+    });
+</script>
+<style type="text/css">
+/*<!--*/
+.ui-dialog-titlebar-close {
+	visibility: hidden;
+}
+#maincontent { margin-top: 2em; }
+/*-->*/
+</style>
+</head>
+<body>
+	
+<!--
+NOTES:
+	* "autocomplete" attribute is invalid; set in javascript to avoid validation errors
+	* always use relative paths when possible - CHANGE THIS LATER(JAKE)-
+	* <form id="searchform" method="get" action="http://www.missouriwestern.edu/google_search.asp" autocomplete="off">	
+-->
+
+<table border="0" width="100%" cellspacing="0" cellpadding="6" style="background-color:black;">
+	<tr>
+		<td>
+			<table align="center" border="0" width="970" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="509" style="width: 970px" class="style1">
+				<a href="http://www.missouriwestern.edu">
+				<img border="0" src="images/header/logo.png" width="404" height="76" alt="Missouri Western State University" /></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+	<div id="maincontent">
+		
+<h1>Search Results</h1>
+<button type="button" onclick="location.href='Default.asp?tck=202210';">Search Again</button>
+<table class="results">
+	<tr>
+		<th>CRN</th>
+		<th>Course</th>
+		<th>Sec</th>
+		<th>Type</th>
+		<th>Title</th>
+		<th>Hrs</th>
+		<th>Days</th>
+		<th style="width: 150px;">Times</th>
+		<th>Room</th>
+		<th>Instructor</th>
+	</tr>
+	
+		<tr class="list_row">
+			<td>10502</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=105&seq_number_key=01">CET105</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=105&seq_number_key=01">Construction Materials</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Wilson Hall 206</td>
+			<td>Merritt, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10548</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=308&seq_number_key=01">CET308</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=308&seq_number_key=01">Analysis of Structures</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Wilson Hall 105</td>
+			<td>Qiao, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12277</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=315&seq_number_key=01">CET315</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=315&seq_number_key=01">Mechanical Systems</a></td>
+			<td>3</td>
+			<td>T</td>
+			<td>6:00PM-7:50PM</td>
+			<td>Wilson Hall 206</td>
+			<td>Merritt, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 13-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 10<br />
+						
+							Crosslist Seats Available: 19
+					</span>
+					
+				</span>
+				must take concurrently with CET 315 02 Lab&nbsp;
+					Cross listed with MET 315 01&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MET315 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12278</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=315&seq_number_key=02">CET315</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=315&seq_number_key=02">Mechanical Systems</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>5:00PM-7:40PM</td>
+			<td>Wilson Hall 206</td>
+			<td>Merritt, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 13-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 10<br />
+						
+							Crosslist Seats Available: 24
+					</span>
+					
+				</span>
+				must take concurrently with CET 315 01 Lecture&nbsp;
+					cross listed with MET 315 02&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MET315 02
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10553</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=358&seq_number_key=01">CET358</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=358&seq_number_key=01">Structural Steel and Wood Dsgn</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Wilson Hall 105</td>
+			<td>Qiao, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10567</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=360&seq_number_key=01">CET360</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=360&seq_number_key=01">Construction Management</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Wilson Hall 155</td>
+			<td>Moore, W</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				Students must have access to internet and contact instructor&nbsp;
+					prior to the start of class.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12471</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=390&seq_number_key=01">CET390</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=390&seq_number_key=01">Technological Projects</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Prerequisite: Approval by Department Chairperson&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14694</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=390&seq_number_key=02">CET390</a>
+			</td>
+			<td>02</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=390&seq_number_key=02">Technological Projects</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Qiao, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Prerequisite- Approval by Department Chairperson&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14702</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=451&seq_number_key=01">CET451</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=451&seq_number_key=01">Construction Estimating II</a></td>
+			<td>2</td>
+			<td>M</td>
+			<td>2:00PM-3:50PM</td>
+			<td>Wilson Hall 123</td>
+			<td>Moore, W</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				Must Take concurrently with CET 451 02-Lab&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14703</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=451&seq_number_key=02">CET451</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=451&seq_number_key=02">Construction Estimating II</a></td>
+			<td>0</td>
+			<td>W</td>
+			<td>2:00PM-3:50PM</td>
+			<td>Wilson Hall 123</td>
+			<td>Moore, W</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 13<br />
+						
+					</span>
+					
+				</span>
+				Must Take concurrently with CET 451 01-Lecture&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10741</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=458&seq_number_key=01">CET458</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=458&seq_number_key=01">Soil Mechanics and Foundations</a></td>
+			<td>3</td>
+			<td>M</td>
+			<td>6:00PM-7:50PM</td>
+			<td>Wilson Hall 105</td>
+			<td>Qiao, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 19<br />
+						
+					</span>
+					
+				</span>
+				Must take concurrently with CET 458 02 - Lab.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13476</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=458&seq_number_key=02">CET458</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CET&crse_number=458&seq_number_key=02">Soil Mechanics and Foundations</a></td>
+			<td>0</td>
+			<td>W</td>
+			<td>5:00PM-7:40PM</td>
+			<td>Wilson Hall 185</td>
+			<td>Qiao, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14723</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=110&seq_number_key=01">EGT110</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=110&seq_number_key=01">ET Fund and Critical Thinking</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Wilson Hall 150</td>
+			<td>Yang, X</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11131</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=202&seq_number_key=01">EGT202</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=202&seq_number_key=01">Surveying I</a></td>
+			<td>3</td>
+			<td>T</td>
+			<td>12:00PM-1:50PM</td>
+			<td>Wilson Hall 188</td>
+			<td>Moore, W</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 13<br />
+						
+					</span>
+					
+				</span>
+				Must take concurrently with EGT 202 02 - Lab.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11135</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=202&seq_number_key=02">EGT202</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=202&seq_number_key=02">Surveying I</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>12:00PM-2:50PM</td>
+			<td>Wilson Hall 188</td>
+			<td>Moore, W</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 13<br />
+						
+					</span>
+					
+				</span>
+				Must take concurrently with EGT 202 01- Lecture.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15262</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=205&seq_number_key=01">EGT205</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=205&seq_number_key=01">Computer-Aided Drafting I</a></td>
+			<td>3</td>
+			<td>M</td>
+			<td>6:00PM-7:50PM</td>
+			<td>Wilson Hall 123</td>
+			<td>Yang, X</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 18-->
+						Maximum Enrollment: 18<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				Must take concurrently with EGT 205 02 Lab&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15263</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=205&seq_number_key=02">EGT205</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=205&seq_number_key=02">Computer-Aided Drafting I</a></td>
+			<td>0</td>
+			<td>W</td>
+			<td>5:00PM-7:40PM</td>
+			<td>Wilson Hall 123</td>
+			<td>Yang, X</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 18-->
+						Maximum Enrollment: 18<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				Must take concurrently with EGT 205 01 Lecture&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11144</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=205&seq_number_key=05">EGT205</a>
+			</td>
+			<td>05</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=205&seq_number_key=05">Computer-Aided Drafting I</a></td>
+			<td>3</td>
+			<td>T</td>
+			<td>6:00PM-7:50PM</td>
+			<td>Wilson Hall 123</td>
+			<td>Burnich, W</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>T</td>
+				<td>6:00PM-7:50PM</td>
+				<td>Popplewell Hall 108</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 18-->
+						Maximum Enrollment: 18<br />
+						Section Seats Available: 16<br />
+						
+					</span>
+					
+				</span>
+				Must take concurrently with EGT 205 06 - Lab.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11145</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=205&seq_number_key=06">EGT205</a>
+			</td>
+			<td>06</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=205&seq_number_key=06">Computer-Aided Drafting I</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>5:00PM-7:40PM</td>
+			<td>Wilson Hall 123</td>
+			<td>Burnich, W</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>R</td>
+				<td>5:00PM-7:40PM</td>
+				<td>Popplewell Hall 108</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 18-->
+						Maximum Enrollment: 18<br />
+						Section Seats Available: 16<br />
+						
+					</span>
+					
+				</span>
+				Must take concurrently with EGT 205 05 - Lecture.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11191</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=220&seq_number_key=01">EGT220</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=220&seq_number_key=01">Engineering Materials</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Wilson Hall 188</td>
+			<td>Merritt, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11192</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=260&seq_number_key=01">EGT260</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=260&seq_number_key=01">Statics</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Wilson Hall 206</td>
+			<td>Moore, W</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 13<br />
+						
+							Crosslist Seats Available: 18
+					</span>
+					
+				</span>
+				Cross Listed with EGT 265 01&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							EGT265 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12279</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=265&seq_number_key=01">EGT265</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=265&seq_number_key=01">Engineering Statics</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Wilson Hall 206</td>
+			<td>Moore, W</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 5-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 5<br />
+						
+							Crosslist Seats Available: 18
+					</span>
+					
+				</span>
+				Cross listed with EGT 260 01&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							EGT260 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13196</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=350&seq_number_key=40">EGT350</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=350&seq_number_key=40">Technical Report Writing</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Jordan, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14726</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=390&seq_number_key=01">EGT390</a>
+			</td>
+			<td>01</td>
+			<td>Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=390&seq_number_key=01">ET Seminar</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Zhu, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15737</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=440&seq_number_key=01">EGT440</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=440&seq_number_key=01">Thermodynamics</a></td>
+			<td>3</td>
+			<td>T</td>
+			<td>5:00PM-7:40PM</td>
+			<td>Wilson Hall 105</td>
+			<td>Yang, X</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 10-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 8<br />
+						
+							Crosslist Seats Available: 18
+					</span>
+					
+				</span>
+				Cross listed with EGT 530-01&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							EGT530 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15638</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=450&seq_number_key=02">EGT450</a>
+			</td>
+			<td>02</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=450&seq_number_key=02">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Zhu, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Second Session
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 10/18/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11193</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=490&seq_number_key=01">EGT490</a>
+			</td>
+			<td>01</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=490&seq_number_key=01">Engineering Technology Interns</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Zhu, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Prerequisite: Approval by Department Chairperson.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11194</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=490&seq_number_key=02">EGT490</a>
+			</td>
+			<td>02</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=490&seq_number_key=02">Engineering Technology Interns</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Zhu, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Prerequisite: Approval by Department Chairperson.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13935</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=490&seq_number_key=03">EGT490</a>
+			</td>
+			<td>03</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=490&seq_number_key=03">Engineering Technology Interns</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Zhu, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11196</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=490&seq_number_key=04">EGT490</a>
+			</td>
+			<td>04</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=490&seq_number_key=04">Engineering Technology Interns</a></td>
+			<td>4</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Zhu, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Prerequisite: Approval by Department Chairperson.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15486</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=520&seq_number_key=01">EGT520</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=520&seq_number_key=01">Project and Process Management</a></td>
+			<td>3</td>
+			<td>M</td>
+			<td>5:00PM-7:40PM</td>
+			<td>Wilson Hall 105</td>
+			<td>Zhu, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14728</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=530&seq_number_key=01">EGT530</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=530&seq_number_key=01">Current Advancements in EGT</a></td>
+			<td>3</td>
+			<td>T</td>
+			<td>5:00PM-7:40PM</td>
+			<td>Wilson Hall 105</td>
+			<td>Yang, X</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 10-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 10<br />
+						
+							Crosslist Seats Available: 18
+					</span>
+					
+				</span>
+				Cross listed with EGT 440-01&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							EGT440 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11845</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=690&seq_number_key=02">EGT690</a>
+			</td>
+			<td>02</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=690&seq_number_key=02">Engineering Tech Research</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Yang, X</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Prerequisite: Approval by department chairperson&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13702</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=690&seq_number_key=03">EGT690</a>
+			</td>
+			<td>03</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=690&seq_number_key=03">Engineering Tech Research</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Zhu, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Prerequisite:Approval by Department Chair&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13936</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=690&seq_number_key=04">EGT690</a>
+			</td>
+			<td>04</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=690&seq_number_key=04">Engineering Tech Research</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Qiao, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Prerequisite: Approval By Department Chairperson&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14332</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=690&seq_number_key=05">EGT690</a>
+			</td>
+			<td>05</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=EGT&crse_number=690&seq_number_key=05">Engineering Tech Research</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Prerequisite- Must have department chairs approval&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11198</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=100&seq_number_key=01">MET100</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=100&seq_number_key=01">Electrical Circuits for Manufa</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-11:55AM</td>
+			<td>Wilson Hall 150</td>
+			<td>Merritt, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 16<br />
+						
+					</span>
+					
+				</span>
+				Must take concurrently with MET 100 03 - Lab.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11918</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=100&seq_number_key=03">MET100</a>
+			</td>
+			<td>03</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=100&seq_number_key=03">Electrical Circuits for Manufa</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>2:00PM-4:40PM</td>
+			<td>Wilson Hall 150</td>
+			<td>Zhu, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 11<br />
+						
+					</span>
+					
+				</span>
+				Must Take concurrently with MET 100 01 Lecture&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14729</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=131&seq_number_key=01">MET131</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=131&seq_number_key=01">Machine Workshop</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Zhu, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Prerequisite-Department Chair approval&nbsp;
+					Must take concurrently with MET 131 02&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14730</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=131&seq_number_key=02">MET131</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=131&seq_number_key=02">Machine Workshop</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Zhu, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Prerequsite- Department Chair approval&nbsp;
+					Must take concurrently with MET 131 01&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15269</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=223&seq_number_key=01">MET223</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=223&seq_number_key=01">Machines and Tooling</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Arranged ARRG</td>
+			<td>Yang, X</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14446</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=232&seq_number_key=01">MET232</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=232&seq_number_key=01">Automated Manufacturing</a></td>
+			<td>2</td>
+			<td>M</td>
+			<td>12:30PM-1:25PM</td>
+			<td>Wilson Hall 160</td>
+			<td>Yang, X</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				Must take concurrently with MET 232-02 lab.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14447</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=232&seq_number_key=02">MET232</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=232&seq_number_key=02">Automated Manufacturing</a></td>
+			<td>0</td>
+			<td>M</td>
+			<td>2:00PM-3:50PM</td>
+			<td>Wilson Hall 160</td>
+			<td>Yang, X</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 13<br />
+						
+					</span>
+					
+				</span>
+				Must take concurently with MET 232-01 lecture.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14448</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=242&seq_number_key=01">MET242</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=242&seq_number_key=01">CNC Machining Processes</a></td>
+			<td>2</td>
+			<td>W</td>
+			<td>12:30PM-1:25PM</td>
+			<td>Wilson Hall 188</td>
+			<td>Yang, X</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				Must take concurrently with MET 242-02 lab.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14449</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=242&seq_number_key=02">MET242</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=242&seq_number_key=02">CNC Machining Processes</a></td>
+			<td>0</td>
+			<td>W</td>
+			<td>2:00PM-3:50PM</td>
+			<td>Wilson Hall 188</td>
+			<td>Yang, X</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 12<br />
+						
+					</span>
+					
+				</span>
+				Must take concurrently with MET 242-01 lecture.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12776</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=315&seq_number_key=01">MET315</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=315&seq_number_key=01">Mechanical Systems</a></td>
+			<td>3</td>
+			<td>T</td>
+			<td>6:00PM-7:50PM</td>
+			<td>Wilson Hall 206</td>
+			<td>Merritt, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 12-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 9<br />
+						
+							Crosslist Seats Available: 19
+					</span>
+					
+				</span>
+				must take concurrently with MET 315 02 Lab&nbsp;
+					Cross listed with CET 315 01&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							CET315 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12777</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=315&seq_number_key=02">MET315</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=315&seq_number_key=02">Mechanical Systems</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>5:00PM-7:40PM</td>
+			<td>Wilson Hall 206</td>
+			<td>Merritt, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 27<br />
+						
+							Crosslist Seats Available: 24
+					</span>
+					
+				</span>
+				must take concurrently with MET 315 01 Lecture&nbsp;
+					Cross listed with CET 315 02&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							CET315 02
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15487</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=324&seq_number_key=01">MET324</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=324&seq_number_key=01">Industrial Controls</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Arranged ARRG</td>
+			<td>Zhang, Z</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11204</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=390&seq_number_key=01">MET390</a>
+			</td>
+			<td>01</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=390&seq_number_key=01">Design Proj/Indust Intern</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Yang, X</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Prerequisite: Approval by Department Chairperson.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11205</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=390&seq_number_key=02">MET390</a>
+			</td>
+			<td>02</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=390&seq_number_key=02">Design Proj/Indust Intern</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Yang, X</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -2<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Prerequisite: Approval by Department Chairperson.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10760</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=452&seq_number_key=01">MET452</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=452&seq_number_key=01">Automation and Proc Ctrl Tech</a></td>
+			<td>4</td>
+			<td>T</td>
+			<td>2:00PM-4:40PM</td>
+			<td>Wilson Hall 160</td>
+			<td>Zhang, Z</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 16<br />
+						
+					</span>
+					
+				</span>
+				Must take concurrently with MET 452 02 - Lab.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10761</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=452&seq_number_key=02">MET452</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MET&crse_number=452&seq_number_key=02">Automation and Proc Ctrl Tech</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>2:00PM-4:40PM</td>
+			<td>Wilson Hall 160</td>
+			<td>Zhang, Z</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 11<br />
+						
+					</span>
+					
+				</span>
+				Must take concurrently with MET 452 01 - Lecture.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+</table>
+	
+	</div>
+	
+	<div id="loading" title="Loading...">Loading, please wait...</div>
+	<script type="text/javascript">
+	//<!--
+	$(function() {
+		$("#loading").dialog({'modal': true, 'closeOnEscape': false, 'draggable': false, 'resizable': false, 'autoOpen': false });
+	});
+	//-->
+	</script>
+</body>

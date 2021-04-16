@@ -1,0 +1,5726 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+<title>MWSU :: Missouri Western State University</title>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.16.custom.css"/>
+<link rel="stylesheet" type="text/css" href="trans_banner/style.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.slider.css" rel="stylesheet" />
+<!--<link rel="stylesheet" type="text/css" href="/css/custom.css" rel="stylesheet" />-->
+<link rel="stylesheet" type="text/css" href="schedule.css" rel="stylesheet" />
+
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie/megamenu_ie.css" />
+<![endif]-->
+<!--[if lt IE 7]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+<![endif]-->
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/css/ie/mwsu-ie.css" /><![endif]-->
+
+<!--<script type="text/javascript" src="/js/clearfield.js"></script>-->
+<script type="text/javascript" src="js/jquery.js"></script><!-- jQuery -->
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.easing.compatibility.js"></script>
+<script type="text/javascript" src="js/jquery.slider.min.js"></script>
+<script type="text/javascript" src="js/megamenu_plugins.js"></script><!-- Mega Menu Plugins (scroller, form, hoverIntent) -->
+<script type="text/javascript" src="js/megamenu.js"></script><!-- Mega Menu Script -->
+<script type="text/javascript" src="js/jquery.ui.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="trans_banner/trans-banner.min.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/flowplayer/flowplayer-3.2.9.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$( "#accordion" ).accordion({
+			"event": "mouseover"
+		});
+
+		$("#accordion").accordion("option", "icons", { 'header': 'ui-icon-triangle-1-w', 'headerSelected': 'ui-icon-triangle-1-s'});
+	});
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function($){
+		$('.megamenu').megaMenuReloaded({
+			menu_speed_show : 500, // Time (in milliseconds) to show a drop down
+			menu_speed_hide : 500, // Time (in milliseconds) to hide a drop down
+			menu_speed_delay : 500, // Time (in milliseconds) before showing a drop down
+			menu_effect : 'hover_slide', // Drop down effect, choose between 'hover_fade', 'hover_slide', 'click_fade', 'click_slide', 'open_close_fade', 'open_close_slide'
+			menu_click_outside : 0, // Clicks outside the drop down close it (1 = true, 0 = false)
+			menu_show_onload : 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
+			menubar_trigger : 0 // Show the menu trigger (button to show / hide the menu bar), only for the fixed version of the menu (1 = show, 0 = hide)
+		});
+	});
+</script>
+
+<link type="text/css" href="css/scrollable-horizontal.css" rel="stylesheet" />
+<link type="text/css" href="css/scrollable-buttons.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+
+<script type="text/javascript">
+    $(function() {
+          $(".scrollable").scrollable({circular: true});
+    });
+</script>
+<style type="text/css">
+/*<!--*/
+.ui-dialog-titlebar-close {
+	visibility: hidden;
+}
+#maincontent { margin-top: 2em; }
+/*-->*/
+</style>
+</head>
+<body>
+	
+<!--
+NOTES:
+	* "autocomplete" attribute is invalid; set in javascript to avoid validation errors
+	* always use relative paths when possible - CHANGE THIS LATER(JAKE)-
+	* <form id="searchform" method="get" action="http://www.missouriwestern.edu/google_search.asp" autocomplete="off">	
+-->
+
+<table border="0" width="100%" cellspacing="0" cellpadding="6" style="background-color:black;">
+	<tr>
+		<td>
+			<table align="center" border="0" width="970" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="509" style="width: 970px" class="style1">
+				<a href="http://www.missouriwestern.edu">
+				<img border="0" src="images/header/logo.png" width="404" height="76" alt="Missouri Western State University" /></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+	<div id="maincontent">
+		
+<h1>Search Results</h1>
+<button type="button" onclick="location.href='Default.asp?tck=202210';">Search Again</button>
+<table class="results">
+	<tr>
+		<th>CRN</th>
+		<th>Course</th>
+		<th>Sec</th>
+		<th>Type</th>
+		<th>Title</th>
+		<th>Hrs</th>
+		<th>Days</th>
+		<th style="width: 150px;">Times</th>
+		<th>Room</th>
+		<th>Instructor</th>
+	</tr>
+	
+		<tr class="list_row">
+			<td>10442</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=201&seq_number_key=01">ACC201</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=201&seq_number_key=01">Introductory Financial Acctg</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Popplewell Hall 301</td>
+			<td>Adkins, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 27<br />
+						
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10448</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=201&seq_number_key=02">ACC201</a>
+			</td>
+			<td>02</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=201&seq_number_key=02">Introductory Financial Acctg</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Murphy Hall 112</td>
+			<td>Zhang, Y</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 30<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12816</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=201&seq_number_key=40">ACC201</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=201&seq_number_key=40">Introductory Financial Acctg</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Zhang, Y</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 12<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10456</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=202&seq_number_key=01">ACC202</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=202&seq_number_key=01">Introductory Managerial Acctg</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>5:00PM-6:20PM</td>
+			<td>Popplewell Hall 301</td>
+			<td>Adkins, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 29<br />
+						
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the Barnes&nbsp;
+					& Noble First Day Program. Further information can be found&nbsp;
+					in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12817</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=202&seq_number_key=02">ACC202</a>
+			</td>
+			<td>02</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=202&seq_number_key=02">Introductory Managerial Acctg</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Popplewell Hall 309</td>
+			<td>Adkins, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 21<br />
+						
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the Barnes&nbsp;
+					& Noble First Day Program.  Further information can be found&nbsp;
+					in your Canvas. If Covid protocols continue, students may be&nbsp;
+					required to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14398</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=230&seq_number_key=40">ACC230</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=230&seq_number_key=40">Accounting Techniques</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Zhang, Y</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 27<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15817</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=311&seq_number_key=40">ACC311</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=311&seq_number_key=40">Auto Acct Syst for Small Bus</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Adkins, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 23<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10458</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=330&seq_number_key=01">ACC330</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=330&seq_number_key=01">Intermediate Accounting I</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Spratt Hall 109</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				If COvid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10463</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=333&seq_number_key=01">ACC333</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=333&seq_number_key=01">Cost Accounting</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Spratt Hall 109</td>
+			<td>Zhang, Y</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students will be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10466</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=336&seq_number_key=01">ACC336</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=336&seq_number_key=01">Individual Income Tax</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Popplewell Hall 309</td>
+			<td>Adkins, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 36-->
+						Maximum Enrollment: 36<br />
+						Section Seats Available: 23<br />
+						
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					if Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10504</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=375&seq_number_key=01">ACC375</a>
+			</td>
+			<td>01</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=375&seq_number_key=01">Accounting Internship</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10505</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=375&seq_number_key=02">ACC375</a>
+			</td>
+			<td>02</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=375&seq_number_key=02">Accounting Internship</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10506</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=375&seq_number_key=03">ACC375</a>
+			</td>
+			<td>03</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=375&seq_number_key=03">Accounting Internship</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10507</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=375&seq_number_key=04">ACC375</a>
+			</td>
+			<td>04</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=375&seq_number_key=04">Accounting Internship</a></td>
+			<td>4</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10508</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=375&seq_number_key=05">ACC375</a>
+			</td>
+			<td>05</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=375&seq_number_key=05">Accounting Internship</a></td>
+			<td>5</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10509</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=375&seq_number_key=06">ACC375</a>
+			</td>
+			<td>06</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=375&seq_number_key=06">Accounting Internship</a></td>
+			<td>6</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11828</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=418&seq_number_key=01">ACC418</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=418&seq_number_key=01">Accounting Information Systems</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Popplewell Hall 307</td>
+			<td>Choden, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 16-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 10<br />
+						
+							Crosslist Seats Available: 12
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MGT418 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11826</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=418&seq_number_key=40">ACC418</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=418&seq_number_key=40">Accounting Information Systems</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Choden, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 16-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 12<br />
+						
+							Crosslist Seats Available: 5
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							MGT418 40
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11443</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=433&seq_number_key=01">ACC433</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=433&seq_number_key=01">Auditing</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Murphy Hall 113</td>
+			<td>Musick, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15678</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=435&seq_number_key=01">ACC435</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=435&seq_number_key=01">Advanced Fin & Gov Accounting</a></td>
+			<td>3</td>
+			<td>W</td>
+			<td>11:00AM-1:50PM</td>
+			<td>Spratt Hall 205</td>
+			<td>Musick, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 31<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11855</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=450&seq_number_key=01">ACC450</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=450&seq_number_key=01">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11856</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=450&seq_number_key=02">ACC450</a>
+			</td>
+			<td>02</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=450&seq_number_key=02">Independent Research/Project</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11859</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=450&seq_number_key=03">ACC450</a>
+			</td>
+			<td>03</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=450&seq_number_key=03">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11860</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=450&seq_number_key=04">ACC450</a>
+			</td>
+			<td>04</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=450&seq_number_key=04">Independent Research/Project</a></td>
+			<td>4</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15617</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=623&seq_number_key=40">ACC623</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=623&seq_number_key=40">Auditing for Fraud</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Molloy, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 28<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14399</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=633&seq_number_key=01">ACC633</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=633&seq_number_key=01">Foundations of FIN and ACC</a></td>
+			<td>3</td>
+			<td>M</td>
+			<td>5:00PM-7:40PM</td>
+			<td>Popplewell Hall 301</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 31<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14945</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=633&seq_number_key=41">ACC633</a>
+			</td>
+			<td>41</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ACC&crse_number=633&seq_number_key=41">Foundations of FIN and ACC</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 21<br />
+						
+					</span>
+					
+				</span>
+				This section for online MBA students only.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+				</span>
+				<span class="course_term">
+					Second Session Online
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 10/18/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13192</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ENT&crse_number=201&seq_number_key=01">ENT201</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ENT&crse_number=201&seq_number_key=01">Entrepreneurship I</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 301</td>
+			<td>Singh, N</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 11<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12827</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=FIN&crse_number=210&seq_number_key=40">FIN210</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=FIN&crse_number=210&seq_number_key=40">Personal Finance</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Qiu, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10519</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=FIN&crse_number=301&seq_number_key=01">FIN301</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=FIN&crse_number=301&seq_number_key=01">Financial Management</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>5:00PM-6:20PM</td>
+			<td>Popplewell Hall 302</td>
+			<td>Qiu, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 19<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10520</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=FIN&crse_number=301&seq_number_key=02">FIN301</a>
+			</td>
+			<td>02</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=FIN&crse_number=301&seq_number_key=02">Financial Management</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Popplewell Hall 309</td>
+			<td>Chiao, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 16<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10521</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=FIN&crse_number=310&seq_number_key=01">FIN310</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=FIN&crse_number=310&seq_number_key=01">Investments</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 309</td>
+			<td>Chiao, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 22<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10523</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=FIN&crse_number=321&seq_number_key=01">FIN321</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=FIN&crse_number=321&seq_number_key=01">Financial Mkts & Institutions</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Popplewell Hall 206</td>
+			<td>Qiu, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10525</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=FIN&crse_number=412&seq_number_key=01">FIN412</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=FIN&crse_number=412&seq_number_key=01">Futures and Options</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Murphy Hall 113</td>
+			<td>Qiu, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 22<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11848</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=FIN&crse_number=431&seq_number_key=01">FIN431</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=FIN&crse_number=431&seq_number_key=01">International Financial Mgt</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 309</td>
+			<td>Chiao, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10526</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=110&seq_number_key=01">GBA110</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=110&seq_number_key=01">Introduction to Business</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Popplewell Hall 207</td>
+			<td>Klaus, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 31<br />
+						
+					</span>
+					
+				</span>
+				GBA 110 limited to students with fewer than 24 hours of&nbsp;
+					college credit including those in progress.&nbsp;
+					If Covid protocols continue, students will be&nbsp;
+					required to alternate attending face-to-face and&nbsp;
+					virtually.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes & Noble First Day program. Further information&nbsp;
+					can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12806</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=110&seq_number_key=02">GBA110</a>
+			</td>
+			<td>02</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=110&seq_number_key=02">Introduction to Business</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Popplewell Hall 301</td>
+			<td>Klaus, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 32<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15360</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=110&seq_number_key=03">GBA110</a>
+			</td>
+			<td>03</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=110&seq_number_key=03">Introduction to Business</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Popplewell Hall 304</td>
+			<td>Klaus, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 31<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13923</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=201&seq_number_key=01">GBA201</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=201&seq_number_key=01">Business Analytics & Reporting</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Popplewell Hall 108</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13924</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=201&seq_number_key=02">GBA201</a>
+			</td>
+			<td>02</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=201&seq_number_key=02">Business Analytics & Reporting</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 108</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 23<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15436</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=201&seq_number_key=40">GBA201</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=201&seq_number_key=40">Business Analytics & Reporting</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Choden, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 11<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10535</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=210&seq_number_key=01">GBA210</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=210&seq_number_key=01">Business Statistics I</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Popplewell Hall 302</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 31<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virutally.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10536</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=210&seq_number_key=02">GBA210</a>
+			</td>
+			<td>02</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=210&seq_number_key=02">Business Statistics I</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Popplewell Hall 207</td>
+			<td>Tarun, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 26<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13535</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=210&seq_number_key=40">GBA210</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=210&seq_number_key=40">Business Statistics I</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 16<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10541</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=211&seq_number_key=02">GBA211</a>
+			</td>
+			<td>02</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=211&seq_number_key=02">Business Law I</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Popplewell Hall 304</td>
+			<td>Salfrank, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 19<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10543</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=211&seq_number_key=03">GBA211</a>
+			</td>
+			<td>03</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=211&seq_number_key=03">Business Law I</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 304</td>
+			<td>Salfrank, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 27<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12818</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=211&seq_number_key=40">GBA211</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=211&seq_number_key=40">Business Law I</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Salfrank, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 12<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10554</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=311&seq_number_key=40">GBA311</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=311&seq_number_key=40">Business Law II</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Salfrank, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 1<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10555</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=375&seq_number_key=01">GBA375</a>
+			</td>
+			<td>01</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=375&seq_number_key=01">Business Internship</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10556</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=375&seq_number_key=02">GBA375</a>
+			</td>
+			<td>02</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=375&seq_number_key=02">Business Internship</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10557</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=375&seq_number_key=03">GBA375</a>
+			</td>
+			<td>03</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=375&seq_number_key=03">Business Internship</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10558</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=375&seq_number_key=04">GBA375</a>
+			</td>
+			<td>04</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=375&seq_number_key=04">Business Internship</a></td>
+			<td>4</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10559</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=375&seq_number_key=05">GBA375</a>
+			</td>
+			<td>05</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=375&seq_number_key=05">Business Internship</a></td>
+			<td>5</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10560</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=375&seq_number_key=06">GBA375</a>
+			</td>
+			<td>06</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=375&seq_number_key=06">Business Internship</a></td>
+			<td>6</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15272</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=445&seq_number_key=01">GBA445</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=445&seq_number_key=01">Business Practicum</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Popplewell Hall 204</td>
+			<td>Singh, N</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 25<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10532</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=480&seq_number_key=01">GBA480</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=480&seq_number_key=01">Directed Student Research</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Chiao, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -1<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10533</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=481&seq_number_key=01">GBA481</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GBA&crse_number=481&seq_number_key=01">Workplace Research</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Chiao, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13543</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MIM&crse_number=643&seq_number_key=01">MIM643</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MIM&crse_number=643&seq_number_key=01">Supply Chain & Cust Relations</a></td>
+			<td>3</td>
+			<td>R</td>
+			<td>5:00PM-7:40PM</td>
+			<td>Popplewell Hall 307</td>
+			<td>Verma, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 29<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14942</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MIM&crse_number=643&seq_number_key=41">MIM643</a>
+			</td>
+			<td>41</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MIM&crse_number=643&seq_number_key=41">Supply Chain & Cust Relations</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Verma, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				This section for online MBA students only.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					First Session Online
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 10/15/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13928</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=341&seq_number_key=01">MGT341</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=341&seq_number_key=01">Human Resources Management</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 207</td>
+			<td>Kimmel, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 9<br />
+						
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13540</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=350&seq_number_key=01">MGT350</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=350&seq_number_key=01">Organizational Behavior</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 301</td>
+			<td>Luthans, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 25<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13191</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=350&seq_number_key=02">MGT350</a>
+			</td>
+			<td>02</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=350&seq_number_key=02">Organizational Behavior</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Popplewell Hall 301</td>
+			<td>Luthans, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 25<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12809</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=350&seq_number_key=40">MGT350</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=350&seq_number_key=40">Organizational Behavior</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Luthans, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 7<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13929</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=360&seq_number_key=40">MGT360</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=360&seq_number_key=40">Org Theory, Design, Change Mgt</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Kimmel, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10580</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=416&seq_number_key=02">MGT416</a>
+			</td>
+			<td>02</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=416&seq_number_key=02">Production and Operations Mgt</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Popplewell Hall 207</td>
+			<td>Tarun, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 27<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continues, students may be required to&nbsp;
+					alternate attending face-to-face and virutally.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14402</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=416&seq_number_key=40">MGT416</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=416&seq_number_key=40">Production and Operations Mgt</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Tarun, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 5<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11827</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=418&seq_number_key=01">MGT418</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=418&seq_number_key=01">Management Information Systems</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Popplewell Hall 307</td>
+			<td>Choden, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 16-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 9<br />
+						
+							Crosslist Seats Available: 12
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							ACC418 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11825</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=418&seq_number_key=40">MGT418</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=418&seq_number_key=40">Management Information Systems</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Choden, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 16-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 0<br />
+						
+							Crosslist Seats Available: 5
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							ACC418 40
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10583</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=419&seq_number_key=40">MGT419</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=419&seq_number_key=40">Strategic Management</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Singh, N</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10586</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=425&seq_number_key=40">MGT425</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=425&seq_number_key=40">International Management</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Luthans, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 19<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15442</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=444&seq_number_key=40">MGT444</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=444&seq_number_key=40">Org Staffing, Train and Safety</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Choden, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 25<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15273</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=470&seq_number_key=01">MGT470</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=470&seq_number_key=01">Management Leadership</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Popplewell Hall 304</td>
+			<td>McIntosh, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14944</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=604&seq_number_key=41">MGT604</a>
+			</td>
+			<td>41</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=604&seq_number_key=41">Organizational Behavior Mgt</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>McIntosh, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				This section for online MBA students only.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+				</span>
+				<span class="course_term">
+					Second Session Online
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 10/18/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14403</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=633&seq_number_key=01">MGT633</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=633&seq_number_key=01">Contemporary Issues in Mgmt</a></td>
+			<td>3</td>
+			<td>W</td>
+			<td>5:00PM-7:40PM</td>
+			<td>Popplewell Hall 309</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 32<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virutally.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14943</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=633&seq_number_key=41">MGT633</a>
+			</td>
+			<td>41</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=633&seq_number_key=41">Contemporary Issues in Mgmt</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Kimmel, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 25<br />
+						
+					</span>
+					
+				</span>
+				This section for online MBA students only.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+				</span>
+				<span class="course_term">
+					First Session Online
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 10/15/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15443</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=695&seq_number_key=01">MGT695</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=695&seq_number_key=01">Applied Strategic Management</a></td>
+			<td>3</td>
+			<td>T</td>
+			<td>5:30PM-7:20PM</td>
+			<td>Popplewell Hall 302</td>
+			<td>McLaughlin, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 28<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15311</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=695&seq_number_key=41">MGT695</a>
+			</td>
+			<td>41</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MGT&crse_number=695&seq_number_key=41">Applied Strategic Management</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>McLaughlin, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 26<br />
+						
+					</span>
+					
+				</span>
+				This section for online MBA students only.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+				</span>
+				<span class="course_term">
+					Second Session Online
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 10/18/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15736</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=301&seq_number_key=01">MKT301</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=301&seq_number_key=01">Principles of Marketing</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Popplewell Hall 301</td>
+			<td>Bell, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 27<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10590</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=301&seq_number_key=02">MKT301</a>
+			</td>
+			<td>02</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=301&seq_number_key=02">Principles of Marketing</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Popplewell Hall 301</td>
+			<td>Bell, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 22<br />
+						
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be asked to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10591</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=301&seq_number_key=40">MKT301</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=301&seq_number_key=40">Principles of Marketing</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Bell, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 1<br />
+						
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15310</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=311&seq_number_key=01">MKT311</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=311&seq_number_key=01">Consumer Behavior</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 206</td>
+			<td>Frank, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 22<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10593</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=351&seq_number_key=01">MKT351</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=351&seq_number_key=01">Professional Selling/Sales Mgt</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Popplewell Hall 301</td>
+			<td>Bell, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14937</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=370&seq_number_key=01">MKT370</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=370&seq_number_key=01">Digital Marketing</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Popplewell Hall 206</td>
+			<td>Frank, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 28<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10594</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=381&seq_number_key=01">MKT381</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=381&seq_number_key=01">Advertising and Promotion</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Popplewell Hall 302</td>
+			<td>Nandan, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes & Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10595</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=401&seq_number_key=01">MKT401</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=401&seq_number_key=01">Marketing Research</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Popplewell Hall 307</td>
+			<td>Frank, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 19<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face or virtually.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15001</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=451&seq_number_key=01">MKT451</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=451&seq_number_key=01">International Mkt and Trade</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Popplewell Hall 206</td>
+			<td>Frank, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 16<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face or virtually.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10597</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=481&seq_number_key=01">MKT481</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=481&seq_number_key=01">Marketing Management</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 302</td>
+			<td>Nandan, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 27<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13932</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=605&seq_number_key=40">MKT605</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=MKT&crse_number=605&seq_number_key=40">Strategic Marketing</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Nandan, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 31<br />
+						
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13974</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SCM&crse_number=301&seq_number_key=01">SCM301</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SCM&crse_number=301&seq_number_key=01">Principles of Supply Chain Mgt</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 302</td>
+			<td>Lamsal, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 23<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14938</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SCM&crse_number=301&seq_number_key=02">SCM301</a>
+			</td>
+			<td>02</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SCM&crse_number=301&seq_number_key=02">Principles of Supply Chain Mgt</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Popplewell Hall 207</td>
+			<td>Tarun, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 31<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15562</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SCM&crse_number=301&seq_number_key=03">SCM301</a>
+			</td>
+			<td>03</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SCM&crse_number=301&seq_number_key=03">Principles of Supply Chain Mgt</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Popplewell Hall 309</td>
+			<td>Verma, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 21<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15275</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SCM&crse_number=301&seq_number_key=40">SCM301</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SCM&crse_number=301&seq_number_key=40">Principles of Supply Chain Mgt</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Lamsal, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15623</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SCM&crse_number=496&seq_number_key=01">SCM496</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SCM&crse_number=496&seq_number_key=01">Advanced Analytics</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Popplewell Hall 302</td>
+			<td>Lamsal, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 32-->
+						Maximum Enrollment: 32<br />
+						Section Seats Available: 26<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+</table>
+	
+	</div>
+	
+	<div id="loading" title="Loading...">Loading, please wait...</div>
+	<script type="text/javascript">
+	//<!--
+	$(function() {
+		$("#loading").dialog({'modal': true, 'closeOnEscape': false, 'draggable': false, 'resizable': false, 'autoOpen': false });
+	});
+	//-->
+	</script>
+</body>

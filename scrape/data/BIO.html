@@ -1,0 +1,7086 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+<title>MWSU :: Missouri Western State University</title>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.16.custom.css"/>
+<link rel="stylesheet" type="text/css" href="trans_banner/style.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.slider.css" rel="stylesheet" />
+<!--<link rel="stylesheet" type="text/css" href="/css/custom.css" rel="stylesheet" />-->
+<link rel="stylesheet" type="text/css" href="schedule.css" rel="stylesheet" />
+
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie/megamenu_ie.css" />
+<![endif]-->
+<!--[if lt IE 7]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+<![endif]-->
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/css/ie/mwsu-ie.css" /><![endif]-->
+
+<!--<script type="text/javascript" src="/js/clearfield.js"></script>-->
+<script type="text/javascript" src="js/jquery.js"></script><!-- jQuery -->
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.easing.compatibility.js"></script>
+<script type="text/javascript" src="js/jquery.slider.min.js"></script>
+<script type="text/javascript" src="js/megamenu_plugins.js"></script><!-- Mega Menu Plugins (scroller, form, hoverIntent) -->
+<script type="text/javascript" src="js/megamenu.js"></script><!-- Mega Menu Script -->
+<script type="text/javascript" src="js/jquery.ui.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="trans_banner/trans-banner.min.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/flowplayer/flowplayer-3.2.9.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$( "#accordion" ).accordion({
+			"event": "mouseover"
+		});
+
+		$("#accordion").accordion("option", "icons", { 'header': 'ui-icon-triangle-1-w', 'headerSelected': 'ui-icon-triangle-1-s'});
+	});
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function($){
+		$('.megamenu').megaMenuReloaded({
+			menu_speed_show : 500, // Time (in milliseconds) to show a drop down
+			menu_speed_hide : 500, // Time (in milliseconds) to hide a drop down
+			menu_speed_delay : 500, // Time (in milliseconds) before showing a drop down
+			menu_effect : 'hover_slide', // Drop down effect, choose between 'hover_fade', 'hover_slide', 'click_fade', 'click_slide', 'open_close_fade', 'open_close_slide'
+			menu_click_outside : 0, // Clicks outside the drop down close it (1 = true, 0 = false)
+			menu_show_onload : 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
+			menubar_trigger : 0 // Show the menu trigger (button to show / hide the menu bar), only for the fixed version of the menu (1 = show, 0 = hide)
+		});
+	});
+</script>
+
+<link type="text/css" href="css/scrollable-horizontal.css" rel="stylesheet" />
+<link type="text/css" href="css/scrollable-buttons.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+
+<script type="text/javascript">
+    $(function() {
+          $(".scrollable").scrollable({circular: true});
+    });
+</script>
+<style type="text/css">
+/*<!--*/
+.ui-dialog-titlebar-close {
+	visibility: hidden;
+}
+#maincontent { margin-top: 2em; }
+/*-->*/
+</style>
+</head>
+<body>
+	
+<!--
+NOTES:
+	* "autocomplete" attribute is invalid; set in javascript to avoid validation errors
+	* always use relative paths when possible - CHANGE THIS LATER(JAKE)-
+	* <form id="searchform" method="get" action="http://www.missouriwestern.edu/google_search.asp" autocomplete="off">	
+-->
+
+<table border="0" width="100%" cellspacing="0" cellpadding="6" style="background-color:black;">
+	<tr>
+		<td>
+			<table align="center" border="0" width="970" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="509" style="width: 970px" class="style1">
+				<a href="http://www.missouriwestern.edu">
+				<img border="0" src="images/header/logo.png" width="404" height="76" alt="Missouri Western State University" /></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+	<div id="maincontent">
+		
+<h1>Search Results</h1>
+<button type="button" onclick="location.href='Default.asp?tck=202210';">Search Again</button>
+<table class="results">
+	<tr>
+		<th>CRN</th>
+		<th>Course</th>
+		<th>Sec</th>
+		<th>Type</th>
+		<th>Title</th>
+		<th>Hrs</th>
+		<th>Days</th>
+		<th style="width: 150px;">Times</th>
+		<th>Room</th>
+		<th>Instructor</th>
+	</tr>
+	
+		<tr class="list_row">
+			<td>12210</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=01">BIO101</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=01">Principles of Biology</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Spratt Hall 216</td>
+			<td>Newton, A</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>MW</td>
+				<td>8:00AM-9:20AM</td>
+				<td>Spratt Hall 214</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 48-->
+						Maximum Enrollment: 72<br />
+						Section Seats Available: 38<br />
+						
+							Crosslist Seats Available: 60
+					</span>
+					
+				</span>
+				Must take with one of the following labs: BIO 101-07&nbsp;
+					BIO 101-12&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							BIO101 80
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12211</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=02">BIO101</a>
+			</td>
+			<td>02</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=02">Principles of Biology</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Fulkerson Center CENTER</td>
+			<td>Jedlicka, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 96-->
+						Maximum Enrollment: 96<br />
+						Section Seats Available: 84<br />
+						
+					</span>
+					
+				</span>
+				Must take with one of the following labs: BIO 101-05,&nbsp;
+					BIO 101-08, BIO101-10 or BIO 101-13,&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12213</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=03">BIO101</a>
+			</td>
+			<td>03</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=03">Principles of Biology</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Fulkerson Center CENTER</td>
+			<td>Ganong, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 72-->
+						Maximum Enrollment: 72<br />
+						Section Seats Available: 64<br />
+						
+					</span>
+					
+				</span>
+				Must take with one of the following labs:&nbsp;
+					BIO 101-06 or BIO 101-09 or BIO 101-11&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10322</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=05">BIO101</a>
+			</td>
+			<td>05</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=05">Principles of Biology</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>2:00PM-3:50PM</td>
+			<td>Remington Hall 209</td>
+			<td>Chevalier, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 22<br />
+						
+					</span>
+					
+				</span>
+				Must take with lecture BIO101-02&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10323</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=06">BIO101</a>
+			</td>
+			<td>06</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=06">Principles of Biology</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>4:00PM-5:50PM</td>
+			<td>Remington Hall 209</td>
+			<td>Breckenridge, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				Must take with lecture BIO101-03&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10324</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=07">BIO101</a>
+			</td>
+			<td>07</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=07">Principles of Biology</a></td>
+			<td>0</td>
+			<td>W</td>
+			<td>10:00AM-11:50AM</td>
+			<td>Remington Hall 209</td>
+			<td>Newton, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				Must take with lecture BIO101-01&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10325</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=08">BIO101</a>
+			</td>
+			<td>08</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=08">Principles of Biology</a></td>
+			<td>0</td>
+			<td>W</td>
+			<td>2:00PM-3:50PM</td>
+			<td>Remington Hall 209</td>
+			<td>Koy, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 22<br />
+						
+					</span>
+					
+				</span>
+				Must take with lecture BIO101-02&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10327</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=09">BIO101</a>
+			</td>
+			<td>09</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=09">Principles of Biology</a></td>
+			<td>0</td>
+			<td>W</td>
+			<td>4:00PM-5:50PM</td>
+			<td>Remington Hall 209</td>
+			<td>Breckenridge, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				Must take with lecture BIO101-03&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10328</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=10">BIO101</a>
+			</td>
+			<td>10</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=10">Principles of Biology</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>9:00AM-11:50AM</td>
+			<td>Remington Hall 209</td>
+			<td>Koy, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 16<br />
+						
+					</span>
+					
+				</span>
+				Must take with lecture BIO101-02&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10337</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=11">BIO101</a>
+			</td>
+			<td>11</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=11">Principles of Biology</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>12:00PM-1:50PM</td>
+			<td>Remington Hall 209</td>
+			<td>Ganong, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				Must take with lecture BIO101-03&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10330</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=12">BIO101</a>
+			</td>
+			<td>12</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=12">Principles of Biology</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>2:00PM-3:50PM</td>
+			<td>Remington Hall 209</td>
+			<td>Eckdahl, T</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				Must take with lecture BIO101-01&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10331</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=13">BIO101</a>
+			</td>
+			<td>13</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=13">Principles of Biology</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>4:00PM-5:50PM</td>
+			<td>Remington Hall 209</td>
+			<td>Chevalier, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				Must take with lecture BIO101-02&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13938</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=40">BIO101</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=40">Principles of Biology</a></td>
+			<td>4</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Nabors, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 9<br />
+						
+					</span>
+					
+				</span>
+				Must take with lab section BIO101-41&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15124</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=41">BIO101</a>
+			</td>
+			<td>41</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=41">Principles of Biology</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Nabors, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 9<br />
+						
+					</span>
+					
+				</span>
+				Must take with lecture section BIO101-40&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13481</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=80">BIO101</a>
+			</td>
+			<td>80</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=80">Principles of Biology (Honors)</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Spratt Hall 214</td>
+			<td>Newton, A</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>M</td>
+				<td>8:00AM-9:20AM</td>
+				<td>Spratt Hall 216</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 72<br />
+						Section Seats Available: 22<br />
+						
+							Crosslist Seats Available: 60
+					</span>
+					
+				</span>
+				Must enroll in Honors lab BIO101-81&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							BIO101 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13482</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=81">BIO101</a>
+			</td>
+			<td>81</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=101&seq_number_key=81">Principles of Biology (Honors)</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>8:00AM-9:50AM</td>
+			<td>Remington Hall 209</td>
+			<td>Newton, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 22<br />
+						
+					</span>
+					
+				</span>
+				Must enroll in Honors lecture BIO101-80&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13940</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=105&seq_number_key=01">BIO105</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=105&seq_number_key=01">Prin of Organismal Biology</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Agenstein Hall 324</td>
+			<td>Roy, T</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 48-->
+						Maximum Enrollment: 72<br />
+						Section Seats Available: 42<br />
+						
+							Crosslist Seats Available: 66
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							BIO105 80
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13941</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=105&seq_number_key=02">BIO105</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=105&seq_number_key=02">Prin of Organismal Biology</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>8:00AM-10:50AM</td>
+			<td>Remington Hall 211</td>
+			<td>Roy, T</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 21<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13943</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=105&seq_number_key=03">BIO105</a>
+			</td>
+			<td>03</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=105&seq_number_key=03">Prin of Organismal Biology</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>2:00PM-4:50PM</td>
+			<td>Remington Hall 211</td>
+			<td>Roy, T</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 21<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13944</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=105&seq_number_key=80">BIO105</a>
+			</td>
+			<td>80</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=105&seq_number_key=80">Prin of Org Biology (Honors)</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Agenstein Hall 324</td>
+			<td>Roy, T</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 72<br />
+						Section Seats Available: 24<br />
+						
+							Crosslist Seats Available: 66
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							BIO105 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13946</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=105&seq_number_key=81">BIO105</a>
+			</td>
+			<td>81</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=105&seq_number_key=81">Prin of Org Biology (Honors)</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>8:00AM-10:50AM</td>
+			<td>Remington Hall 211</td>
+			<td>Roy, T</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10349</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=106&seq_number_key=01">BIO106</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=106&seq_number_key=01">Principles of Cell Biology</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Agenstein Hall 324</td>
+			<td>Barta, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 60-->
+						Maximum Enrollment: 60<br />
+						Section Seats Available: 48<br />
+						
+					</span>
+					
+				</span>
+				Must take with BIO106 lab&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10350</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=106&seq_number_key=02">BIO106</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=106&seq_number_key=02">Principles of Cell Biology</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>8:00AM-10:50AM</td>
+			<td>Remington Hall 205</td>
+			<td>Barta, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 16<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10351</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=106&seq_number_key=03">BIO106</a>
+			</td>
+			<td>03</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=106&seq_number_key=03">Principles of Cell Biology</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>2:00PM-4:50PM</td>
+			<td>Remington Hall 205</td>
+			<td>Barta, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10352</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=106&seq_number_key=04">BIO106</a>
+			</td>
+			<td>04</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=106&seq_number_key=04">Principles of Cell Biology</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>8:00AM-10:50AM</td>
+			<td>Remington Hall 205</td>
+			<td>Elias, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10353</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=205&seq_number_key=01">BIO205</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=205&seq_number_key=01">Genetics</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Spratt Hall 101</td>
+			<td>Eckdahl, T</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 40-->
+						Maximum Enrollment: 40<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10354</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=205&seq_number_key=02">BIO205</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=205&seq_number_key=02">Genetics</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>8:00AM-10:50AM</td>
+			<td>Remington Hall 208</td>
+			<td>Eckdahl, T</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 9<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10355</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=205&seq_number_key=03">BIO205</a>
+			</td>
+			<td>03</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=205&seq_number_key=03">Genetics</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>2:00PM-4:50PM</td>
+			<td>Remington Hall 208</td>
+			<td>Eckdahl, T</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 8<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14270</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=207&seq_number_key=01">BIO207</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=207&seq_number_key=01">Human Ecology</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Agenstein Hall 324</td>
+			<td>Jedlicka, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12241</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=225&seq_number_key=01">BIO225</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=225&seq_number_key=01">Ecology</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Spratt Hall 205</td>
+			<td>Mills, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 40-->
+						Maximum Enrollment: 40<br />
+						Section Seats Available: 27<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12242</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=225&seq_number_key=02">BIO225</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=225&seq_number_key=02">Ecology</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>8:00AM-10:50AM</td>
+			<td>Remington Hall 217</td>
+			<td>Mills, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 12<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12243</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=225&seq_number_key=03">BIO225</a>
+			</td>
+			<td>03</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=225&seq_number_key=03">Ecology</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>2:00PM-4:50PM</td>
+			<td>Remington Hall 217</td>
+			<td>Mills, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 15<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10357</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=250&seq_number_key=01">BIO250</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=250&seq_number_key=01">Anatomy and Physiology</a></td>
+			<td>5</td>
+			<td>TW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Fulkerson Center CENTER</td>
+			<td>Elias, A</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>R</td>
+				<td>12:30PM-1:25PM</td>
+				<td>Fulkerson Center CENTER</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 120-->
+						Maximum Enrollment: 120<br />
+						Section Seats Available: 84<br />
+						
+					</span>
+					
+				</span>
+				Supplemental Instruction offered.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10358</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=250&seq_number_key=02">BIO250</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=250&seq_number_key=02">Anatomy and Physiology</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>10:00AM-11:50AM</td>
+			<td>Agenstein Hall 227</td>
+			<td>Elias, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 12<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11667</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=250&seq_number_key=03">BIO250</a>
+			</td>
+			<td>03</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=250&seq_number_key=03">Anatomy and Physiology</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>2:00PM-3:50PM</td>
+			<td>Agenstein Hall 227</td>
+			<td>Newton, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10359</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=250&seq_number_key=04">BIO250</a>
+			</td>
+			<td>04</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=250&seq_number_key=04">Anatomy and Physiology</a></td>
+			<td>0</td>
+			<td>W</td>
+			<td>10:00AM-11:50AM</td>
+			<td>Agenstein Hall 227</td>
+			<td>Elias, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 11<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12122</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=250&seq_number_key=05">BIO250</a>
+			</td>
+			<td>05</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=250&seq_number_key=05">Anatomy and Physiology</a></td>
+			<td>0</td>
+			<td>W</td>
+			<td>2:00PM-3:50PM</td>
+			<td>Remington Hall 217</td>
+			<td>Newton, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 10<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10361</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=250&seq_number_key=06">BIO250</a>
+			</td>
+			<td>06</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=250&seq_number_key=06">Anatomy and Physiology</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>9:00AM-10:50AM</td>
+			<td>Agenstein Hall 227</td>
+			<td>Newton, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10362</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=250&seq_number_key=07">BIO250</a>
+			</td>
+			<td>07</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=250&seq_number_key=07">Anatomy and Physiology</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>2:00PM-3:50PM</td>
+			<td>Agenstein Hall 227</td>
+			<td>Elias, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10363</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=251&seq_number_key=01">BIO251</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=251&seq_number_key=01">Med and Public Health Microbio</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Fulkerson Center CENTER</td>
+			<td>Grantham, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 80-->
+						Maximum Enrollment: 80<br />
+						Section Seats Available: 25<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12267</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=251&seq_number_key=02">BIO251</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=251&seq_number_key=02">Med and Public Health Microbio</a></td>
+			<td>0</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Remington Hall 201</td>
+			<td>Grantham, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Full</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10366</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=251&seq_number_key=03">BIO251</a>
+			</td>
+			<td>03</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=251&seq_number_key=03">Med and Public Health Microbio</a></td>
+			<td>0</td>
+			<td>TR</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Remington Hall 201</td>
+			<td>Grantham, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 11<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11929</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=251&seq_number_key=04">BIO251</a>
+			</td>
+			<td>04</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=251&seq_number_key=04">Med and Public Health Microbio</a></td>
+			<td>0</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Remington Hall 201</td>
+			<td>Baker, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Full</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14951</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=251&seq_number_key=05">BIO251</a>
+			</td>
+			<td>05</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=251&seq_number_key=05">Med and Public Health Microbio</a></td>
+			<td>0</td>
+			<td>MW</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Remington Hall 201</td>
+			<td>Baker, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15605</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=283&seq_number_key=01">BIO283</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=283&seq_number_key=01">Intro to Res Methods in Bio</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Grantham, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15125</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=307&seq_number_key=01">BIO307</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=307&seq_number_key=01">Plant Morphology</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Agenstein Hall 126</td>
+			<td>Barta, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 4<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15126</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=307&seq_number_key=02">BIO307</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=307&seq_number_key=02">Plant Morphology</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>8:00AM-10:50AM</td>
+			<td>Remington Hall 208</td>
+			<td>Barta, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 4<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15567</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=310&seq_number_key=01">BIO310</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=310&seq_number_key=01">Molecular Cell Biology</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Agenstein Hall 123</td>
+			<td>Grantham, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 1<br />
+						
+					</span>
+					
+				</span>
+				Must take with lab BIO310-02&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15568</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=310&seq_number_key=02">BIO310</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=310&seq_number_key=02">Molecular Cell Biology</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>2:00PM-4:50PM</td>
+			<td>Remington Hall 205</td>
+			<td>Grantham, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 1<br />
+						
+					</span>
+					
+				</span>
+				Must take with lecture BIO310-01&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10368</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=311&seq_number_key=01">BIO311</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=311&seq_number_key=01">Animal Physiology</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Griffon Indoor Sports Complex 134</td>
+			<td>Walton, K</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>MW</td>
+				<td>9:30AM-10:50AM</td>
+				<td>Griffon Indoor Sports Complex 113</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 40-->
+						Maximum Enrollment: 40<br />
+						Section Seats Available: 13<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10369</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=311&seq_number_key=02">BIO311</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=311&seq_number_key=02">Animal Physiology</a></td>
+			<td>0</td>
+			<td>M</td>
+			<td>2:00PM-4:50PM</td>
+			<td>Agenstein Hall 227</td>
+			<td>Walton, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 1<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12894</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=311&seq_number_key=03">BIO311</a>
+			</td>
+			<td>03</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=311&seq_number_key=03">Animal Physiology</a></td>
+			<td>0</td>
+			<td>W</td>
+			<td>12:30PM-3:20PM</td>
+			<td>Agenstein Hall 227</td>
+			<td>Walton, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 12<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10373</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=375&seq_number_key=01">BIO375</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=375&seq_number_key=01">Pathophysiology</a></td>
+			<td>4</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Spratt Hall 101</td>
+			<td>Walton, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 100-->
+						Maximum Enrollment: 100<br />
+						Section Seats Available: 55<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15504</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=380&seq_number_key=02">BIO380</a>
+			</td>
+			<td>02</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=380&seq_number_key=02">Biology Teaching:Matrls & Meth</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Koy, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 5-->
+						Maximum Enrollment: 5<br />
+						Section Seats Available: 4<br />
+						
+							Crosslist Seats Available: 3
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							CHE465 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10374</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=390&seq_number_key=01">BIO390</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=390&seq_number_key=01">Microbiology</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Griffon Indoor Sports Complex 134</td>
+			<td>Baker, J</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>MW</td>
+				<td>12:30PM-1:50PM</td>
+				<td>Griffon Indoor Sports Complex 113</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 40-->
+						Maximum Enrollment: 40<br />
+						Section Seats Available: 19<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10375</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=390&seq_number_key=02">BIO390</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=390&seq_number_key=02">Microbiology</a></td>
+			<td>0</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Remington Hall 201</td>
+			<td>Baker, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Full</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10376</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=390&seq_number_key=03">BIO390</a>
+			</td>
+			<td>03</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=390&seq_number_key=03">Microbiology</a></td>
+			<td>0</td>
+			<td>TR</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Remington Hall 201</td>
+			<td>Baker, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 19<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15724</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=418&seq_number_key=01">BIO418</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=418&seq_number_key=01">Mammalogy</a></td>
+			<td>4</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Agenstein Hall 328</td>
+			<td>Chevalier, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 2<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15725</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=418&seq_number_key=02">BIO418</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=418&seq_number_key=02">Mammalogy</a></td>
+			<td>0</td>
+			<td>M</td>
+			<td>2:00PM-4:50PM</td>
+			<td>Mo Dept of Conservation 103</td>
+			<td>Chevalier, C</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>M</td>
+				<td>2:00PM-4:50PM</td>
+				<td>Mo Dept of Conservation 104</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 2<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15726</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=418&seq_number_key=03">BIO418</a>
+			</td>
+			<td>03</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=418&seq_number_key=03">Mammalogy</a></td>
+			<td>0</td>
+			<td>W</td>
+			<td>2:00PM-4:50PM</td>
+			<td>Mo Dept of Conservation 103</td>
+			<td>Chevalier, C</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>W</td>
+				<td>2:00PM-4:50PM</td>
+				<td>Mo Dept of Conservation 104</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Full</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13954</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=419&seq_number_key=01">BIO419</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=419&seq_number_key=01">Animal Behavior</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Agenstein Hall 326</td>
+			<td>Jedlicka, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 10-->
+						Maximum Enrollment: 12<br />
+						Section Seats Available: 0<br />
+						
+							Crosslist Seats Available: 2
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							PSY419 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13955</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=419&seq_number_key=02">BIO419</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=419&seq_number_key=02">Animal Behavior</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>2:00PM-4:50PM</td>
+			<td>Remington Hall 217</td>
+			<td>Jedlicka, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 10-->
+						Maximum Enrollment: 12<br />
+						Section Seats Available: 0<br />
+						
+							Crosslist Seats Available: 2
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							PSY419 02
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10392</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=01">BIO420</a>
+			</td>
+			<td>01</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=01">Biology Teaching Practicum</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Mills, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10394</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=02">BIO420</a>
+			</td>
+			<td>02</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=02">Biology Teaching Practicum</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Baker, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12251</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=03">BIO420</a>
+			</td>
+			<td>03</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=03">Biology Teaching Practicum</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Barta, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12252</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=04">BIO420</a>
+			</td>
+			<td>04</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=04">Biology Teaching Practicum</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Chevalier, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13588</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=05">BIO420</a>
+			</td>
+			<td>05</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=05">Biology Teaching Practicum</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Ganong, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12254</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=06">BIO420</a>
+			</td>
+			<td>06</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=06">Biology Teaching Practicum</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Elias, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12255</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=07">BIO420</a>
+			</td>
+			<td>07</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=07">Biology Teaching Practicum</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Eckdahl, T</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12256</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=08">BIO420</a>
+			</td>
+			<td>08</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=08">Biology Teaching Practicum</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Grantham, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12269</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=09">BIO420</a>
+			</td>
+			<td>09</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=09">Biology Teaching Practicum</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Jedlicka, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12273</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=10">BIO420</a>
+			</td>
+			<td>10</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=10">Biology Teaching Practicum</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Koy, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12891</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=11">BIO420</a>
+			</td>
+			<td>11</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=11">Biology Teaching Practicum</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Roy, T</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -1<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13094</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=12">BIO420</a>
+			</td>
+			<td>12</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=12">Biology Teaching Practicum</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Walton, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13425</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=13">BIO420</a>
+			</td>
+			<td>13</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=13">Biology Teaching Practicum</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Nabors, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15130</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=14">BIO420</a>
+			</td>
+			<td>14</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=420&seq_number_key=14">Biology Teaching Practicum</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Newton, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10396</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=425&seq_number_key=01">BIO425</a>
+			</td>
+			<td>01</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=425&seq_number_key=01">Biology Internship</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Chevalier, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -1<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10397</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=425&seq_number_key=02">BIO425</a>
+			</td>
+			<td>02</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=425&seq_number_key=02">Biology Internship</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Chevalier, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -1<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11423</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=01">BIO450</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=01">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Mills, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11424</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=02">BIO450</a>
+			</td>
+			<td>02</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=02">Independent Research/Project</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Mills, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11425</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=03">BIO450</a>
+			</td>
+			<td>03</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=03">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Mills, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12259</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=04">BIO450</a>
+			</td>
+			<td>04</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=04">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Baker, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12260</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=05">BIO450</a>
+			</td>
+			<td>05</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=05">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Barta, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12261</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=06">BIO450</a>
+			</td>
+			<td>06</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=06">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Chevalier, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -1<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13429</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=07">BIO450</a>
+			</td>
+			<td>07</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=07">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Ganong, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -1<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12263</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=08">BIO450</a>
+			</td>
+			<td>08</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=08">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Elias, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -2<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12264</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=09">BIO450</a>
+			</td>
+			<td>09</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=09">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Eckdahl, T</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12265</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=10">BIO450</a>
+			</td>
+			<td>10</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=10">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Grantham, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12266</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=11">BIO450</a>
+			</td>
+			<td>11</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=11">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Jedlicka, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -1<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12274</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=12">BIO450</a>
+			</td>
+			<td>12</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=12">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Koy, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12892</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=13">BIO450</a>
+			</td>
+			<td>13</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=13">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Roy, T</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -2<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13095</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=14">BIO450</a>
+			</td>
+			<td>14</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=14">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Walton, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -1<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15131</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=15">BIO450</a>
+			</td>
+			<td>15</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=15">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Newton, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15641</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=16">BIO450</a>
+			</td>
+			<td>16</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=16">Independent Research/Project</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Barta, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 4-->
+						Maximum Enrollment: 4<br />
+						Section Seats Available: 2<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15642</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=17">BIO450</a>
+			</td>
+			<td>17</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=17">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Barta, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 1-->
+						Maximum Enrollment: 1<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Full</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15659</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=18">BIO450</a>
+			</td>
+			<td>18</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=18">Independent Research/Project</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Chevalier, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>16134</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=19">BIO450</a>
+			</td>
+			<td>19</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=450&seq_number_key=19">Independent Research/Project</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Elias, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -1<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15727</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=455&seq_number_key=01">BIO455</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=455&seq_number_key=01">Entomology</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Agenstein Hall 123</td>
+			<td>Ganong, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 3<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15728</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=455&seq_number_key=02">BIO455</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=BIO&crse_number=455&seq_number_key=02">Entomology</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>2:00PM-4:50PM</td>
+			<td>Mo Dept of Conservation 103</td>
+			<td>Ganong, C</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>T</td>
+				<td>2:00PM-4:50PM</td>
+				<td>Mo Dept of Conservation 104</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 3<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11440</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ESC&crse_number=111&seq_number_key=01">ESC111</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ESC&crse_number=111&seq_number_key=01">Physical Geology</a></td>
+			<td>4</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Popplewell Hall 304</td>
+			<td>Koy, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 48-->
+						Maximum Enrollment: 48<br />
+						Section Seats Available: 42<br />
+						
+					</span>
+					
+				</span>
+				Must take with lab section ESC111-02&nbsp;
+					ESC111-03 or ESC111-05&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11445</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ESC&crse_number=111&seq_number_key=02">ESC111</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ESC&crse_number=111&seq_number_key=02">Physical Geology</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>10:00AM-11:50AM</td>
+			<td>Agenstein Hall 222</td>
+			<td>Koy, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11446</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ESC&crse_number=111&seq_number_key=03">ESC111</a>
+			</td>
+			<td>03</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ESC&crse_number=111&seq_number_key=03">Physical Geology</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>12:00PM-1:50PM</td>
+			<td>Agenstein Hall 222</td>
+			<td>Koy, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 22<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12591</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=100&seq_number_key=01">GEO100</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=100&seq_number_key=01">World Geography</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Agenstein Hall 328</td>
+			<td>Drake, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 28-->
+						Maximum Enrollment: 28<br />
+						Section Seats Available: 9<br />
+						
+					</span>
+					
+				</span>
+				Supplemental Instruction offered.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13992</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=100&seq_number_key=80">GEO100</a>
+			</td>
+			<td>80</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=100&seq_number_key=80">World Geography (Honors)</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Agenstein Hall 326</td>
+			<td>Drake, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 10-->
+						Maximum Enrollment: 10<br />
+						Section Seats Available: 8<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14610</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=160&seq_number_key=40">GEO160</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=160&seq_number_key=40">Physical Geography</a></td>
+			<td>4</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Drake, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 40-->
+						Maximum Enrollment: 40<br />
+						Section Seats Available: 25<br />
+						
+							Crosslist Seats Available: 25
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15307</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=160&seq_number_key=41">GEO160</a>
+			</td>
+			<td>41</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=160&seq_number_key=41">Physical Geography</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Drake, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 40-->
+						Maximum Enrollment: 40<br />
+						Section Seats Available: 25<br />
+						
+							Crosslist Seats Available: 25
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15830</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=398&seq_number_key=01">GEO398</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=398&seq_number_key=01">Geography of Africa</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Agenstein Hall 123</td>
+			<td>Drake, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13485</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=450&seq_number_key=01">GEO450</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=450&seq_number_key=01">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Drake, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13486</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=450&seq_number_key=02">GEO450</a>
+			</td>
+			<td>02</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=450&seq_number_key=02">Independent Research/Project</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Drake, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13487</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=450&seq_number_key=03">GEO450</a>
+			</td>
+			<td>03</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=450&seq_number_key=03">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Drake, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13488</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=450&seq_number_key=04">GEO450</a>
+			</td>
+			<td>04</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=GEO&crse_number=450&seq_number_key=04">Independent Research/Project</a></td>
+			<td>4</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Drake, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+</table>
+	
+	</div>
+	
+	<div id="loading" title="Loading...">Loading, please wait...</div>
+	<script type="text/javascript">
+	//<!--
+	$(function() {
+		$("#loading").dialog({'modal': true, 'closeOnEscape': false, 'draggable': false, 'resizable': false, 'autoOpen': false });
+	});
+	//-->
+	</script>
+</body>

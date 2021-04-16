@@ -1,0 +1,2873 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+<title>MWSU :: Missouri Western State University</title>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.16.custom.css"/>
+<link rel="stylesheet" type="text/css" href="trans_banner/style.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.slider.css" rel="stylesheet" />
+<!--<link rel="stylesheet" type="text/css" href="/css/custom.css" rel="stylesheet" />-->
+<link rel="stylesheet" type="text/css" href="schedule.css" rel="stylesheet" />
+
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie/megamenu_ie.css" />
+<![endif]-->
+<!--[if lt IE 7]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+<![endif]-->
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/css/ie/mwsu-ie.css" /><![endif]-->
+
+<!--<script type="text/javascript" src="/js/clearfield.js"></script>-->
+<script type="text/javascript" src="js/jquery.js"></script><!-- jQuery -->
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.easing.compatibility.js"></script>
+<script type="text/javascript" src="js/jquery.slider.min.js"></script>
+<script type="text/javascript" src="js/megamenu_plugins.js"></script><!-- Mega Menu Plugins (scroller, form, hoverIntent) -->
+<script type="text/javascript" src="js/megamenu.js"></script><!-- Mega Menu Script -->
+<script type="text/javascript" src="js/jquery.ui.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="trans_banner/trans-banner.min.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/flowplayer/flowplayer-3.2.9.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$( "#accordion" ).accordion({
+			"event": "mouseover"
+		});
+
+		$("#accordion").accordion("option", "icons", { 'header': 'ui-icon-triangle-1-w', 'headerSelected': 'ui-icon-triangle-1-s'});
+	});
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function($){
+		$('.megamenu').megaMenuReloaded({
+			menu_speed_show : 500, // Time (in milliseconds) to show a drop down
+			menu_speed_hide : 500, // Time (in milliseconds) to hide a drop down
+			menu_speed_delay : 500, // Time (in milliseconds) before showing a drop down
+			menu_effect : 'hover_slide', // Drop down effect, choose between 'hover_fade', 'hover_slide', 'click_fade', 'click_slide', 'open_close_fade', 'open_close_slide'
+			menu_click_outside : 0, // Clicks outside the drop down close it (1 = true, 0 = false)
+			menu_show_onload : 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
+			menubar_trigger : 0 // Show the menu trigger (button to show / hide the menu bar), only for the fixed version of the menu (1 = show, 0 = hide)
+		});
+	});
+</script>
+
+<link type="text/css" href="css/scrollable-horizontal.css" rel="stylesheet" />
+<link type="text/css" href="css/scrollable-buttons.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+
+<script type="text/javascript">
+    $(function() {
+          $(".scrollable").scrollable({circular: true});
+    });
+</script>
+<style type="text/css">
+/*<!--*/
+.ui-dialog-titlebar-close {
+	visibility: hidden;
+}
+#maincontent { margin-top: 2em; }
+/*-->*/
+</style>
+</head>
+<body>
+	
+<!--
+NOTES:
+	* "autocomplete" attribute is invalid; set in javascript to avoid validation errors
+	* always use relative paths when possible - CHANGE THIS LATER(JAKE)-
+	* <form id="searchform" method="get" action="http://www.missouriwestern.edu/google_search.asp" autocomplete="off">	
+-->
+
+<table border="0" width="100%" cellspacing="0" cellpadding="6" style="background-color:black;">
+	<tr>
+		<td>
+			<table align="center" border="0" width="970" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="509" style="width: 970px" class="style1">
+				<a href="http://www.missouriwestern.edu">
+				<img border="0" src="images/header/logo.png" width="404" height="76" alt="Missouri Western State University" /></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+	<div id="maincontent">
+		
+<h1>Search Results</h1>
+<button type="button" onclick="location.href='Default.asp?tck=202210';">Search Again</button>
+<table class="results">
+	<tr>
+		<th>CRN</th>
+		<th>Course</th>
+		<th>Sec</th>
+		<th>Type</th>
+		<th>Title</th>
+		<th>Hrs</th>
+		<th>Days</th>
+		<th style="width: 150px;">Times</th>
+		<th>Room</th>
+		<th>Instructor</th>
+	</tr>
+	
+		<tr class="list_row">
+			<td>15773</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=100&seq_number_key=01">CRJ100</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=100&seq_number_key=01">Intro to Criminal Justice</a></td>
+			<td>3</td>
+			<td>W</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Wilson Hall 170</td>
+			<td>Marble, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 28<br />
+						
+					</span>
+					
+				</span>
+				This course meets face-to-face to provide topic discussion&nbsp;
+					once a week. Course instructors lead these weekly topic&nbsp;
+					discussions. Frequent and reliable computer and Internet&nbsp;
+					access are necessary to be successful in this course.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes & Noble First Day Program. Further information can be&nbsp;
+					found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15766</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=100&seq_number_key=40">CRJ100</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=100&seq_number_key=40">Intro to Criminal Justice</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Marble, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 23<br />
+						
+					</span>
+					
+				</span>
+				This is an online course. Frequent and reliable computer&nbsp;
+					and Internet access are necessary to be successful in this&nbsp;
+					course.&nbsp;
+					Book charges are added to this section as part of the Barnes&nbsp;
+					& Noble First Day Program. Further information can be found&nbsp;
+					in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15775</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=100&seq_number_key=42">CRJ100</a>
+			</td>
+			<td>42</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=100&seq_number_key=42">Intro to Criminal Justice</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Marble, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 26<br />
+						
+					</span>
+					
+				</span>
+				This is a late-start, 8-week, fully online course beginning&nbsp;
+					Monday, October 18th, 2021 and ending Wednesday, December&nbsp;
+					17th, 2021. Frequent and reliable computer and  Internet&nbsp;
+					access are necessary to be successful in this course. Book&nbsp;
+					charges are added to this section as part of the Barnes &&nbsp;
+					Noble First Day Program. Further information can be found in&nbsp;
+					your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Second Session Online
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 10/18/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15776</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=110&seq_number_key=01">CRJ110</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=110&seq_number_key=01">Intro to Juvenile Justice</a></td>
+			<td>3</td>
+			<td>W</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Wilson Hall 130</td>
+			<td>Sharp, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 28<br />
+						
+					</span>
+					
+				</span>
+				This course meets face-to-face to provide topic discussion&nbsp;
+					once a week. Course instructors provide weekly topic&nbsp;
+					discussions on current dilemmas facing those who work with&nbsp;
+					 troubled youth and their families. Course content is&nbsp;
+					provided in class as well as online. Frequent and reliable&nbsp;
+					computer and Internet access are necessary to be successful&nbsp;
+					in this course.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15779</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=110&seq_number_key=40">CRJ110</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=110&seq_number_key=40">Intro to Juvenile Justice</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Boyd, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 21<br />
+						
+					</span>
+					
+				</span>
+				This is an online course. Frequent and reliable computer&nbsp;
+					 and Internet access are necessary to be successful in this&nbsp;
+					course.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15780</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=130&seq_number_key=40">CRJ130</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=130&seq_number_key=40">Introduction to Policing</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>McBane, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				This is an online course. Frequent and reliable computer&nbsp;
+					and Internet access are necessary to be successful in this&nbsp;
+					course.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15781</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=140&seq_number_key=01">CRJ140</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=140&seq_number_key=01">Traffic Control and Acc Inv</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Wilson Hall 205</td>
+			<td>McBane, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 22<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15782</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=190&seq_number_key=01">CRJ190</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=190&seq_number_key=01">Criminal Investigation</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Wilson Hall 206</td>
+			<td>Smith, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 21<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15783</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=200&seq_number_key=01">CRJ200</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=200&seq_number_key=01">Introduction to Corrections</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Wilson Hall 205</td>
+			<td>Godboldt, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15784</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=260&seq_number_key=01">CRJ260</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=260&seq_number_key=01">Criminal Law</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Wilson Hall 205</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 25<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15785</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=275&seq_number_key=01">CRJ275</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=275&seq_number_key=01">Police Photography</a></td>
+			<td>3</td>
+			<td>W</td>
+			<td>6:30PM-7:25PM</td>
+			<td>Wilson Hall 205</td>
+			<td>Wilson, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 14-->
+						Maximum Enrollment: 14<br />
+						Section Seats Available: 3<br />
+						
+					</span>
+					
+				</span>
+				For this course, you will be required to check out a digital&nbsp;
+					SLR camera and accessories from the instructor, sign a&nbsp;
+					contract, and pay for any loss or damage that may occur&nbsp;
+					during the course of the semester.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15786</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=280&seq_number_key=01">CRJ280</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=280&seq_number_key=01">Criminalistics</a></td>
+			<td>4</td>
+			<td>M</td>
+			<td>6:30PM-7:50PM</td>
+			<td>Wilson Hall 130</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 12-->
+						Maximum Enrollment: 12<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Full</span>
+						
+				</span>
+				Must enroll in Lab (section 02) with Lecture.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15789</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=280&seq_number_key=02">CRJ280</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=280&seq_number_key=02">Criminalistics</a></td>
+			<td>0</td>
+			<td>M</td>
+			<td>8:00PM-9:20PM</td>
+			<td>Wilson Hall 140</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 12-->
+						Maximum Enrollment: 12<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Full</span>
+						
+				</span>
+				Must enroll in Lecture (section 01) with Lab.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15791</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=300&seq_number_key=01">CRJ300</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=300&seq_number_key=01">CJ Communications</a></td>
+			<td>3</td>
+			<td>T</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Wilson Hall 170</td>
+			<td>Voltmer, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 22<br />
+						
+					</span>
+					
+				</span>
+				This is a blended class requiring online work, as well as a&nbsp;
+					once-a-week classroom meeting with the course instructor on&nbsp;
+					Tuesdays from 12:30 - 1:50pm. As 50% of this course is&nbsp;
+					conducted in an online format, frequent and reliable&nbsp;
+					computer and Internet access are necessary to be successful.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15792</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=305&seq_number_key=01">CRJ305</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=305&seq_number_key=01">Intro to Theories of Crime</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Wilson Hall 205</td>
+			<td>Godboldt, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 23<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15793</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=305&seq_number_key=40">CRJ305</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=305&seq_number_key=40">Intro to Theories of Crime</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Godboldt, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 9<br />
+						
+					</span>
+					
+				</span>
+				This is an online course. Frequent and reliable computer and&nbsp;
+					Internet access are necessary to be successful in this&nbsp;
+					course.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15794</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=315&seq_number_key=40">CRJ315</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=315&seq_number_key=40">CJ Concepts and Issues</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Lindsteadt, G</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 15<br />
+						
+					</span>
+					
+				</span>
+				This is an online course. Frequest and reliable computer and&nbsp;
+					Internet access are necessary to be successful in this&nbsp;
+					course.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15795</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=325&seq_number_key=01">CRJ325</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=325&seq_number_key=01">Understanding Research in CJ</a></td>
+			<td>3</td>
+			<td>W</td>
+			<td>9:30AM-10:25AM</td>
+			<td>Wilson Hall 205</td>
+			<td>Marble, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 15<br />
+						
+					</span>
+					
+				</span>
+				This is a blended class requiring online work, as well as a&nbsp;
+					once-a-week classroom meeting with the course instructor on&nbsp;
+					Wednesdays from 9:30-10:25am. As a portion of this course is&nbsp;
+					conducted in an online format, frequent and reliable&nbsp;
+					computer and Internet access are required to be successful.&nbsp;
+					Book charges are added to this section as part of the Barnes&nbsp;
+					and Noble First Day Program. Further information can be&nbsp;
+					found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15796</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=410&seq_number_key=40">CRJ410</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=410&seq_number_key=40">Criminal Procedure</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Marble, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 10<br />
+						
+					</span>
+					
+				</span>
+				This is an online course. Frequent and reliable computer and&nbsp;
+					Internet access are necessary to be successful in this&nbsp;
+					course. Book charges are added to this section as part of&nbsp;
+					the Barnes and Noble First Day Program. Further information&nbsp;
+					can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15797</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=450&seq_number_key=01">CRJ450</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=450&seq_number_key=01">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Kissock, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Enrollment in this course requires permission of CJLS&nbsp;
+					Department Chairperson.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15798</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=450&seq_number_key=02">CRJ450</a>
+			</td>
+			<td>02</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=450&seq_number_key=02">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Tushaus, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Enrollment in this course requires permission of CJLS&nbsp;
+					Department Chairperson.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15799</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=460&seq_number_key=01">CRJ460</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=460&seq_number_key=01">CJ Administration & Leadership</a></td>
+			<td>3</td>
+			<td>W</td>
+			<td>6:30PM-9:20PM</td>
+			<td>Wilson Hall 170</td>
+			<td>Puett, W</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 21<br />
+						
+					</span>
+					
+				</span>
+				Attendance and participation is required to be successful in&nbsp;
+					this course. This class will meet in-person during the&nbsp;
+					designated days and times listed. Remote attendance/&nbsp;
+					participation will be at the instructor's discretion.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15800</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=465&seq_number_key=40">CRJ465</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=465&seq_number_key=40">Internship</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Lindsteadt, G</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 19<br />
+						
+					</span>
+					
+				</span>
+				This is an online course. Frequent and reliable computer and&nbsp;
+					Intenet access are necessary to be successful in this course&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15803</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=470&seq_number_key=01">CRJ470</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=470&seq_number_key=01">Senior Seminar</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Wilson Hall 205</td>
+			<td>Godboldt, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 13<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15804</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=492&seq_number_key=40">CRJ492</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=492&seq_number_key=40">Adv Select Crim Just Topics</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Smith, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 24<br />
+						
+							Crosslist Seats Available: 23
+					</span>
+					
+				</span>
+				This is an online course. Frequent and reliable computer and&nbsp;
+					Internet access are necessary to be successful.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							CRJ550 40
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15805</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=550&seq_number_key=40">CRJ550</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=550&seq_number_key=40">Profiling & Behav Analysis</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Smith, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 24<br />
+						
+							Crosslist Seats Available: 23
+					</span>
+					
+				</span>
+				This is an online course. Frequent and reliable computer and&nbsp;
+					Internet access are necessary to be successful in this&nbsp;
+					course.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							CRJ492 40
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15806</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=560&seq_number_key=40">CRJ560</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=560&seq_number_key=40">Admin., Planning, & Ethics</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Jones, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 23<br />
+						
+					</span>
+					
+				</span>
+				This is an online course. Frequent and reliable computer and&nbsp;
+					internet access are necessary to be successful in this&nbsp;
+					course.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15807</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=600&seq_number_key=01">CRJ600</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=600&seq_number_key=01">Criminal Law and Evidence</a></td>
+			<td>3</td>
+			<td>R</td>
+			<td>6:30PM-7:50PM</td>
+			<td>Wilson Hall 205</td>
+			<td>Smith, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				This is a blended class requiring online work, as well as a&nbsp;
+					once-a-week classroom meeting with the course instructor on&nbsp;
+					Thursdays from 6:30-7:50pm. As 50% of this course is&nbsp;
+					conducted in an online format, frequent and reliable&nbsp;
+					computer and Internet access are necessary to be successful.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15808</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=640&seq_number_key=40">CRJ640</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=640&seq_number_key=40">Computer Forensics</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Owen, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 23<br />
+						
+					</span>
+					
+				</span>
+				This is an online course. Frequent and reliable computer and&nbsp;
+					internet access are necessary to be successful in this&nbsp;
+					course.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15810</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=670&seq_number_key=40">CRJ670</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=670&seq_number_key=40">Graduate Internship</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Smith, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Enrollment in this course requires permission of the&nbsp;
+					Graduate Forensics Program Director.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15811</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=680&seq_number_key=01">CRJ680</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=680&seq_number_key=01">Research and Publication</a></td>
+			<td>3</td>
+			<td>W</td>
+			<td>11:00AM-11:55AM</td>
+			<td>Wilson Hall 130</td>
+			<td>Smith, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Enrollment in this course requires permission of the&nbsp;
+					Graduate Forensics Program Director. Students will have the&nbsp;
+					option to attend class in person or via Zoom.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15813</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=680&seq_number_key=02">CRJ680</a>
+			</td>
+			<td>02</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=680&seq_number_key=02">Research and Publication</a></td>
+			<td>6</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Smith, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Enrollment in this course requires permission of the&nbsp;
+					Graduate Forensics Program Director.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15814</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=695&seq_number_key=01">CRJ695</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=CRJ&crse_number=695&seq_number_key=01">Forensic Capstone</a></td>
+			<td>2</td>
+			<td>W</td>
+			<td>2:00PM-2:55PM</td>
+			<td>Wilson Hall 130</td>
+			<td>Smith, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Enrollment in this course requires permission of the&nbsp;
+					Graduate Forensics Program Director. Students will have the&nbsp;
+					option to attend class in person or via Zoom.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14012</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=101&seq_number_key=01">LAT101</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=101&seq_number_key=01">Introduction to Law</a></td>
+			<td>3</td>
+			<td>M</td>
+			<td>11:00AM-11:55AM</td>
+			<td>Wilson Hall 205</td>
+			<td>Yeager, N</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 25<br />
+						
+					</span>
+					
+				</span>
+				This course meets face-to-face to provide topic discussion&nbsp;
+					once a week.  Course instructors lead these weekly topic&nbsp;
+					discussions.  Frequent and reliable computer and Internet&nbsp;
+					access are necessary to be successful in this course.&nbsp;
+					Discussion course instructor:  Nichola Yeager.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12842</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=101&seq_number_key=02">LAT101</a>
+			</td>
+			<td>02</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=101&seq_number_key=02">Introduction to Law</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Wilson Hall 206</td>
+			<td>Kissock, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 26<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11487</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=101&seq_number_key=03">LAT101</a>
+			</td>
+			<td>03</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=101&seq_number_key=03">Introduction to Law</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Wilson Hall 206</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 30<br />
+						
+					</span>
+					
+				</span>
+				This course meets face-to-face to provide topic discussion&nbsp;
+					once a week.  Course instructors lead these weekly topic&nbsp;
+					discussions.  Frequent and reliable computer and Internet&nbsp;
+					access are necessary to be successful in this course.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11489</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=115&seq_number_key=01">LAT115</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=115&seq_number_key=01">Paralegal Studies</a></td>
+			<td>3</td>
+			<td>M</td>
+			<td>6:30PM-9:10PM</td>
+			<td>Wilson Hall 205</td>
+			<td>Kissock, T</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 23<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11490</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=220&seq_number_key=01">LAT220</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=220&seq_number_key=01">Legal Research</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Wilson Hall 205</td>
+			<td>Tushaus, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 16<br />
+						
+					</span>
+					
+				</span>
+				Attendance and participation is required to be successful in&nbsp;
+					this course. This class will meet in-person during the&nbsp;
+					designated days and times listed. Remote attendance/&nbsp;
+					participation will be at the instructor's discretion.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11492</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=250&seq_number_key=01">LAT250</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=250&seq_number_key=01">Legal Computer Applications</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Wilson Hall 206</td>
+			<td>Yeager, N</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11493</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=310&seq_number_key=01">LAT310</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=310&seq_number_key=01">Legal Drafting</a></td>
+			<td>3</td>
+			<td>W</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Wilson Hall 205</td>
+			<td>Tushaus, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 21<br />
+						
+					</span>
+					
+				</span>
+				Attendance and participation is required to be successful in&nbsp;
+					this course. This class will meet in-person during the&nbsp;
+					designated days and times listed. Remote attendance/&nbsp;
+					participation will be at the instructor's discretion.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11496</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=335&seq_number_key=01">LAT335</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=335&seq_number_key=01">Interpersonal Conflict Resol.</a></td>
+			<td>3</td>
+			<td>T</td>
+			<td>6:30PM-9:10PM</td>
+			<td>Wilson Hall 205</td>
+			<td>Yeager, N</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11850</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=335&seq_number_key=40">LAT335</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=335&seq_number_key=40">Interpersonal Conflict Resol.</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Sylvester, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 6<br />
+						
+					</span>
+					
+				</span>
+				This is an online course.  Frequent and reliable computer&nbsp;
+					and Internet access are necessary to be successful in this&nbsp;
+					course.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15816</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=400&seq_number_key=01">LAT400</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=400&seq_number_key=01">Advanced Legal Research</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Wilson Hall 206</td>
+			<td>Tushaus, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14902</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=420&seq_number_key=40">LAT420</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=LAT&crse_number=420&seq_number_key=40">Civil Rights Law</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Tushaus, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 5<br />
+						
+					</span>
+					
+				</span>
+				This is an online course.  Frequent and reliable computer&nbsp;
+					and Internet access are necessary to be successful in this&nbsp;
+					course.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15668</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=POL&crse_number=150&seq_number_key=01">POL150</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=POL&crse_number=150&seq_number_key=01">Police Methods and Operations</a></td>
+			<td>12</td>
+			<td>MTWRF</td>
+			<td>8:00AM-6:00PM</td>
+			<td>Wilson Hall 184</td>
+			<td>Wilson, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+</table>
+	
+	</div>
+	
+	<div id="loading" title="Loading...">Loading, please wait...</div>
+	<script type="text/javascript">
+	//<!--
+	$(function() {
+		$("#loading").dialog({'modal': true, 'closeOnEscape': false, 'draggable': false, 'resizable': false, 'autoOpen': false });
+	});
+	//-->
+	</script>
+</body>

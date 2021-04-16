@@ -1,0 +1,4928 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+<title>MWSU :: Missouri Western State University</title>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.16.custom.css"/>
+<link rel="stylesheet" type="text/css" href="trans_banner/style.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.slider.css" rel="stylesheet" />
+<!--<link rel="stylesheet" type="text/css" href="/css/custom.css" rel="stylesheet" />-->
+<link rel="stylesheet" type="text/css" href="schedule.css" rel="stylesheet" />
+
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie/megamenu_ie.css" />
+<![endif]-->
+<!--[if lt IE 7]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+<![endif]-->
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/css/ie/mwsu-ie.css" /><![endif]-->
+
+<!--<script type="text/javascript" src="/js/clearfield.js"></script>-->
+<script type="text/javascript" src="js/jquery.js"></script><!-- jQuery -->
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.easing.compatibility.js"></script>
+<script type="text/javascript" src="js/jquery.slider.min.js"></script>
+<script type="text/javascript" src="js/megamenu_plugins.js"></script><!-- Mega Menu Plugins (scroller, form, hoverIntent) -->
+<script type="text/javascript" src="js/megamenu.js"></script><!-- Mega Menu Script -->
+<script type="text/javascript" src="js/jquery.ui.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="trans_banner/trans-banner.min.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/flowplayer/flowplayer-3.2.9.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$( "#accordion" ).accordion({
+			"event": "mouseover"
+		});
+
+		$("#accordion").accordion("option", "icons", { 'header': 'ui-icon-triangle-1-w', 'headerSelected': 'ui-icon-triangle-1-s'});
+	});
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function($){
+		$('.megamenu').megaMenuReloaded({
+			menu_speed_show : 500, // Time (in milliseconds) to show a drop down
+			menu_speed_hide : 500, // Time (in milliseconds) to hide a drop down
+			menu_speed_delay : 500, // Time (in milliseconds) before showing a drop down
+			menu_effect : 'hover_slide', // Drop down effect, choose between 'hover_fade', 'hover_slide', 'click_fade', 'click_slide', 'open_close_fade', 'open_close_slide'
+			menu_click_outside : 0, // Clicks outside the drop down close it (1 = true, 0 = false)
+			menu_show_onload : 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
+			menubar_trigger : 0 // Show the menu trigger (button to show / hide the menu bar), only for the fixed version of the menu (1 = show, 0 = hide)
+		});
+	});
+</script>
+
+<link type="text/css" href="css/scrollable-horizontal.css" rel="stylesheet" />
+<link type="text/css" href="css/scrollable-buttons.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+
+<script type="text/javascript">
+    $(function() {
+          $(".scrollable").scrollable({circular: true});
+    });
+</script>
+<style type="text/css">
+/*<!--*/
+.ui-dialog-titlebar-close {
+	visibility: hidden;
+}
+#maincontent { margin-top: 2em; }
+/*-->*/
+</style>
+</head>
+<body>
+	
+<!--
+NOTES:
+	* "autocomplete" attribute is invalid; set in javascript to avoid validation errors
+	* always use relative paths when possible - CHANGE THIS LATER(JAKE)-
+	* <form id="searchform" method="get" action="http://www.missouriwestern.edu/google_search.asp" autocomplete="off">	
+-->
+
+<table border="0" width="100%" cellspacing="0" cellpadding="6" style="background-color:black;">
+	<tr>
+		<td>
+			<table align="center" border="0" width="970" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="509" style="width: 970px" class="style1">
+				<a href="http://www.missouriwestern.edu">
+				<img border="0" src="images/header/logo.png" width="404" height="76" alt="Missouri Western State University" /></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+	<div id="maincontent">
+		
+<h1>Search Results</h1>
+<button type="button" onclick="location.href='Default.asp?tck=202210';">Search Again</button>
+<table class="results">
+	<tr>
+		<th>CRN</th>
+		<th>Course</th>
+		<th>Sec</th>
+		<th>Type</th>
+		<th>Title</th>
+		<th>Hrs</th>
+		<th>Days</th>
+		<th style="width: 150px;">Times</th>
+		<th>Room</th>
+		<th>Instructor</th>
+	</tr>
+	
+		<tr class="list_row">
+			<td>15812</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=101&seq_number_key=40">ECO101</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=101&seq_number_key=40">Current Issues in the Economy</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 19<br />
+						
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14282</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=260&seq_number_key=01">ECO260</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=260&seq_number_key=01">Principles of Macroeconomics</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Potter Hall THEATRE</td>
+			<td>Veeramoothoo, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 29<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14278</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=260&seq_number_key=02">ECO260</a>
+			</td>
+			<td>02</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=260&seq_number_key=02">Principles of Macroeconomics</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Potter Hall THEATRE</td>
+			<td>Veeramoothoo, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 33<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14277</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=260&seq_number_key=40">ECO260</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=260&seq_number_key=40">Principles of Macroeconomics</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Gallegos, N</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 31<br />
+						
+					</span>
+					
+				</span>
+				This course is held during the 2nd 8-Week Session.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Second Session Online
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 10/18/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15815</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=260&seq_number_key=43">ECO260</a>
+			</td>
+			<td>43</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=260&seq_number_key=43">Principles of Macroeconomics</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Gallegos, N</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 26<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14283</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=261&seq_number_key=01">ECO261</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=261&seq_number_key=01">Principles of Microeconomics</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Spratt Hall 205</td>
+			<td>Grant, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 27<br />
+						
+					</span>
+					
+				</span>
+				This course is held during the 1st 8-Week Session.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14284</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=261&seq_number_key=02">ECO261</a>
+			</td>
+			<td>02</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=261&seq_number_key=02">Principles of Microeconomics</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Murphy Hall 201</td>
+			<td>Grant, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 32<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14741</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=261&seq_number_key=40">ECO261</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=261&seq_number_key=40">Principles of Microeconomics</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Gallegos, N</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 13<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					First Session Online
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 10/15/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13013</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=361&seq_number_key=01">ECO361</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=361&seq_number_key=01">Intermediate Microeconomics</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Popplewell Hall 205</td>
+			<td>Grant, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 22<br />
+						
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15551</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=362&seq_number_key=40">ECO362</a>
+			</td>
+			<td>40</td>
+			<td>100% Online w/Meeting Times</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=362&seq_number_key=40">Public Finance</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>3:30PM-4:50PM</td>
+			<td>Online Course </td>
+			<td>Veeramoothoo, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 21<br />
+						
+					</span>
+					
+				</span>
+				This course is 100% online with scheduled meeting times that&nbsp;
+					will take place virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13016</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=375&seq_number_key=40">ECO375</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=375&seq_number_key=40">Economics of Health Care</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Grant, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13017</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=450&seq_number_key=01">ECO450</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=450&seq_number_key=01">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14291</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=460&seq_number_key=40">ECO460</a>
+			</td>
+			<td>40</td>
+			<td>100% Online w/Meeting Times</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ECO&crse_number=460&seq_number_key=40">Business and Econ Forecasting</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Online Course </td>
+			<td>Veeramoothoo, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 9<br />
+						
+					</span>
+					
+				</span>
+				This course is 100% online with scheduled meeting times&nbsp;
+					that will take place virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15448</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=140&seq_number_key=02">HIS140</a>
+			</td>
+			<td>02</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=140&seq_number_key=02">American History to 1865</a></td>
+			<td>3</td>
+			<td>T</td>
+			<td>6:30PM-7:20PM</td>
+			<td>Popplewell Hall 304</td>
+			<td>Coe, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 34<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14000</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=140&seq_number_key=40">HIS140</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=140&seq_number_key=40">American History to 1865</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Coe, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15598</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=140&seq_number_key=80">HIS140</a>
+			</td>
+			<td>80</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=140&seq_number_key=80">Am History to 1865 (Honors)</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 101</td>
+			<td>DeBrincat, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 15<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13130</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=150&seq_number_key=01">HIS150</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=150&seq_number_key=01">American History since 1865</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>3:30PM-4:50PM</td>
+			<td>Popplewell Hall 304</td>
+			<td>Hart, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 32<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13131</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=150&seq_number_key=02">HIS150</a>
+			</td>
+			<td>02</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=150&seq_number_key=02">American History since 1865</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Murphy Hall 201</td>
+			<td>Hart, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 32<br />
+						
+							Crosslist Seats Available: 31
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							HIS150 80
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12598</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=150&seq_number_key=40">HIS150</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=150&seq_number_key=40">American History since 1865</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Hart, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 21<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14001</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=150&seq_number_key=41">HIS150</a>
+			</td>
+			<td>41</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=150&seq_number_key=41">American History since 1865</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Frieling, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>16138</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=150&seq_number_key=80">HIS150</a>
+			</td>
+			<td>80</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=150&seq_number_key=80">Am History since 1865 (Honors)</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Murphy Hall 201</td>
+			<td>Hart, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: -1<br />
+						
+							Crosslist Seats Available: 31
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							HIS150 02
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14919</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=210&seq_number_key=01">HIS210</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=210&seq_number_key=01">Early Modern Europe</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Popplewell Hall 304</td>
+			<td>Haas, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 29<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15051</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=210&seq_number_key=02">HIS210</a>
+			</td>
+			<td>02</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=210&seq_number_key=02">Early Modern Europe</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Spratt Hall 214</td>
+			<td>Haas, A</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>MW</td>
+				<td>12:30PM-1:50PM</td>
+				<td>Spratt Hall 216</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 26<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14920</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=230&seq_number_key=40">HIS230</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=230&seq_number_key=40">Modern Europe: 1789 to Present</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Haas, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Full</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15690</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=301&seq_number_key=01">HIS301</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=301&seq_number_key=01">Early National Period</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Popplewell Hall 101</td>
+			<td>DeBrincat, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: -3<br />
+						
+							Crosslist Seats Available: -3
+					</span>
+					
+							<span class="course_full">Full</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							HIS301 80
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15691</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=301&seq_number_key=80">HIS301</a>
+			</td>
+			<td>80</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=301&seq_number_key=80">Early National Period (Honors)</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Popplewell Hall 101</td>
+			<td>DeBrincat, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 0<br />
+						
+							Crosslist Seats Available: -3
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							HIS301 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15692</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=306&seq_number_key=01">HIS306</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=306&seq_number_key=01">American Women's History</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Popplewell Hall 101</td>
+			<td>Hart, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: -1<br />
+						
+							Crosslist Seats Available: -1
+					</span>
+					
+							<span class="course_full">Full</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							HIS306 80
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15693</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=306&seq_number_key=80">HIS306</a>
+			</td>
+			<td>80</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=306&seq_number_key=80">Am Women's History (Honors)</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Popplewell Hall 101</td>
+			<td>Hart, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 0<br />
+						
+							Crosslist Seats Available: -1
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							HIS306 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15694</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=365&seq_number_key=01">HIS365</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=365&seq_number_key=01">Methods Teachng Social Studies</a></td>
+			<td>5</td>
+			<td>MW</td>
+			<td>4:00PM-6:20PM</td>
+			<td>Popplewell Hall 102</td>
+			<td>Frieling, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Full</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15695</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=380&seq_number_key=01">HIS380</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=380&seq_number_key=01">French Revolution and Napoleon</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 111</td>
+			<td>Haas, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 2<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15696</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=380&seq_number_key=80">HIS380</a>
+			</td>
+			<td>80</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=380&seq_number_key=80">French Rev & Napoleon (Honors)</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 111</td>
+			<td>Haas, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13502</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=450&seq_number_key=01">HIS450</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=450&seq_number_key=01">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13503</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=450&seq_number_key=02">HIS450</a>
+			</td>
+			<td>02</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=450&seq_number_key=02">Independent Research/Project</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13504</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=450&seq_number_key=03">HIS450</a>
+			</td>
+			<td>03</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=450&seq_number_key=03">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13505</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=450&seq_number_key=04">HIS450</a>
+			</td>
+			<td>04</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=450&seq_number_key=04">Independent Research/Project</a></td>
+			<td>4</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13506</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=450&seq_number_key=05">HIS450</a>
+			</td>
+			<td>05</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=450&seq_number_key=05">Independent Research/Project</a></td>
+			<td>5</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15459</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=450&seq_number_key=15">HIS450</a>
+			</td>
+			<td>15</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIS&crse_number=450&seq_number_key=15">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>DeBrincat, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15460</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HUM&crse_number=203&seq_number_key=80">HUM203</a>
+			</td>
+			<td>80</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HUM&crse_number=203&seq_number_key=80">Hum:Ancient & Medieval(Honors)</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Costanzo, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 13<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13507</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HUM&crse_number=450&seq_number_key=01">HUM450</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HUM&crse_number=450&seq_number_key=01">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13508</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HUM&crse_number=450&seq_number_key=02">HUM450</a>
+			</td>
+			<td>02</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HUM&crse_number=450&seq_number_key=02">Independent Research/Project</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13509</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HUM&crse_number=450&seq_number_key=03">HUM450</a>
+			</td>
+			<td>03</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HUM&crse_number=450&seq_number_key=03">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13123</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=219&seq_number_key=01">PHL219</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=219&seq_number_key=01">Reasoning and Argumentation</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Popplewell Hall 304</td>
+			<td>Okapal, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 25<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15496</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=230&seq_number_key=01">PHL230</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=230&seq_number_key=01">Ethics</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Griffon Indoor Sports Complex 113</td>
+			<td>Mathies, D</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>MW</td>
+				<td>11:00AM-12:20PM</td>
+				<td>Griffon Indoor Sports Complex 134</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 31<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15584</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=230&seq_number_key=02">PHL230</a>
+			</td>
+			<td>02</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=230&seq_number_key=02">Ethics</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Griffon Indoor Sports Complex 113</td>
+			<td>Mathies, D</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>TR</td>
+				<td>11:00AM-12:20PM</td>
+				<td>Griffon Indoor Sports Complex 134</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 26<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14077</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=230&seq_number_key=40">PHL230</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=230&seq_number_key=40">Ethics</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Costanzo, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 5<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15461</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=231&seq_number_key=01">PHL231</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=231&seq_number_key=01">Healthcare Ethics</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Agenstein Hall 324</td>
+			<td>DesAutels, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 28<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15462</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=231&seq_number_key=02">PHL231</a>
+			</td>
+			<td>02</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=231&seq_number_key=02">Healthcare Ethics</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Agenstein Hall 324</td>
+			<td>DesAutels, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 21<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15463</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=232&seq_number_key=40">PHL232</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=232&seq_number_key=40">Business Ethics</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Okapal, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 70-->
+						Maximum Enrollment: 70<br />
+						Section Seats Available: 45<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15698</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=305&seq_number_key=01">PHL305</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=305&seq_number_key=01">Topics 19 & 20th Century Phil</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Popplewell Hall 111</td>
+			<td>DesAutels, L</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15308</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=310&seq_number_key=01">PHL310</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=310&seq_number_key=01">Political Theory</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 102</td>
+			<td>Okapal, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 13<br />
+						
+							Crosslist Seats Available: 12
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							PSC310 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13519</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=450&seq_number_key=01">PHL450</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=450&seq_number_key=01">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13520</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=450&seq_number_key=02">PHL450</a>
+			</td>
+			<td>02</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=450&seq_number_key=02">Independent Research/Project</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13521</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=450&seq_number_key=03">PHL450</a>
+			</td>
+			<td>03</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PHL&crse_number=450&seq_number_key=03">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13024</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=101&seq_number_key=01">PSC101</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=101&seq_number_key=01">American National Government</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Spratt Hall 101</td>
+			<td>Taylor, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 50-->
+						Maximum Enrollment: 50<br />
+						Section Seats Available: 47<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15187</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=101&seq_number_key=02">PSC101</a>
+			</td>
+			<td>02</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=101&seq_number_key=02">American National Government</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Spratt Hall 101</td>
+			<td>Taylor, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 50-->
+						Maximum Enrollment: 50<br />
+						Section Seats Available: 45<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14715</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=101&seq_number_key=03">PSC101</a>
+			</td>
+			<td>03</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=101&seq_number_key=03">American National Government</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Spratt Hall 101</td>
+			<td>Taylor, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 50-->
+						Maximum Enrollment: 50<br />
+						Section Seats Available: 45<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13030</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=101&seq_number_key=40">PSC101</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=101&seq_number_key=40">American National Government</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Williamson, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 11<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14243</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=111&seq_number_key=40">PSC111</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=111&seq_number_key=40">Undrstding the MO Constitution</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>DeBrincat, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -1<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					First Session Online
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 10/15/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13032</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=210&seq_number_key=40">PSC210</a>
+			</td>
+			<td>40</td>
+			<td>100% Online w/Meeting Times</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=210&seq_number_key=40">Comparative Political Systems</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Online Course </td>
+			<td>Williamson, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 24<br />
+						
+					</span>
+					
+				</span>
+				This course is 100% online with scheduled meeting times&nbsp;
+					that will take place virtually. You can either work remotely&nbsp;
+					or in the lab during class time.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					Feel free to call the Social Sciences and Humanities&nbsp;
+					department for a prerequisite override. 816-271-5686.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13034</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=310&seq_number_key=01">PSC310</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=310&seq_number_key=01">Political Theory</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 102</td>
+			<td>Okapal, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 9<br />
+						
+							Crosslist Seats Available: 12
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							PHL310 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15699</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=340&seq_number_key=40">PSC340</a>
+			</td>
+			<td>40</td>
+			<td>100% Online w/Meeting Times</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=340&seq_number_key=40">Latin Amer Political Systems</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Online Course </td>
+			<td>Williamson, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 22<br />
+						
+					</span>
+					
+				</span>
+				This course is 100% online with scheduled meeting times&nbsp;
+					that will take place virtually. You can either work remotely&nbsp;
+					or in the lab during class time.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15700</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=420&seq_number_key=01">PSC420</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=420&seq_number_key=01">Law and Politics</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Popplewell Hall 207</td>
+			<td>Taylor, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 19<br />
+						
+							Crosslist Seats Available: 18
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							PSC420 80
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>16122</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=420&seq_number_key=80">PSC420</a>
+			</td>
+			<td>80</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=420&seq_number_key=80">Law and Politics (Honors)</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Popplewell Hall 207</td>
+			<td>Taylor, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: -1<br />
+						
+							Crosslist Seats Available: 18
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							PSC420 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13690</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=450&seq_number_key=01">PSC450</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=450&seq_number_key=01">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Taylor, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15354</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=450&seq_number_key=02">PSC450</a>
+			</td>
+			<td>02</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=450&seq_number_key=02">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Taylor, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13403</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=490&seq_number_key=01">PSC490</a>
+			</td>
+			<td>01</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=490&seq_number_key=01">Capstone Practicum in Poli Sci</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Taylor, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15603</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=491&seq_number_key=01">PSC491</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=491&seq_number_key=01">Capstone I</a></td>
+			<td>2</td>
+			<td>TR</td>
+			<td>8:00AM-8:50AM</td>
+			<td>Arranged </td>
+			<td>Taylor, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -3<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15701</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=493&seq_number_key=40">PSC493</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PSC&crse_number=493&seq_number_key=40">Applied Learning Experience</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Taylor, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13040</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=110&seq_number_key=01">SOC110</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=110&seq_number_key=01">Introduction to Sociology</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Popplewell Hall 304</td>
+			<td>Champagne, D</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 40-->
+						Maximum Enrollment: 40<br />
+						Section Seats Available: 37<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13044</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=110&seq_number_key=02">SOC110</a>
+			</td>
+			<td>02</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=110&seq_number_key=02">Introduction to Sociology</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Agenstein Hall 324</td>
+			<td>Kibirige, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 40-->
+						Maximum Enrollment: 40<br />
+						Section Seats Available: 40<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15547</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=110&seq_number_key=03">SOC110</a>
+			</td>
+			<td>03</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=110&seq_number_key=03">Introduction to Sociology</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Popplewell Hall 304</td>
+			<td>Kamali, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 40-->
+						Maximum Enrollment: 40<br />
+						Section Seats Available: 35<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13039</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=110&seq_number_key=41">SOC110</a>
+			</td>
+			<td>41</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=110&seq_number_key=41">Introduction to Sociology</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Kamali, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 40-->
+						Maximum Enrollment: 40<br />
+						Section Seats Available: 13<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13046</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=120&seq_number_key=01">SOC120</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=120&seq_number_key=01">General Anthropology</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Popplewell Hall 201</td>
+			<td>Kibirige, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 34<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14722</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=230&seq_number_key=40">SOC230</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=230&seq_number_key=40">Social Problems</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Kamali, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 11<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13049</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=430&seq_number_key=40">SOC430</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=430&seq_number_key=40">Criminology</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Kibirige, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13050</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=440&seq_number_key=40">SOC440</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=440&seq_number_key=40">Sociological Theory</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Kibirige, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 7<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15703</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=450&seq_number_key=01">SOC450</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=450&seq_number_key=01">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged </td>
+			<td>Kibirige, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13052</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=460&seq_number_key=01">SOC460</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SOC&crse_number=460&seq_number_key=01">Methods of Social Research</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Murphy Hall 216</td>
+			<td>Kamali, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 11<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required to&nbsp;
+					alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+</table>
+	
+	</div>
+	
+	<div id="loading" title="Loading...">Loading, please wait...</div>
+	<script type="text/javascript">
+	//<!--
+	$(function() {
+		$("#loading").dialog({'modal': true, 'closeOnEscape': false, 'draggable': false, 'resizable': false, 'autoOpen': false });
+	});
+	//-->
+	</script>
+</body>

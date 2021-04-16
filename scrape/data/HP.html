@@ -1,0 +1,7130 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+<title>MWSU :: Missouri Western State University</title>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.16.custom.css"/>
+<link rel="stylesheet" type="text/css" href="trans_banner/style.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.slider.css" rel="stylesheet" />
+<!--<link rel="stylesheet" type="text/css" href="/css/custom.css" rel="stylesheet" />-->
+<link rel="stylesheet" type="text/css" href="schedule.css" rel="stylesheet" />
+
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie/megamenu_ie.css" />
+<![endif]-->
+<!--[if lt IE 7]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+<![endif]-->
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/css/ie/mwsu-ie.css" /><![endif]-->
+
+<!--<script type="text/javascript" src="/js/clearfield.js"></script>-->
+<script type="text/javascript" src="js/jquery.js"></script><!-- jQuery -->
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.easing.compatibility.js"></script>
+<script type="text/javascript" src="js/jquery.slider.min.js"></script>
+<script type="text/javascript" src="js/megamenu_plugins.js"></script><!-- Mega Menu Plugins (scroller, form, hoverIntent) -->
+<script type="text/javascript" src="js/megamenu.js"></script><!-- Mega Menu Script -->
+<script type="text/javascript" src="js/jquery.ui.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="trans_banner/trans-banner.min.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/flowplayer/flowplayer-3.2.9.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$( "#accordion" ).accordion({
+			"event": "mouseover"
+		});
+
+		$("#accordion").accordion("option", "icons", { 'header': 'ui-icon-triangle-1-w', 'headerSelected': 'ui-icon-triangle-1-s'});
+	});
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function($){
+		$('.megamenu').megaMenuReloaded({
+			menu_speed_show : 500, // Time (in milliseconds) to show a drop down
+			menu_speed_hide : 500, // Time (in milliseconds) to hide a drop down
+			menu_speed_delay : 500, // Time (in milliseconds) before showing a drop down
+			menu_effect : 'hover_slide', // Drop down effect, choose between 'hover_fade', 'hover_slide', 'click_fade', 'click_slide', 'open_close_fade', 'open_close_slide'
+			menu_click_outside : 0, // Clicks outside the drop down close it (1 = true, 0 = false)
+			menu_show_onload : 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
+			menubar_trigger : 0 // Show the menu trigger (button to show / hide the menu bar), only for the fixed version of the menu (1 = show, 0 = hide)
+		});
+	});
+</script>
+
+<link type="text/css" href="css/scrollable-horizontal.css" rel="stylesheet" />
+<link type="text/css" href="css/scrollable-buttons.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+
+<script type="text/javascript">
+    $(function() {
+          $(".scrollable").scrollable({circular: true});
+    });
+</script>
+<style type="text/css">
+/*<!--*/
+.ui-dialog-titlebar-close {
+	visibility: hidden;
+}
+#maincontent { margin-top: 2em; }
+/*-->*/
+</style>
+</head>
+<body>
+	
+<!--
+NOTES:
+	* "autocomplete" attribute is invalid; set in javascript to avoid validation errors
+	* always use relative paths when possible - CHANGE THIS LATER(JAKE)-
+	* <form id="searchform" method="get" action="http://www.missouriwestern.edu/google_search.asp" autocomplete="off">	
+-->
+
+<table border="0" width="100%" cellspacing="0" cellpadding="6" style="background-color:black;">
+	<tr>
+		<td>
+			<table align="center" border="0" width="970" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="509" style="width: 970px" class="style1">
+				<a href="http://www.missouriwestern.edu">
+				<img border="0" src="images/header/logo.png" width="404" height="76" alt="Missouri Western State University" /></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+	<div id="maincontent">
+		
+<h1>Search Results</h1>
+<button type="button" onclick="location.href='Default.asp?tck=202210';">Search Again</button>
+<table class="results">
+	<tr>
+		<th>CRN</th>
+		<th>Course</th>
+		<th>Sec</th>
+		<th>Type</th>
+		<th>Title</th>
+		<th>Hrs</th>
+		<th>Days</th>
+		<th style="width: 150px;">Times</th>
+		<th>Room</th>
+		<th>Instructor</th>
+	</tr>
+	
+		<tr class="list_row">
+			<td>10683</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ALH&crse_number=106&seq_number_key=01">ALH106</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ALH&crse_number=106&seq_number_key=01">Medical Terminology</a></td>
+			<td>2</td>
+			<td>R</td>
+			<td>10:00AM-11:50AM</td>
+			<td>Murphy Hall 110</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 50-->
+						Maximum Enrollment: 50<br />
+						Section Seats Available: 43<br />
+						
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10684</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ALH&crse_number=106&seq_number_key=40">ALH106</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ALH&crse_number=106&seq_number_key=40">Medical Terminology</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Fast, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 50-->
+						Maximum Enrollment: 50<br />
+						Section Seats Available: 26<br />
+						
+					</span>
+					
+				</span>
+				Students MUST have access to Internet.&nbsp;
+					Course information will be sent by MWSU&nbsp;
+					email prior to classes starting.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15140</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ALH&crse_number=330&seq_number_key=40">ALH330</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ALH&crse_number=330&seq_number_key=40">Intro to Epidemiology and Bios</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14045</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ALH&crse_number=350&seq_number_key=01">ALH350</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ALH&crse_number=350&seq_number_key=01">Intro to Population Health</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Murphy Hall 310</td>
+			<td>Sansone, F</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				Watch email for course information & webinar schedule.&nbsp;
+					If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14531</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ALH&crse_number=351&seq_number_key=40">ALH351</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ALH&crse_number=351&seq_number_key=40">Applied Pop Health Mgmt Lab</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Sansone, F</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 10-->
+						Maximum Enrollment: 10<br />
+						Section Seats Available: 3<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10686</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ALH&crse_number=352&seq_number_key=40">ALH352</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ALH&crse_number=352&seq_number_key=40">Applied Nutrition</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Carden, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 5<br />
+						
+					</span>
+					
+				</span>
+				Students MUST have access to the Internet.&nbsp;
+					Course information will be sent my MWSU emamil&nbsp;
+					prior to classes starting.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15560</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ALH&crse_number=352&seq_number_key=41">ALH352</a>
+			</td>
+			<td>41</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ALH&crse_number=352&seq_number_key=41">Applied Nutrition</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Carden, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 22<br />
+						
+					</span>
+					
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14047</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=ALH&crse_number=402&seq_number_key=01">ALH402</a>
+			</td>
+			<td>01</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=ALH&crse_number=402&seq_number_key=01">Population Health Internship</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Sansone, F</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 5-->
+						Maximum Enrollment: 5<br />
+						Section Seats Available: 4<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15363</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HDA&crse_number=360&seq_number_key=40">HDA360</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HDA&crse_number=360&seq_number_key=40">Applied Health Data Statistics</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Fast, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14262</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=200&seq_number_key=40">HIF200</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=200&seq_number_key=40">Health Care Delivery Systems</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>McKinney, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 45-->
+						Maximum Enrollment: 45<br />
+						Section Seats Available: 31<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15581</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=277&seq_number_key=40">HIF277</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=277&seq_number_key=40">Coding and Class Systems II</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Kennebeck, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 15<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15582</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=278&seq_number_key=40">HIF278</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=278&seq_number_key=40">Coding & Class Systems II Lab</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Kennebeck, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 15<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11945</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=300&seq_number_key=40">HIF300</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=300&seq_number_key=40">Health Data Management</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>McKinney, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				Students MUST have access to Internet and have a webcam.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11948</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=310&seq_number_key=40">HIF310</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=310&seq_number_key=40">Clinical Classification System</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>McKinney, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 23<br />
+						
+					</span>
+					
+				</span>
+				Students MUST have access to the Internet and have a webcam.&nbsp;
+					**There will be a fee associated with this class.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14265</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=330&seq_number_key=40">HIF330</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=330&seq_number_key=40">Legal/Ethical Healthcare Mgmt</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Aspiazu, B</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12299</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=410&seq_number_key=40">HIF410</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=410&seq_number_key=40">Human Resources/Oper Mgmt</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>McKinney, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 19<br />
+						
+					</span>
+					
+				</span>
+				Students MUST have access to Internet.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12300</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=420&seq_number_key=40">HIF420</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=420&seq_number_key=40">Clinical Data Management</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Fast, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				Students MUST have access to Internet. Course&nbsp;
+					information will be sent by MWSU email prior to&nbsp;
+					classes starting.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12301</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=430&seq_number_key=40">HIF430</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=HIF&crse_number=430&seq_number_key=40">Applied Health Informatics</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Fast, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				Students MUST have access to Internet.&nbsp;
+					**There will be a fee associated with this class.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11459</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=101&seq_number_key=01">PED101</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=101&seq_number_key=01">Fitness and Wellness</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>11:00AM-11:55AM</td>
+			<td>Spratt Hall 214</td>
+			<td>Kriewitz, K</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>TR</td>
+				<td>11:00AM-11:55AM</td>
+				<td>Spratt Hall 216</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 50-->
+						Maximum Enrollment: 50<br />
+						Section Seats Available: 40<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11465</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=101&seq_number_key=02">PED101</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=101&seq_number_key=02">Fitness and Wellness</a></td>
+			<td>0</td>
+			<td>TR</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Baker Center 133</td>
+			<td>Schilling, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 40-->
+						Maximum Enrollment: 40<br />
+						Section Seats Available: 36<br />
+						
+					</span>
+					
+				</span>
+				Strength Training Lab. PED 101 labs meet for 10 weeks.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					PED 101 Lab
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 11/6/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11469</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=101&seq_number_key=03">PED101</a>
+			</td>
+			<td>03</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=101&seq_number_key=03">Fitness and Wellness</a></td>
+			<td>0</td>
+			<td>TR</td>
+			<td>12:30PM-1:25PM</td>
+			<td>Griffon Indoor Sports Complex INDOOR FLD</td>
+			<td>Larimore, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 80-->
+						Maximum Enrollment: 80<br />
+						Section Seats Available: 74<br />
+						
+					</span>
+					
+				</span>
+				Walking Lab. PED 101 labs meet for 10 weeks.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					PED 101 Lab
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 11/6/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13551</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=101&seq_number_key=04">PED101</a>
+			</td>
+			<td>04</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=101&seq_number_key=04">Fitness and Wellness</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Gerlach, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Adaptive Lab-Medical referral required and instructor's&nbsp;
+					consent. Must enroll through HPER Dept. LC 214B&nbsp;
+					PED 101 Labs meet for 10 weeks.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					PED 101 Lab
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 11/6/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11479</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=101&seq_number_key=40">PED101</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=101&seq_number_key=40">Fitness and Wellness</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Russell, W</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 148-->
+						Maximum Enrollment: 148<br />
+						Section Seats Available: 134<br />
+						
+							Crosslist Seats Available: 134
+					</span>
+					
+				</span>
+				Students MUST have access to Internet. Lecture is 100%&nbsp;
+					online. Students must register for corresponding required&nbsp;
+					lab section 41. Instructor will send students informative&nbsp;
+					emails to their MWSU Goldlink email account only. Contact&nbsp;
+					instructor for further information 271-5943.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							PED101 80
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11480</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=101&seq_number_key=41">PED101</a>
+			</td>
+			<td>41</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=101&seq_number_key=41">Fitness and Wellness</a></td>
+			<td>0</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Russell, W</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 148-->
+						Maximum Enrollment: 148<br />
+						Section Seats Available: 129<br />
+						
+							Crosslist Seats Available: 124
+					</span>
+					
+				</span>
+				General Lab. Must enroll in PED 101 section 40 lecture.&nbsp;
+					PED 101 labs are for 10 weeks.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							PED101 81
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11481</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=101&seq_number_key=80">PED101</a>
+			</td>
+			<td>80</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=101&seq_number_key=80">Fitness And Wellness (Honors)</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Russell, W</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 148<br />
+						Section Seats Available: 25<br />
+						
+							Crosslist Seats Available: 134
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							PED101 40
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15640</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=101&seq_number_key=81">PED101</a>
+			</td>
+			<td>81</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=101&seq_number_key=81">Fitness and Wellness (Honors)</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Russell, W</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 148<br />
+						Section Seats Available: 20<br />
+						
+							Crosslist Seats Available: 124
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							PED101 41
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10974</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=110&seq_number_key=01">PED110</a>
+			</td>
+			<td>01</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=110&seq_number_key=01">Adaptive Activities</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Gerlach, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -1<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Requires physician's referral and instructor's consent. Must&nbsp;
+					enroll through HPER department LC 214B.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10979</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=118&seq_number_key=01">PED118</a>
+			</td>
+			<td>01</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=118&seq_number_key=01">Beginning Bowling</a></td>
+			<td>1</td>
+			<td>M</td>
+			<td>2:00PM-3:50PM</td>
+			<td>Off Campus </td>
+			<td>Burks, R</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 16<br />
+						
+					</span>
+					
+				</span>
+				Class meets at Belt Bowl, 210 N Belt Hwy, St Joseph, MO&nbsp;
+					64506, House fee of $40 paid by student to Belt Bowl at&nbsp;
+					the first class period.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10980</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=118&seq_number_key=02">PED118</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=118&seq_number_key=02">Beginning Bowling</a></td>
+			<td>1</td>
+			<td>M</td>
+			<td>4:00PM-5:50PM</td>
+			<td>Off Campus </td>
+			<td>Burks, R</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 13<br />
+						
+					</span>
+					
+				</span>
+				Class meets at Belt Bowl, 210 N Belt Hwy, St Joseph, MO&nbsp;
+					64506, House fee of $40 paid by student to Belt Bowl at&nbsp;
+					the first class period.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15742</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=120&seq_number_key=01">PED120</a>
+			</td>
+			<td>01</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=120&seq_number_key=01">Beginning Tennis</a></td>
+			<td>1</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Looney Complex GYM</td>
+			<td>Garrido Rivas, O</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>TR</td>
+				<td>11:00AM-12:20PM</td>
+				<td>Looney Complex TC</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 16-->
+						Maximum Enrollment: 16<br />
+						Section Seats Available: 12<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Off Schedule
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/31/2021</span>
+					<span class="course_ends">Course Ends: 10/21/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15740</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=130&seq_number_key=01">PED130</a>
+			</td>
+			<td>01</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=130&seq_number_key=01">Beginning Swimming</a></td>
+			<td>1</td>
+			<td>TR</td>
+			<td>1:00PM-1:50PM</td>
+			<td>Looney Complex POOL</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 10<br />
+						Section Seats Available: 19<br />
+						
+							Crosslist Seats Available: 9
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							PED132 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15741</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=132&seq_number_key=01">PED132</a>
+			</td>
+			<td>01</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=132&seq_number_key=01">Intermediate Swimming</a></td>
+			<td>1</td>
+			<td>TR</td>
+			<td>1:00PM-1:50PM</td>
+			<td>Looney Complex POOL</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 10<br />
+						Section Seats Available: 20<br />
+						
+							Crosslist Seats Available: 9
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+						<span class="course_xl">
+							
+							This course is crosslisted with:
+							PED130 01
+						</span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15743</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=138&seq_number_key=01">PED138</a>
+			</td>
+			<td>01</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=138&seq_number_key=01">Beginning Canoeing</a></td>
+			<td>1</td>
+			<td>W</td>
+			<td>5:00PM-7:50PM</td>
+			<td>Looney Complex 226</td>
+			<td>Sternberg, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Off Schedule
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 9/15/2021</span>
+					<span class="course_ends">Course Ends: 10/6/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15158</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=141&seq_number_key=01">PED141</a>
+			</td>
+			<td>01</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=141&seq_number_key=01">Beginning Karate</a></td>
+			<td>1</td>
+			<td>W</td>
+			<td>6:30PM-8:20PM</td>
+			<td>Looney Complex WB</td>
+			<td>Sims, C</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 32<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10992</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=145&seq_number_key=01">PED145</a>
+			</td>
+			<td>01</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=145&seq_number_key=01">Aerobic Dance</a></td>
+			<td>1</td>
+			<td>TR</td>
+			<td>12:30PM-1:25PM</td>
+			<td>Looney Complex ARENA</td>
+			<td>Furlong, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 29<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10995</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=158&seq_number_key=01">PED158</a>
+			</td>
+			<td>01</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=158&seq_number_key=01">Intercollegiate Sports I</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Dodd, R</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 110-->
+						Maximum Enrollment: 110<br />
+						Section Seats Available: 93<br />
+						
+					</span>
+					
+				</span>
+				Intercollegiate athletic team members who are on the men's&nbsp;
+					basketball, men's football, women's basketball, women's&nbsp;
+					soccer, and women's volleyball teams only. May&nbsp;
+					be taken up to four times for credit. Meets General Studies&nbsp;
+					Category 5, Line 2 physical activity course.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15723</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=160&seq_number_key=01">PED160</a>
+			</td>
+			<td>01</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=160&seq_number_key=01">Cheer and Dance Participation</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td> </td>
+			<td>Esely, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Prereq: MWSU Cheer Squad Participant or Mystics Dance Team&nbsp;
+					Members only. Students who are official members of the&nbsp;
+					MWSU Cheer Squad or Mystics Dance Team may receive&nbsp;
+					participation credit. May be taken up to 4 times for credit.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14212</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=180&seq_number_key=40">PED180</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=180&seq_number_key=40">Pilates</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Stockett, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15738</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=182&seq_number_key=01">PED182</a>
+			</td>
+			<td>01</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=182&seq_number_key=01">Yoga</a></td>
+			<td>1</td>
+			<td>TR</td>
+			<td>9:30AM-11:00AM</td>
+			<td>Looney Complex 212</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Off Schedule
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/31/2021</span>
+					<span class="course_ends">Course Ends: 11/18/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15529</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=182&seq_number_key=40">PED182</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=182&seq_number_key=40">Yoga</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Huffman, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 8<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Off Schedule Online
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 11/19/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15739</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=185&seq_number_key=01">PED185</a>
+			</td>
+			<td>01</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=185&seq_number_key=01">Begin Weight Trng and Cond</a></td>
+			<td>1</td>
+			<td>TR</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Baker Center 133</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Off Schedule
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 9/14/2021</span>
+					<span class="course_ends">Course Ends: 11/18/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15159</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=186&seq_number_key=01">PED186</a>
+			</td>
+			<td>01</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=186&seq_number_key=01">Aerobic Fitness</a></td>
+			<td>1</td>
+			<td>MW</td>
+			<td>10:00AM-10:55AM</td>
+			<td>Looney Complex ARENA</td>
+			<td>Larimore, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 28<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13582</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=191&seq_number_key=01">PED191</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=191&seq_number_key=01">Foundations of Physical Educat</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Griffon Indoor Sports Complex 113</td>
+			<td>Buckler, M</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>TR</td>
+				<td>9:30AM-10:50AM</td>
+				<td>Griffon Indoor Sports Complex 134</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 36-->
+						Maximum Enrollment: 36<br />
+						Section Seats Available: 30<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14451</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=192&seq_number_key=40">PED192</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=192&seq_number_key=40">Independent Physical Activity</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Molina, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 50-->
+						Maximum Enrollment: 50<br />
+						Section Seats Available: 41<br />
+						
+					</span>
+					
+				</span>
+				This course will involve independent physical activity&nbsp;
+					tracking which will be monitored by the instructor. The&nbsp;
+					student will be required to purchase a specified activity&nbsp;
+					tracker.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11067</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=193&seq_number_key=40">PED193</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=193&seq_number_key=40">Sp Weight Train for Athletes</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Dodd, R</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 50-->
+						Maximum Enrollment: 50<br />
+						Section Seats Available: 48<br />
+						
+					</span>
+					
+				</span>
+				Limited to MWSU intercollegiate athletes and cheer&nbsp;
+					only. May be taken one time only for credit.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15734</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=222&seq_number_key=01">PED222</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=222&seq_number_key=01">Human Sexuality</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Looney Complex 226</td>
+			<td>Dodd, R</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12033</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=240&seq_number_key=01">PED240</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=240&seq_number_key=01">Lifetime Activities</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Griffon Indoor Sports Complex INDOOR FLD</td>
+			<td>Buckler, M</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>TR</td>
+				<td>12:30PM-1:50PM</td>
+				<td>Looney Complex 215</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>TR</td>
+				<td>12:30PM-1:50PM</td>
+				<td>Off Campus </td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 16-->
+						Maximum Enrollment: 16<br />
+						Section Seats Available: 12<br />
+						
+					</span>
+					
+				</span>
+				Field trips may be required.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13199</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=246&seq_number_key=01">PED246</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=246&seq_number_key=01">Concepts of Dance and Gymnast</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Looney Complex ARENA</td>
+			<td>Murawski, A</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>TR</td>
+				<td>8:00AM-9:20AM</td>
+				<td>Looney Complex WB</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>TR</td>
+				<td>8:00AM-9:20AM</td>
+				<td>Off Campus </td>
+				<td>&nbsp;</td>
+			</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>TR</td>
+				<td>8:00AM-9:20AM</td>
+				<td>Looney Complex 216</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 16-->
+						Maximum Enrollment: 16<br />
+						Section Seats Available: 9<br />
+						
+					</span>
+					
+				</span>
+				Field trips may be required. 2 hour lab.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11075</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=304&seq_number_key=01">PED304</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=304&seq_number_key=01">Physiology of Exercise</a></td>
+			<td>3</td>
+			<td>T</td>
+			<td>8:00AM-8:55AM</td>
+			<td>Looney Complex 129</td>
+			<td>Kraft, J</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>T</td>
+				<td>8:00AM-8:55AM</td>
+				<td>Looney Complex 114</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>MW</td>
+				<td>12:30PM-1:50PM</td>
+				<td>Looney Complex 129</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>MW</td>
+				<td>12:30PM-1:50PM</td>
+				<td>Looney Complex 114</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 19-->
+						Maximum Enrollment: 19<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Full</span>
+						
+				</span>
+				Course prerequisite(s) see college catalog.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13583</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=305&seq_number_key=01">PED305</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=305&seq_number_key=01">First Aid: Responding to Emerg</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Looney Complex 212</td>
+			<td>Small, G</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Full</span>
+						
+				</span>
+				If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15746</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=312&seq_number_key=01">PED312</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=312&seq_number_key=01">Coaching Offic Basketball</a></td>
+			<td>2</td>
+			<td>MW</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Looney Complex 226</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15747</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=313&seq_number_key=01">PED313</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=313&seq_number_key=01">Coach Officiat Baseball Softba</a></td>
+			<td>2</td>
+			<td>TR</td>
+			<td>8:00AM-9:20AM</td>
+			<td>Looney Complex 226</td>
+			<td>Trotter, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 12<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13803</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=317&seq_number_key=01">PED317</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=317&seq_number_key=01">Principles of Strength & Cond</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:00PM-1:50PM</td>
+			<td>Looney Complex 114</td>
+			<td>Kriewitz, K</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>TR</td>
+				<td>12:00PM-1:50PM</td>
+				<td>Baker Center 133</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 10<br />
+						
+					</span>
+					
+				</span>
+				Plan to meet the first day for further instruction.&nbsp;
+					If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14706</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=327&seq_number_key=01">PED327</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=327&seq_number_key=01">Special Populations</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Looney Complex 129</td>
+			<td>Gerlach, S</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>MW</td>
+				<td>9:30AM-10:50AM</td>
+				<td>Looney Complex 114</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 5<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13585</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=352&seq_number_key=40">PED352</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=352&seq_number_key=40">Fitness and Sports Nutrition</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Gerlach, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Full</span>
+						
+				</span>
+				Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15160</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=374&seq_number_key=01">PED374</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=374&seq_number_key=01">Psychology of Sport</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Spratt Hall 101</td>
+			<td>Russell, W</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 36-->
+						Maximum Enrollment: 36<br />
+						Section Seats Available: 13<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_waitlist">This course may be waitlisted through the online registration system.</span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11101</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=382&seq_number_key=01">PED382</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=382&seq_number_key=01">Elem School Physical Ed</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:00PM-1:50PM</td>
+			<td>Looney Complex 215</td>
+			<td>Murawski, A</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>MW</td>
+				<td>12:00PM-1:50PM</td>
+				<td>Looney Complex ARENA</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 16-->
+						Maximum Enrollment: 16<br />
+						Section Seats Available: 11<br />
+						
+					</span>
+					
+				</span>
+				May meet off campus for micro teaching experiences&nbsp;
+					in an elementary school; may have one teaching experience at&nbsp;
+					night. Course prerequisite(s) see college catalog.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13589</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=385&seq_number_key=40">PED385</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=385&seq_number_key=40">Athletic Training</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Ludwig, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 5<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11107</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=391&seq_number_key=40">PED391</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=391&seq_number_key=40">Personal & Environmental Hlth</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Dodd, R</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 28<br />
+						
+					</span>
+					
+				</span>
+				Course prerequisite(s) see college catalog.  Students must&nbsp;
+					have access to the Internet.&nbsp;
+					Book charge are added to this section as part of the Barnes&nbsp;
+					& Noble First Day Program. Further information can be&nbsp;
+					found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11109</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=393&seq_number_key=01">PED393</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=393&seq_number_key=01">Measurement in Physical Ed</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Griffon Indoor Sports Complex 134</td>
+			<td>Russell, W</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>TR</td>
+				<td>12:30PM-1:50PM</td>
+				<td>Griffon Indoor Sports Complex 113</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>TR</td>
+				<td>12:30PM-1:50PM</td>
+				<td>Looney Complex GYM</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 10<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15211</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=400&seq_number_key=01">PED400</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=400&seq_number_key=01">Advanced CV Phys</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Looney Complex 129</td>
+			<td>Gerlach, S</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Full</span>
+						
+				</span>
+				If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					Book charges are added to this section as part of the&nbsp;
+					Barnes and Noble First Day Program.&nbsp;
+					Further information can be found in your Canvas.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11111</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=401&seq_number_key=01">PED401</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=401&seq_number_key=01">Graded Exercise Testing</a></td>
+			<td>3</td>
+			<td>M</td>
+			<td>11:00AM-11:55AM</td>
+			<td>Looney Complex 129</td>
+			<td>Kraft, J</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>TR</td>
+				<td>11:00AM-12:20PM</td>
+				<td>Looney Complex 129</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 21-->
+						Maximum Enrollment: 21<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Full</span>
+						
+				</span>
+				Course prerequisite(s) see college catalog.&nbsp;
+					If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15161</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=417&seq_number_key=01">PED417</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=417&seq_number_key=01">Personal Training</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Baker Center 133</td>
+			<td>Gerlach, S</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>MW</td>
+				<td>12:30PM-1:50PM</td>
+				<td>Looney Complex 129</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 15-->
+						Maximum Enrollment: 15<br />
+						Section Seats Available: 10<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11112</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=430&seq_number_key=01">PED430</a>
+			</td>
+			<td>01</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=430&seq_number_key=01">Field Experience/Hlth Exer Sci</a></td>
+			<td>9</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Kriewitz, K</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -2<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Course prerequisite(s) see college catalog. Must enroll&nbsp;
+					through the HPER department.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13751</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=450&seq_number_key=01">PED450</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=450&seq_number_key=01">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Raffensperger, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -1<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11115</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=480&seq_number_key=01">PED480</a>
+			</td>
+			<td>01</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PED&crse_number=480&seq_number_key=01">Practicum in Physical Ed.</a></td>
+			<td>2</td>
+			<td>M</td>
+			<td>2:00PM-2:55PM</td>
+			<td>Looney Complex 215</td>
+			<td>Kraft, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 4<br />
+						
+					</span>
+					
+				</span>
+				Section 01 - Additional class meetings arranged.&nbsp;
+					For Exercise Science students only. HPER majors only.&nbsp;
+					Course prerequisite(s) see college catalog.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12083</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=100&seq_number_key=40">PTA100</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=100&seq_number_key=40">Intro To Physical Therapy</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Holtz, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 23<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12084</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=110&seq_number_key=01">PTA110</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=110&seq_number_key=01">Patient Care Skills</a></td>
+			<td>3</td>
+			<td>M</td>
+			<td>2:00PM-2:55PM</td>
+			<td>Murphy Hall 304</td>
+			<td>Holtz, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12085</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=110&seq_number_key=02">PTA110</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=110&seq_number_key=02">Patient Care Skills</a></td>
+			<td>0</td>
+			<td>W</td>
+			<td>2:00PM-4:40PM</td>
+			<td>Murphy Hall 304</td>
+			<td>Holtz, M</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>W</td>
+				<td>2:00PM-4:40PM</td>
+				<td>Murphy Hall 305</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>M</td>
+				<td>3:00PM-4:40PM</td>
+				<td>Murphy Hall 304</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>M</td>
+				<td>3:00PM-4:40PM</td>
+				<td>Murphy Hall 305</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15674</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=120&seq_number_key=01">PTA120</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=120&seq_number_key=01">Modalities</a></td>
+			<td>3</td>
+			<td>T</td>
+			<td>2:00PM-2:55PM</td>
+			<td>Murphy Hall 304</td>
+			<td>Raffensperger, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15675</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=120&seq_number_key=02">PTA120</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=120&seq_number_key=02">Modalities</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>2:00PM-4:40PM</td>
+			<td>Murphy Hall 304</td>
+			<td>Raffensperger, M</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>R</td>
+				<td>2:00PM-4:40PM</td>
+				<td>Murphy Hall 305</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>T</td>
+				<td>3:00PM-4:40PM</td>
+				<td>Murphy Hall 304</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>T</td>
+				<td>3:00PM-4:40PM</td>
+				<td>Murphy Hall 305</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15676</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=130&seq_number_key=01">PTA130</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=130&seq_number_key=01">Functional Anatomy</a></td>
+			<td>2</td>
+			<td>M</td>
+			<td>11:00AM-11:55AM</td>
+			<td>Murphy Hall 304</td>
+			<td>Holtz, M</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>M</td>
+				<td>11:00AM-11:55AM</td>
+				<td>Murphy Hall 305</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15677</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=130&seq_number_key=02">PTA130</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=130&seq_number_key=02">Functional Anatomy</a></td>
+			<td>0</td>
+			<td>W</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Murphy Hall 305</td>
+			<td>Holtz, M</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>W</td>
+				<td>11:00AM-12:20PM</td>
+				<td>Murphy Hall 304</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>M</td>
+				<td>12:00PM-12:20PM</td>
+				<td>Murphy Hall 305</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15722</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=251&seq_number_key=01">PTA251</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=251&seq_number_key=01">Cardiopulmonary Rehabilitation</a></td>
+			<td>1</td>
+			<td>M</td>
+			<td>10:00AM-10:55AM</td>
+			<td>Murphy Hall 304</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 7<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12794</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=255&seq_number_key=01">PTA255</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=255&seq_number_key=01">Clinical Orthopedics</a></td>
+			<td>3</td>
+			<td>M</td>
+			<td>8:00AM-8:55AM</td>
+			<td>Murphy Hall 304</td>
+			<td>Raffensperger, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 7<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12795</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=255&seq_number_key=02">PTA255</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=255&seq_number_key=02">Clinical Orthopedics</a></td>
+			<td>0</td>
+			<td>W</td>
+			<td>8:00AM-10:40AM</td>
+			<td>Murphy Hall 305</td>
+			<td>Raffensperger, M</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>M</td>
+				<td>9:00AM-9:50AM</td>
+				<td>Murphy Hall 304</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>M</td>
+				<td>9:00AM-9:50AM</td>
+				<td>Murphy Hall 305</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 7<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12293</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=260&seq_number_key=01">PTA260</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=260&seq_number_key=01">Clinical Neurology</a></td>
+			<td>4</td>
+			<td>T</td>
+			<td>8:00AM-9:55AM</td>
+			<td>Murphy Hall 304</td>
+			<td>Staff</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 7<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12294</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=260&seq_number_key=02">PTA260</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=PTA&crse_number=260&seq_number_key=02">Clinical Neurology</a></td>
+			<td>0</td>
+			<td>R</td>
+			<td>8:00AM-10:40AM</td>
+			<td>Murphy Hall 304</td>
+			<td>Staff</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>R</td>
+				<td>8:00AM-10:40AM</td>
+				<td>Murphy Hall 305</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>T</td>
+				<td>10:00AM-10:40AM</td>
+				<td>Murphy Hall 304</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>T</td>
+				<td>10:00AM-10:40AM</td>
+				<td>Murphy Hall 305</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 7<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10909</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=220&seq_number_key=01">RSM220</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=220&seq_number_key=01">Intro to Rec and Sport Mgmt</a></td>
+			<td>3</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Looney Complex 226</td>
+			<td>Choi, H</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 40-->
+						Maximum Enrollment: 40<br />
+						Section Seats Available: 37<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10911</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=230&seq_number_key=01">RSM230</a>
+			</td>
+			<td>01</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=230&seq_number_key=01">Rec/Sport Field Experience I</a></td>
+			<td>2</td>
+			<td>M</td>
+			<td>11:00AM-11:55AM</td>
+			<td>Looney Complex 215</td>
+			<td>Murawski, A</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				Course prerequisites(s) see college catalog.&nbsp;
+					Field experience sites will be off campus.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10925</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=330&seq_number_key=01">RSM330</a>
+			</td>
+			<td>01</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=330&seq_number_key=01">Rec/Sport Field Experience II</a></td>
+			<td>3</td>
+			<td>W</td>
+			<td>11:00AM-11:55AM</td>
+			<td>Looney Complex 215</td>
+			<td>Choi, H</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: -2<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Course prerequisites(s) see college catalog. Must enroll&nbsp;
+					through the HPER department LC 214B.&nbsp;
+					Field experience sites will be off campus.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15557</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=335&seq_number_key=01">RSM335</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=335&seq_number_key=01">Instructor of Initiatives</a></td>
+			<td>2</td>
+			<td>R</td>
+			<td>12:30PM-2:20PM</td>
+			<td>Looney Complex GYM</td>
+			<td>Smith, J</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>R</td>
+				<td>12:30PM-2:20PM</td>
+				<td>Looney Complex 212</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 18<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10928</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=344&seq_number_key=40">RSM344</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=344&seq_number_key=40">Travel and Tourism - Rec/Sport</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Choi, H</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 35-->
+						Maximum Enrollment: 35<br />
+						Section Seats Available: 26<br />
+						
+					</span>
+					
+				</span>
+				Course prerequisites(s) see college catalog.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14330</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=360&seq_number_key=01">RSM360</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=360&seq_number_key=01">Entrepreneurship in Rec/Sport</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Looney Complex 212</td>
+			<td>Small, G</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 30-->
+						Maximum Enrollment: 30<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14739</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=365&seq_number_key=01">RSM365</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=365&seq_number_key=01">Introduction to Special Popula</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Looney Complex 212</td>
+			<td>Smith, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13202</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=420&seq_number_key=01">RSM420</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=420&seq_number_key=01">Seminar - Rec and Sport Mgmt</a></td>
+			<td>1</td>
+			<td>T</td>
+			<td>11:00AM-11:55AM</td>
+			<td>Looney Complex 216</td>
+			<td>Smith, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 16-->
+						Maximum Enrollment: 16<br />
+						Section Seats Available: 15<br />
+						
+					</span>
+					
+				</span>
+				Course prerequisite(s) see college catalog.&nbsp;
+					Class meets:&nbsp;
+					August 31&nbsp;
+					September 7, 14, 21, 28&nbsp;
+					October 5, 12, 19, 26&nbsp;
+					November 16&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15532</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=424&seq_number_key=01">RSM424</a>
+			</td>
+			<td>01</td>
+			<td>Lecture, 100% in Classroom</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=424&seq_number_key=01">Org and Admin of Rec and Sport</a></td>
+			<td>3</td>
+			<td>MW</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Looney Complex 216</td>
+			<td>Choi, H</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 19<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15735</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=428&seq_number_key=01">RSM428</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=428&seq_number_key=01">Intro to Sport Governance</a></td>
+			<td>3</td>
+			<td>R</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Looney Complex 114</td>
+			<td>Kramer, E</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 9<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10932</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=430&seq_number_key=01">RSM430</a>
+			</td>
+			<td>01</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=RSM&crse_number=430&seq_number_key=01">Rec/Sport Field Experience III</a></td>
+			<td>9</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Kraft, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Course prerequisite(s) see college catalog. Must enroll&nbsp;
+					through HPER department LC 214B.&nbsp;
+					Field experience sites will be off campus.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12066</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=250&seq_number_key=01">SWK250</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=250&seq_number_key=01">Introduction to Social Work</a></td>
+			<td>4</td>
+			<td>TR</td>
+			<td>9:30AM-10:50AM</td>
+			<td>Murphy Hall 112</td>
+			<td>Frye, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 20<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12046</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=325&seq_number_key=01">SWK325</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=325&seq_number_key=01">Family and Child Welfare</a></td>
+			<td>3</td>
+			<td>M</td>
+			<td>2:00PM-3:20PM</td>
+			<td>Murphy Hall 310</td>
+			<td>Endres, R</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 4<br />
+						
+					</span>
+					
+				</span>
+				This is a blended class requiring online work, as well as a&nbsp;
+					once-a-week classroom meeting with the course instructor&nbsp;
+					on Mondays from 2:00-3:20pm. As 50% of this course is&nbsp;
+					conducted in an online format, frequent and reliable&nbsp;
+					computer and Internet access are necessary to be successful.&nbsp;
+					If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12047</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=330&seq_number_key=01">SWK330</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=330&seq_number_key=01">Human Behav & Social Enviro I</a></td>
+			<td>3</td>
+			<td>R</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Murphy Hall 310</td>
+			<td>Endres, R</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				This is a blended class requiring online work, as well as a&nbsp;
+					once-a-week classroom meeting with the course instructor&nbsp;
+					on Thursdays from 11:00am-12:20pm. As 50% of this course&nbsp;
+					is conducted in an online format, frequent and reliable&nbsp;
+					computer and Internet access are required to be successful.&nbsp;
+					If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12419</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=345&seq_number_key=40">SWK345</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=345&seq_number_key=40">Substance Use and Disorders</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>McClellan, H</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 5<br />
+						
+					</span>
+					
+				</span>
+				This is an online course. Frequent and reliable computer&nbsp;
+					and Internet access are necessary to be successful in this&nbsp;
+					course.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10104</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=350&seq_number_key=01">SWK350</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=350&seq_number_key=01">Social Work Practice I</a></td>
+			<td>4</td>
+			<td>T</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Wilson Hall 130</td>
+			<td>Clary, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 16<br />
+						
+					</span>
+					
+				</span>
+				Must enroll in Lab(section 02, 03 or 04) with Lecture.&nbsp;
+					If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>10428</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=350&seq_number_key=02">SWK350</a>
+			</td>
+			<td>02</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=350&seq_number_key=02">Social Work Practice I</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>9:00AM-10:50AM</td>
+			<td>Wilson Hall 200A</td>
+			<td>Clary, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 9-->
+						Maximum Enrollment: 9<br />
+						Section Seats Available: 6<br />
+						
+					</span>
+					
+				</span>
+				Must enroll in Lecture(section 01) with Lab.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>11576</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=350&seq_number_key=03">SWK350</a>
+			</td>
+			<td>03</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=350&seq_number_key=03">Social Work Practice I</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>12:30PM-2:20PM</td>
+			<td>Wilson Hall 200A</td>
+			<td>Clary, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 9-->
+						Maximum Enrollment: 9<br />
+						Section Seats Available: 4<br />
+						
+					</span>
+					
+				</span>
+				Must enroll in Lecture(section 01) with Lab.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15024</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=350&seq_number_key=04">SWK350</a>
+			</td>
+			<td>04</td>
+			<td>Lab</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=350&seq_number_key=04">Social Work Practice I</a></td>
+			<td>0</td>
+			<td>T</td>
+			<td>2:30PM-4:20PM</td>
+			<td>Wilson Hall 200A</td>
+			<td>Clary, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 9-->
+						Maximum Enrollment: 9<br />
+						Section Seats Available: 9<br />
+						
+					</span>
+					
+				</span>
+				Must enroll in Lecture (section 01) with Lab.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					
+						<span class="course_linked">You must register for both a Lecture and Lab for this course. </span>
+					
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12418</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=365&seq_number_key=40">SWK365</a>
+			</td>
+			<td>40</td>
+			<td>100% Online w/Meeting Times</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=365&seq_number_key=40">Death And Dying</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Clary, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 13<br />
+						
+					</span>
+					
+				</span>
+				This is an online class. Frequent and reliable computer&nbsp;
+					and Internet access are necessary to be successful in this&nbsp;
+					course. Students will need to participate in two&nbsp;
+					face-to-face applied learning opportunities: Funeral&nbsp;
+					home tour and Death Cafe. Dates for each of these events are&nbsp;
+					to be determined.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12073</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=415&seq_number_key=01">SWK415</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=415&seq_number_key=01">Social Work Practice III</a></td>
+			<td>4</td>
+			<td>T</td>
+			<td>9:00AM-10:50AM</td>
+			<td>Murphy Hall 218</td>
+			<td>Endres, R</td>
+		</tr>
+		
+			<tr class="list_row">
+				<td colspan="6">&nbsp;</td>
+				<td>T</td>
+				<td>11:00AM-12:20PM</td>
+				<td>Murphy Hall 310</td>
+				<td>&nbsp;</td>
+			</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 22-->
+						Maximum Enrollment: 22<br />
+						Section Seats Available: 11<br />
+						
+					</span>
+					
+				</span>
+				A facilities fee of $55 must be paid by the student to&nbsp;
+					EmPowerU.&nbsp;
+					If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12048</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=420&seq_number_key=40">SWK420</a>
+			</td>
+			<td>40</td>
+			<td>100% Online</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=420&seq_number_key=40">Phil/Policy in Soc Services II</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Online Course </td>
+			<td>Endres, R</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 14<br />
+						
+					</span>
+					
+				</span>
+				This is an online course. Frequent and reliable computer and&nbsp;
+					Internet access are necessary to be successful in this&nbsp;
+					course.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>14397</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=425&seq_number_key=40">SWK425</a>
+			</td>
+			<td>40</td>
+			<td>100% Online w/Meeting Times</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=425&seq_number_key=40">Bridge to Practicum</a></td>
+			<td>3</td>
+			<td>T</td>
+			<td>4:00PM-7:00PM</td>
+			<td>Murphy Hall 112</td>
+			<td>Norcross, M</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 25-->
+						Maximum Enrollment: 25<br />
+						Section Seats Available: 23<br />
+						
+					</span>
+					
+				</span>
+				Preparing for the Social Work Practicum - This course is&nbsp;
+					an online course, blended with a small percentage of&nbsp;
+					classroom lecture and discussion. The lecture portion of&nbsp;
+					the class will meet from 4:00 - 7:00 pm on the following&nbsp;
+					Tuesdays: August 31, September 28, October 26, and&nbsp;
+					November 30 (if needed). Only Social Work students who&nbsp;
+					will be doing their practicum in the Spring 2022 or&nbsp;
+					Fall 2022 semesters may take this course. Otherwise,&nbsp;
+					permission of the course instructor will be required.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13965</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=450&seq_number_key=01">SWK450</a>
+			</td>
+			<td>01</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=450&seq_number_key=01">Independent Research/Project</a></td>
+			<td>1</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Clary, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Enrollment in this course requires permission of Social Work&nbsp;
+					Program Director.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15380</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=450&seq_number_key=02">SWK450</a>
+			</td>
+			<td>02</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=450&seq_number_key=02">Independent Research/Project</a></td>
+			<td>2</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Clary, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Enrollment in this course requires permission of Social Work&nbsp;
+					Program Director.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12837</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=450&seq_number_key=03">SWK450</a>
+			</td>
+			<td>03</td>
+			<td>Independent Research</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=450&seq_number_key=03">Independent Research/Project</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Clary, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				Enrollment in this course requires permission of Social Work&nbsp;
+					Program Director.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>15556</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=470&seq_number_key=01">SWK470</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=470&seq_number_key=01">Program Evaluation</a></td>
+			<td>3</td>
+			<td>M</td>
+			<td>12:30PM-1:50PM</td>
+			<td>Murphy Hall 112</td>
+			<td>Clary, P</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 24-->
+						Maximum Enrollment: 24<br />
+						Section Seats Available: 23<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13634</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=480&seq_number_key=01">SWK480</a>
+			</td>
+			<td>01</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=480&seq_number_key=01">Practicum in Social Work</a></td>
+			<td>10</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Frye, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 10-->
+						Maximum Enrollment: 10<br />
+						Section Seats Available: 10<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13635</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=485&seq_number_key=01">SWK485</a>
+			</td>
+			<td>01</td>
+			<td>Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SWK&crse_number=485&seq_number_key=01">Social Work Practicum Seminar</a></td>
+			<td>2</td>
+			<td>M</td>
+			<td>8:30AM-10:20AM</td>
+			<td>Murphy Hall 310</td>
+			<td>Frye, J</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 10-->
+						Maximum Enrollment: 10<br />
+						Section Seats Available: 10<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12864</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SFM&crse_number=525&seq_number_key=40">SFM525</a>
+			</td>
+			<td>40</td>
+			<td>100% Online w/Meeting Times</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SFM&crse_number=525&seq_number_key=40">Legal Aspects of Sport & Fitne</a></td>
+			<td>3</td>
+			<td></td>
+			<td>11:00AM-12:20PM</td>
+			<td> </td>
+			<td>Bird, N</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 17<br />
+						
+					</span>
+					
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Distance Education (Online)
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>13715</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SFM&crse_number=630&seq_number_key=01">SFM630</a>
+			</td>
+			<td>01</td>
+			<td>Intern/Pract/Field Exp/Seminar</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SFM&crse_number=630&seq_number_key=01">Internship</a></td>
+			<td>3</td>
+			<td></td>
+			<td>-</td>
+			<td>Arranged ARRG</td>
+			<td>Choi, H</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 0-->
+						Maximum Enrollment: 0<br />
+						Section Seats Available: 0<br />
+						
+					</span>
+					
+							<span class="course_full">Contact Department</span>
+						
+				</span>
+				&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+		<tr class="list_row">
+			<td>12865</td>
+			<td>
+				<a href="default.asp?tck=202210&page=details&subj_code=SFM&crse_number=651&seq_number_key=01">SFM651</a>
+			</td>
+			<td>01</td>
+			<td>Classroom w/Online Component</td>
+			<td><a href="default.asp?tck=202210&page=details&subj_code=SFM&crse_number=651&seq_number_key=01">Research Methods</a></td>
+			<td>3</td>
+			<td>W</td>
+			<td>11:00AM-12:20PM</td>
+			<td>Looney Complex 226</td>
+			<td>Russell, W</td>
+		</tr>
+		
+		<tr class="detail_row">
+			<td colspan="10" class="detail_cell">
+				<span class="course_enrollment">
+					
+					<span class="course_seats">
+						<!--Seats Available:  of 20-->
+						Maximum Enrollment: 20<br />
+						Section Seats Available: 15<br />
+						
+					</span>
+					
+				</span>
+				If Covid protocols continue, students may be required&nbsp;
+					to alternate attending face-to-face and virtually.&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<br>
+					
+				<span class="course_messages">
+					 
+								<!-- span class="course_fees">ADDITIONAL FEE: &nbsp;&nbsp;()
+								</span -->
+							
+				</span>
+				<span class="course_term">
+					Full Term
+				</span>
+				<span class="course_dates">
+					<span class="course_begins">Course Begins: 8/30/2021</span>
+					<span class="course_ends">Course Ends: 12/17/2021</span>
+				</span>
+			</td>
+		</tr>
+		
+</table>
+	
+	</div>
+	
+	<div id="loading" title="Loading...">Loading, please wait...</div>
+	<script type="text/javascript">
+	//<!--
+	$(function() {
+		$("#loading").dialog({'modal': true, 'closeOnEscape': false, 'draggable': false, 'resizable': false, 'autoOpen': false });
+	});
+	//-->
+	</script>
+</body>
