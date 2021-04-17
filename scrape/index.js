@@ -16,7 +16,7 @@ fs.readFile("departments.json", "utf8", function (err, data) {
   for (d of departments) {
     parseDept(d.dept);
   }
-  console.log(sections);
+  //console.log(sections);
 });
 
 //end of main
@@ -75,12 +75,29 @@ function parseDept(dept) {
                 }
         });
     } else if (e.attribs.class == "detail_row") {
+      /*
+         There is a big blob of text in the middle of this cell that is
+         not in a span.  My method of recovering it was to capture all of the text in the 
+         detail_cell.  Then I recovered each of the labeled fields and replace the strings.
+
+         What I had left was the unlabeled text.  I just trimmed it.
+      */
       console.log("in detail.row");
         let course_enrollment = {};
         let course_messages = {};
         let course_term = {};
         let course_dates = {};
-        let course_text = $(e).text();
+        let course_text = $(e)
+          .text()
+          .replace(/(\r\n|\n|\r)/gm, " ")
+          .replace(/\s+/gm, " ")
+          .replace(/Maximum Enrollment:\s*\-*\d+/gm, " ")
+          .replace(/Section Seats Available:\s*\-*\d+/gm, " ")
+          .replace(/\u00A0/gm, " ") //&nbsp;
+          .replace(/Course Begins:\s*\d+\/\d+\/\d+/gm, " ")
+          .replace(/Course Ends:\s*\d+\/\d+\/\d+/gm, " ")
+          .replace(/Crosslist Seats Available:\s*\-*\d+/gm, " ")
+          .trim();
         $
         console.log("------Course Text------")
         console.log(course_text);
@@ -90,10 +107,48 @@ function parseDept(dept) {
         $(detail_cell)
             .children()
             .each((ii, ee) => {
-               console.log("detail_cell: ",ii)  
+              console.log("detail_cell: ", ii)
+              let detailText = $(ee).text().replace(/\s+/gm," ");
+              console.log("THE DETAILTEXT IS", detailText);
+              if (ii === 0) {
+                console.log("In 00, should be course_enrollment", detailText)
+                course_text.replace(/Maximum Enrollment:\s+\d+/, " ")
+                course_text.replace(/Section Seats Avaiable:\s+\d+/," ")
+                let maxEnrollment = /Maximum Enrollment:\s+(\d+)/
+                let seatsAvailable = /Section Seats Available:\s+(\d+)/
+                let crosslistSeats = /Crosslist Seats Available:\s+(\d+)/
+                let m1 = detailText.match(maxEnrollment)
+                let m2 = detailText.match(seatsAvailable)
+                let m3 = detailText.match(crosslistSeats)
+                let enrolled=parseInt(m1)-parseInt(m2)
+                console.log("-----==1", m1[0])
+                console.log("-----==2", m2[0])
+                if(m3[0] !== undefined)console.log("-----==3", m3[0])
+                console.log("-----==4",enrolled)
+                
+              } else if (ii === 1) {
+                console.log("ii is 1, should be in course_messages")
+                course_text.replace(detailText," ")
+              } else if (ii === 2) {
+                console.log("ii is 2.  It appears empty >>>",detailText,"<<<")
+              } else if (ii === 3) {
+                console.log("ii is 3, should be in course_term")
+                course_text.replace(detailText.trim(), " ");
+                course_text.replace(/Full.*Term/gm," ")  //THIS IS BAD.  BRUTE FORCE REMOVAL.  MAY MISS OTHER STRINGS!
+              } else if (ii === 4) {
+                console.log('ii is 4, should be in course_dates')
+                course_text.replace(detailText, " ");
+              } else if (ii === 5) {
+                console.log("ii is 5, but I got nothin'")
+              }
+
             });
         
+      console.log("XXX------Course Text------XXX");
         
+        course_text = course_text.trim()
+        console.log(course_text);
+      console.log("XXX-----END COURSE TEXT---XXX");
         sections.push(section);
         
     }
