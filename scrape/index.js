@@ -15,7 +15,12 @@ fs.readFile("departments.json", "utf8", function (err, data) {
   for (d of departments) {
     parseDept(d.dept);
   }
-  console.log(sections);
+  //console.log(sections);
+  try {
+    fs.writeFileSync("sections.json",JSON.stringify(sections))
+  } catch (err) {
+    console.error(err)
+  }
 });
 
 //end of main
@@ -76,7 +81,7 @@ function parseDept(dept) {
               //Update last element of sections array
               sections[sections.length - 1].meetings.push(meeting);
             }
-            if (section) section.meetings.push(meeting);
+            //if (section) section.meetings.push(meeting);
           } else if (ii === 9) {
             section.instructor = $(ee).text().trim();
           }
