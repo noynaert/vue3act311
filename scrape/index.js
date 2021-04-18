@@ -35,7 +35,7 @@ function readhtml(dept) {
   return html;
 }
 function parseDept(dept) {
-  if (dept != "BIO") return; //To just debug one department
+  //if (dept != "BIO") return; //To just debug one department
   console.log(">>>>DEPT>>>>", dept);
   let timestamp = new Date(0); //begin of epoch
   timestamp = getTimestamp(dept);
