@@ -9,25 +9,24 @@ let sections = [];
 //main()
 fs.readFile("departments.json", "utf8", function (err, data) {
   if (err) throw err;
-  
-  departments = JSON.parse(data);
-  
+
+  let departments = JSON.parse(data);
+
   for (d of departments) {
     parseDept(d.dept);
   }
   //console.log(sections);
   try {
-    fs.writeFileSync("sections.json",JSON.stringify(sections))
+    fs.writeFileSync("sections.json", JSON.stringify(sections));
   } catch (err) {
-    console.error(err)
+    console.error(err);
   }
 });
 
 //end of main
 function readhtml(dept) {
-  let fileName = "./data/" + dept + ".html";
   let html = "empty string";
-  //console.log("fileName is ", fileName);
+  let fileName = "./data/" + dept + ".html";
   html = fs.readFileSync(fileName, "utf8", function (err, data) {
     if (err) {
       throw err;
@@ -36,12 +35,14 @@ function readhtml(dept) {
   return html;
 }
 function parseDept(dept) {
-  // if (dept != "BIO") return;  //To just debug one department
+  if (dept != "BIO") return; //To just debug one department
   console.log(">>>>DEPT>>>>", dept);
+  let timestamp = new Date(0); //begin of epoch
+  timestamp = getTimestamp(dept);
   let html = readhtml(dept);
   let $ = cheerio.load(html);
   let section = {};
-        /*
+  /*
           There are two types of list_row classes.
           The usual type has the following tds
           * crn                  [0]
@@ -75,25 +76,25 @@ function parseDept(dept) {
       //initialize the variables for a list row
       let realSection = false;
       let temp_dept = dept;
-      let temp_discipline = ""
-      let temp_crn = ""
-      let temp_course = ""
-      let temp_url = ""
-      let temp_section = ""
-      let temp_mode = ""
-      let temp_title=""
-      let temp_credits = 0
-      let meetings = [] //no need for a temp
-      let meeting = {}  //one meeting
-      let temp_instructor = ""
+      let temp_discipline = "";
+      let temp_crn = "";
+      let temp_course = "";
+      let temp_url = "";
+      let temp_section = "";
+      let temp_mode = "";
+      let temp_title = "";
+      let temp_credits = 0;
+      let meetings = []; //no need for a temp
+      let meeting = {}; //one meeting
+      let temp_instructor = "";
 
       $(e)
         .children("td")
         .each((ii, ee) => {
           if (ii === 0) {
             temp_crn = $(ee).text().trim();
-            realSection = /\d\d\d\d\d+/.test(temp_crn)
-            console.log("Processing:", temp_crn, realSection)
+            realSection = /\d\d\d\d\d+/.test(temp_crn);
+            console.log("Processing:", temp_crn, realSection);
           } else if (realSection && ii == 1) {
             temp_course = $(ee).text().trim();
             temp_discipline = temp_course.substring(0, 3);
@@ -106,11 +107,11 @@ function parseDept(dept) {
             temp_title = $(ee).text();
           } else if (realSection && ii === 5) {
             section.credits = parseInt($(ee).text().trim());
-          } else if ((realSection && ii === 6) || (!realSection && ii===2)) {
+          } else if ((realSection && ii === 6) || (!realSection && ii === 2)) {
             meeting.day = $(ee).text().trim();
-          } else if ((realSection && ii === 7) || (!realSection && ii===3)) {
+          } else if ((realSection && ii === 7) || (!realSection && ii === 3)) {
             meeting.time = $(ee).text().trim();
-          } else if ((realSection && ii === 8)||(!realSection && ii === 4)) {
+          } else if ((realSection && ii === 8) || (!realSection && ii === 4)) {
             meeting.room = $(ee).text().trim();
             //console.log(meeting);
             //if this list line is just for an additional meeting time
@@ -125,26 +126,25 @@ function parseDept(dept) {
           } else if (realSection && ii === 9) {
             section.instructor = $(ee).text().trim();
           }
-          
         });
       if (realSection) {
-        section = {};  //initialize section
+        section = {}; //initialize section
         section.dept = temp_dept;
-        section.discipline = temp_discipline
-        section.crn = temp_crn
-        section.id = temp_course
-        section.url=temp_url
-        section.sec = temp_section
-        section.mode = temp_mode
-        section.title = temp_title
-        section.credits = temp_credits
-        section.meetings = meetings
-        section.meetings.push(meeting)
+        section.timestamp = timestamp;
+        section.discipline = temp_discipline;
+        section.crn = temp_crn;
+        section.id = temp_course;
+        section.url = temp_url;
+        section.sec = temp_section;
+        section.mode = temp_mode;
+        section.title = temp_title;
+        section.credits = temp_credits;
+        section.meetings = meetings;
+        section.meetings.push(meeting);
         section.instructor = temp_instructor = "";
-
       } else {
         section.meetings.push(meeting);
-        }
+      }
     } else if (e.attribs.class == "detail_row") {
       /*
          There is a big blob of text in the middle of this cell that is
@@ -170,7 +170,7 @@ function parseDept(dept) {
         .replace(/Crosslist Seats Available:\s*\-*\d+/gm, " ")
         .trim();
       $;
-      
+
       let detail_cell = $(e).children(".detail_cell").first();
       $(detail_cell)
         .children()
@@ -181,17 +181,20 @@ function parseDept(dept) {
           if (ii === 0) {
             //console.log("In 00, should be course_enrollment", detailText);
             course_text = course_text.replace(/Maximum Enrollment:\s+\d+/, " ");
-            course_text = course_text.replace(/Section Seats Avaiable:\s+\d+/, " ");
+            course_text = course_text.replace(
+              /Section Seats Avaiable:\s+\d+/,
+              " "
+            );
             let maxEnrollment = /Maximum Enrollment:\s+(\d+)/;
             let seatsAvailable = /Section Seats Available:\s+(\-*\d+)/;
             let crosslistSeats = /Crosslist Seats Available:\s+(\d+)/;
-            
+
             let m1 = detailText.match(maxEnrollment);
             let m2 = detailText.match(seatsAvailable);
             let m3 = detailText.match(crosslistSeats);
-            
+
             course_enrollment.maximum_enrollment = parseInt(m1[1]);
-            
+
             course_enrollment.seats_available = parseInt(m2[1]);
             course_enrollment.enrolled = parseInt(m1[1]) - parseInt(m2[1]);
             if (m3 != null) {
@@ -228,14 +231,10 @@ function parseDept(dept) {
           }
         });
 
-      
       section.extra_text = course_text;
-      sections.push(section);  //only pushes after it finds detail row
+      sections.push(section); //only pushes after it finds detail row
     }
-    
-    
   });
-
 }
 function fixDate(s) {
   const fields = s.split(":");
@@ -243,4 +242,18 @@ function fixDate(s) {
   const d = new Date(rawDate).toISOString().split("T");
   //console.log("DATE IS", d[0]);
   return d[0];
+}
+
+function getTimestamp(dept) {
+  let fileName = "./data/" + dept + ".html";
+  let timestamp = new Date(0); //set to beginning of epoch
+  
+  try {
+    const stats = fs.statSync(fileName);
+    timestamp = stats.mtime;
+//    console.log("IN GETTIMESTAMP:", timestamp);
+  } catch (err) {
+    console.log(err);
+  }
+  return timestamp;
 }
