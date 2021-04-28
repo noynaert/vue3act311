@@ -6,6 +6,6 @@ for dept in $departments; do
   echo $dept
   curl -d "course_numbr=&subject=ALL&department=${dept}&display_closed=yes&course-type=all" -X POST  https://aps4.missouriwestern.edu/schedule/Default.asp?tck=202210 > $dept.html
   echo $departments
-  sleep $[ ( $RANDOM % 30 )  + 1 ]s
+  sleep $[ ( $RANDOM % 10 )  + 1 ]s
 done
 # curl -d "course_numbr=&subject=ALL&department=CON&display_closed=yes&course-type=all" -X POST  https://aps4.missouriwestern.edu/schedule/Default.asp?tck=202210 > CON.html
