@@ -107,11 +107,11 @@ function parseDept(dept) {
             temp_title = $(ee).text();
           } else if (realSection && ii === 5) {
             section.credits = parseInt($(ee).text().trim());
-          } else if ((realSection && ii === 6) || (!realSection && ii === 2)) {
+          } else if ((realSection && ii === 6) || (!realSection && ii === 1)) {
             meeting.day = $(ee).text().trim();
-          } else if ((realSection && ii === 7) || (!realSection && ii === 3)) {
+          } else if ((realSection && ii === 7) || (!realSection && ii === 2)) {
             meeting.time = $(ee).text().trim();
-          } else if ((realSection && ii === 8) || (!realSection && ii === 4)) {
+          } else if ((realSection && ii === 8) || (!realSection && ii === 3)) {
             meeting.room = $(ee).text().trim();
             //console.log(meeting);
             //if this list line is just for an additional meeting time
