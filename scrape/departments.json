@@ -62,5 +62,9 @@
   {
     "department": "Social Sciences & Humanities",
     "dept": "SSH"
+  },
+  {
+    "department": "Western Institute",
+    "dept" : "CON"
   }
 ]
